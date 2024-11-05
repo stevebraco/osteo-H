@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    font-family: "Josefin Slab", serif;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid transparent;
+
+
+}
+
+a:hover {
+    opacity: .5;
+    border-color: #00000080;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: "Josefin Slab", serif;
+    color: #7D451B;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    color: #4A5568;
+    font-size: 16px;
+}
+
+.rect {
+    width: 55%;
+    height: 860px;
+    background-color: #F0EAE6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header {
+    max-width: 1100px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header__wrapper {
+    transition: all .7s ease-in-out;
+}
+
+.header__wrapper:hover {
+    transform: scale(1.05);
+}
+
+.header__name {
+    color: #000000;
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header__wrapper__job {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    font-family: "Josefin Slab", serif;
+    color: #ffffff;
+    width: 150px;
+    height: 60px;
+    background-color: #282828;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    font-family: "Josefin Slab", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px 200px;
+}
+
+.hero__wrapper {
+    max-width: 41.3%;
+    padding-bottom: 30px;
+}
+
+.hero__wrapper__name {
+    font-family: "Josefin Slab", serif;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    text-wrap: nowrap;
+}
+
+.hero__wrapper__location {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.hero__wrapper__desc {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.hero__wrapper__link {
+    border-bottom: 1px solid #000000;
+    font-weight: 700;
+}
+
+
+.hero__img {
+    max-width: 50%;
+}
+
+.osteo {
+    margin-bottom: 200px;
+}
+
+.osteo__intro {
+    margin-bottom: 85px;
+}
+
+.osteo__intro__title {
+    max-width: 900px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.osteo__intro__desc {
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.osteo__all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+}
+
+.osteo__all__link:hover {
+    opacity: 1;
+    border-color: transparent;
+
+}
+.osteo__all__figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.osteo__all__img {
+    height: 100%;
+}
+
+.osteo__all__figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.osteo__all__figcaption:hover {
+    opacity: 1;
+}
+
+.osteo__all__figcaption__title {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.osteo__all__figcaption__desc {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.osteo__all__figcaption__link {
+    color: #ffffff;
+    font-size: 12px;
+    border-color: #ffffff;
+}

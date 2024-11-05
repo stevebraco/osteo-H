@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <title>Henrique Nunes - Ostéopathe à Bruges</title>
+  </head>
+  <body>
+    <div class="rect" data-aos="fade-left"></div>
+
+    <header data-aos="fade-in" class="header">
+      <div class="header__wrapper">
+        <p class="header__name">Henrique Nunes</p>
+        <p class="header__wrapper__job">Ostéopathe à Bruges</p>
+      </div>
+      <nav class="navbar">
+        <a class="navbar__link" href="index.html">Accueil</a>
+        <a class="navbar__link" href="osteopathie.html">Ostéopathie</a>
+        <a class="navbar__link" href="consulter.html">Quand Consulter ?</a>
+        <a class="navbar__link" href="tarifs.html">Tarifs</a>
+        <a class="navbar__link" href="liendoctolib">
+          <button class="btn">Rdv en ligne</button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section data-aos="fade-right" class="hero">
+        <div class="hero__wrapper">
+          <p class="hero__wrapper__name">Henrique Nunes</p>
+          <h1 class="hero__wrapper__location">Ostéopathe à Bruges</h1>
+          <p class="hero__wrapper__desc">
+            Ostéopathe expérimenté, situé à Bruges, je suis dédié à améliorer
+            votre bien-être grâce à des techniques adaptées à chaque patient.
+            Mon cabinet d'ostéopathie propose des soins personnalisés pour
+            soulager les douleurs, améliorer la mobilité, et prévenir les
+            troubles musculo-squelettiques, que vous soyez adulte, enfant ou
+            sportif.
+          </p>
+          <a class="hero__wrapper__link" href="osteopathie.html"
+            >En savoir plus sur l'ostéopathie</a
+          >
+        </div>
+        <img
+          class="hero__img"
+          src="assets/images/Henrique.png"
+          alt="Ostéopathe Henrique Nunes"
+        />
+      </section>
+      <section data-aos="fade-in" class="osteo">
+        <article class="osteo__intro">
+          <h2 class="osteo__intro__title">
+            L'Ostéopathie pour Tous : Un Soin Adapté à Chaque Âge de la Vie
+          </h2>
+          <p class="osteo__intro__desc">
+            Que vous soyez enfant, femme enceinte, senior ou sportif,
+            l’ostéopathie offre des solutions adaptées à vos besoins
+            spécifiques. En rétablissant l’équilibre de votre corps, elle
+            soulage les douleurs, prévient les troubles musculo-squelettiques et
+            favorise un bien-être global. Découvrez comment l’ostéopathie peut
+            améliorer votre qualité de vie, quel que soit votre âge ou votre
+            condition physique.
+          </p>
+        </article>
+        <div class="osteo__all">
+          <a class="osteo__all__link" href="">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="assets/images/Enfants.jpg"
+                alt=""
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">Enfants</h3>
+                <p class="osteo__all__figcaption__desc">
+                  Prévenir les troubles posturaux, favoriser une croissance et
+                  un équilibre sain.
+                </p>
+                <a class="osteo__all__figcaption__link" href=""
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </section>
+      <section>
+        <h2>Votre Bien-être : Chez Vous ou au Cabinet</h2>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 800, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+</html>
