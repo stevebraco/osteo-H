@@ -50,8 +50,11 @@ a {
     font-size: 15px;
     transition: all .2s ease-in-out;
     border-bottom: 1px solid transparent;
+}
 
-
+button {
+    border: none;
+    background: none;
 }
 
 a:hover {
@@ -91,7 +94,7 @@ p {
 
 .rect {
     width: 52%;
-    height: 860px;
+    height: 900px;
     background-color: #F0EAE6;
     position: absolute;
     top: 0;
@@ -99,14 +102,17 @@ p {
     z-index: -1;
 }
 
+.mw-container {
+ max-width: 1100px;
+ margin: 0 auto;
+}
+
 .sect-mb {
     margin-bottom: 200px;
 }
 
 .header {
-    max-width: 1100px;
     height: 128px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,13 +173,18 @@ p {
     background-color: #D9BDAA;
 }
 
+.btn-footer {
+    width: 150px;
+    height: 40px;
+}
+
+
+
 .hero {
     font-family: "Josefin Slab", serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
-    margin: 0 auto 200px;
     padding: 0 10px 0;
 }
 
@@ -318,8 +329,6 @@ p {
 }
 
 .comfort__wrapper__home {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -370,11 +379,18 @@ p {
     line-height: 55px;
 }
 
-.advice {}
+.advice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1300px;
+  
+}
 
 .advice__title {
     text-align: center;
     margin-bottom: 50px;
+    flex-basis: 100%;
 }
 
 .advice__card {
@@ -382,12 +398,24 @@ p {
     max-width: 612px;
     border-radius: 10px;
     padding: 20px 36px;
+    transition: all .2s ease-in-out;
+    flex: 1;
+}
+.advice__card:hover  {
+    background-color: #D9BDAA; 
+}
+
+.advice__card:hover p  {
+    color: #ffffff; 
+}
+.advice__card:hover .advice__card__bottom__stars  {
+    filter: brightness(0) invert(1);
 }
 
 .advice__card__avatar {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
     margin-bottom: 25px;
 }
 
@@ -397,3 +425,71 @@ p {
     height: 50px;
     background-color: red;
 }
+
+.advice__card__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 20px;
+}
+.advice__card__bottom__stars {
+    object-fit: contain;
+    width: 105px;
+}
+.advice__card__bottom__link:hover {
+    border-color: transparent;
+}
+.advice__card__bottom__google {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #282828;
+}
+
+.footer__wrapper {
+    padding: 50px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__wrapper__me {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__wrapper__me__title, .footer__wrapper__me__job {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: initial;
+}
+
+.footer__wrapper__para {
+    max-width: 450px;
+    color: #AEAEAE;
+    line-height: initial;
+}
+
+.footer__wrapper__consultation {}
+.footer__wrapper__consultation__btns {
+    border-bottom: 1px solid #ffffff;
+}
+
+.consultation {}
+.content-medical {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
