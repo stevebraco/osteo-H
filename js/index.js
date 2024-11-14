@@ -11,12 +11,17 @@ function toggleContent(showElement, hideElement) {
   hideElement.classList.add('close');
 }
 
+
 // Ajouter l'événement de clic sur le bouton de consultation
 btnConsultation.addEventListener('click', () => {
   toggleContent(contentConsultation, contentMedical);
+  btnConsultation.classList.remove('btn-disabled')
+  btnMedical.classList.add('btn-disabled')
 });
 
 // Ajouter l'événement de clic sur le bouton médical
 btnMedical.addEventListener('click', () => {
   toggleContent(contentMedical, contentConsultation);
+  btnConsultation.classList.add('btn-disabled')
+  btnMedical.classList.remove('btn-disabled')
 });

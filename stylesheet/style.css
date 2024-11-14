@@ -176,6 +176,22 @@ p {
 .btn-footer {
     width: 150px;
     height: 40px;
+    border-radius: initial;
+    border-bottom: 1px solid #ffffff;
+    padding: 0;
+
+}
+
+.btn-disabled {
+    color: #aeaeae80;
+    border-bottom: 1px solid #aeaeae69;
+    transition: all .2s ease;
+}
+
+.btn-disabled:hover {
+    color: #aeaeae;
+    border-bottom: 1px solid #aeaeae;
+
 }
 
 
@@ -221,9 +237,27 @@ p {
 }
 
 .hero__wrapper__link {
-    border-bottom: 1px solid #000000;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
 }
+.hero__wrapper__link:hover {
+    border-bottom: 0px solid transparent;
+}
+
+.hero__wrapper__link__img {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.hero__wrapper__link__text {
+    font-family: "Josefin Sans", sans-serif;
+    border-bottom: 1px solid #000000;
+}
+
 
 
 .hero__img {
@@ -255,6 +289,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .osteo__all__link:hover {
@@ -266,8 +302,9 @@ p {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    width: 18%;
-    height: 300px;
+    flex: 1;
+    /* width: 18%; */
+    height: 220px;
     border-radius: 10px;
 }
 
@@ -308,6 +345,7 @@ p {
     font-size: 14px;
     margin-bottom: 15px;
     line-height: 20px;
+    padding: 0 10px;
 }
 
 .osteo__all__figcaption__link {
@@ -356,10 +394,17 @@ p {
 .banner {
     width: 100%;
     height: 400px;
-    background: #000000;
+    background: #00000093;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__img {
+    position: absolute;
+    z-index: -1;
 }
 
 .banner__wrapper {
@@ -383,7 +428,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    max-width: 1300px;
   
 }
 
@@ -426,11 +470,15 @@ p {
     background-color: red;
 }
 
+.advice__card__avatar__desc {
+    font-size: 14px;
+}
+
 .advice__card__bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0 20px;
+    padding: 20px 0 20px;
 }
 .advice__card__bottom__stars {
     object-fit: contain;
@@ -468,6 +516,9 @@ p {
     margin-bottom: 0;
     line-height: initial;
 }
+.footer__wrapper__me__job {
+    font-size: 16px;
+}
 
 .footer__wrapper__para {
     max-width: 450px;
@@ -475,14 +526,34 @@ p {
     line-height: initial;
 }
 
-.footer__wrapper__consultation {}
+.footer__wrapper__consultation {
+}
 .footer__wrapper__consultation__btns {
-    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 .consultation {}
 .content-medical {
     display: none;
+}
+.content-consultation, .content-medical {
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Slab", serif;
+    gap: 5px;
+}
+.content-consultation  p,.content-medical p {
+     font-size: 13px;
+    color: #ffffff;
+    font-family: "Josefin Slab", serif;
+
+}
+.content-consultation__day {
+    border-bottom: 1px solid #ffffff;
+     font-size: 13px;
+    color: #ffffff;
+    font-family: "Josefin Slab", serif;
 }
 
 .show {
