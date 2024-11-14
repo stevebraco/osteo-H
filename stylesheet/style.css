@@ -604,6 +604,10 @@ p {
         margin-top: 80px;
         max-width: 95%;
     }
+
+    .comfort__wrapper {
+        gap: 25px;
+    }
     
     .comfort__wrapper__home {
         flex-direction: column-reverse;
@@ -619,7 +623,7 @@ p {
     }
 
     .comfort__wrapper__home__article {
-        width: 97%;
+        max-width: 95%;
         margin: 0 auto;
     }
 
