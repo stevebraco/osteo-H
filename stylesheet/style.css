@@ -564,3 +564,74 @@ p {
     display: none;
 }
 
+@media screen and (max-width: 950px) {
+
+    .hero__wrapper__name {
+        font-size: 48px;
+    }
+
+    .hero__wrapper__location {
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .sect-mb {
+        margin-bottom: 50px;
+
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .osteo__intro__title {
+        max-width: 645px;
+        margin: 10px auto;
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    
+    .hero__wrapper {
+        margin-top: 80px;
+        max-width: 95%;
+    }
+    
+    .comfort__wrapper__home {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .comfort__wrapper__home__article h3 {
+        text-align: center;
+    }
+
+    .comfort__wrapper__home__article {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .banner__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__title {
+        text-align: center;
+        font-size: 36px;
+        max-width: 385px;
+    }
+}
