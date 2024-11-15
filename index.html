@@ -23,7 +23,137 @@
       "@type": "Physician",
       "name": "Henrique Nunes",
       "specialty": "Ostéopathie",
-      "address": {
+
+    .osteo__all__figcaption {
+        position: initial;
+        background: red;
+        opacity: 1;
+    }
+
+    .osteo__all__figcaption__title {
+        color: black;
+    }
+    .osteo__all__figure {
+        overflow: initial;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .hero__wrapper__name {
+        font-size: 48px;
+    }
+
+    .hero__wrapper__location {
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .sect-mb {
+        margin-bottom: 50px;
+
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .hero__wrapper__link__text {
+        font-size: 14px;
+    }
+
+    .osteo {
+        width: 95%;
+        margin: 50px auto;
+    }
+
+    .osteo__intro {
+        margin-bottom: 20px;
+    }
+
+    .osteo__intro__title {
+        max-width: 645px;
+        margin: 30px auto;
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    
+    .hero__wrapper {
+        margin-top: 80px;
+        max-width: 95%;
+    }
+
+    .comfort__wrapper {
+        gap: 25px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .comfort__wrapper__home {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .comfort__wrapper__home__article h3 {
+        text-align: center;
+    }
+
+    .comfort__title {
+        margin-bottom: 20px;
+    }
+
+    .comfort__wrapper__home__article {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .banner__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__title {
+        text-align: center;
+        font-size: 36px;
+        max-width: 385px;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .advice {
+        flex-direction: column;
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .footer__wrapper {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .footer__wrapper__me {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
+
         "@type": "33520",
         "streetAddress": "Allée de la Salamandre",
         "addressLocality": "Bruges",
@@ -45,7 +175,16 @@
     </div>
     <nav class="navbar">
       <a class="navbar__link" href="index.html">Accueil</a>
-      <a class="navbar__link" href="osteopathie.html">Ostéopathie</a>
+      <div class="dropdown">
+  <span class="navbar__link">Ostéopathie</span>
+  <div class="dropdown-content">
+    <div class="dropdown-content__wrapper">
+      <a class="dropdown-content__wrapper__link" id="osteo-link" href="osteopathie.html">Définition</a>
+      <a class="dropdown-content__wrapper__link" id="osteo-link" href="osteopathie.html">Consultation</a>
+      <a class="dropdown-content__wrapper__link" id="osteo-link" href="osteopathie.html">Quand consulter ?</a>
+    </div>
+  </div>
+</div>
       <a class="navbar__link" href="consulter.html">Quand Consulter ?</a>
       <a class="navbar__link" href="tarifs.html">Tarifs</a>
       <a class="navbar__link" href="liendoctolib">
@@ -88,7 +227,7 @@
         </p>
       </article>
       <div class="osteo__all">
-        <a class="osteo__all__link" href="">
+        <div class="osteo__all__link" href="">
           <figure class="osteo__all__figure">
             <img class="osteo__all__img" src="./assets/images/Enfants.jpg" alt="" />
             <figcaption class="osteo__all__figcaption">
@@ -100,8 +239,8 @@
               <a class="osteo__all__figcaption__link" href="">En savoir plus</a>
             </figcaption>
           </figure>
-        </a>
-        <a class="osteo__all__link" href="">
+        </div>
+        <div class="osteo__all__link" href="">
           <figure class="osteo__all__figure">
             <img class="osteo__all__img" src="./assets/images/femmes.png" alt="" />
             <figcaption class="osteo__all__figcaption">
@@ -112,8 +251,8 @@
               <a class="osteo__all__figcaption__link" href="">En savoir plus</a>
             </figcaption>
           </figure>
-        </a>
-        <a class="osteo__all__link" href="">
+        </div>
+        <div class="osteo__all__link" href="">
           <figure class="osteo__all__figure">
             <img class="osteo__all__img" src="./assets/images/seniors.png" alt="" />
             <figcaption class="osteo__all__figcaption">
@@ -124,8 +263,8 @@
               <a class="osteo__all__figcaption__link" href="">En savoir plus</a>
             </figcaption>
           </figure>
-        </a>
-        <a class="osteo__all__link" href="">
+        </div>
+        <div class="osteo__all__link" href="">
           <figure class="osteo__all__figure">
             <img class="osteo__all__img" src="./assets/images/Enfants.jpg" alt="" />
             <figcaption class="osteo__all__figcaption">
@@ -137,8 +276,8 @@
               <a class="osteo__all__figcaption__link" href="">En savoir plus</a>
             </figcaption>
           </figure>
-        </a>
-        <a class="osteo__all__link" href="">
+        </div>
+        <div class="osteo__all__link" href="">
           <figure class="osteo__all__figure">
             <img class="osteo__all__img" src="./assets/images/Enfants.jpg" alt="" />
             <figcaption class="osteo__all__figcaption">
@@ -150,7 +289,7 @@
               <a class="osteo__all__figcaption__link" href="">En savoir plus</a>
             </figcaption>
           </figure>
-        </a>
+        </div>
       </div>
     </section>
     <section data-aos="fade-in" class="comfort mw-container sect-mb">
