@@ -352,11 +352,8 @@ a .btn:hover {
 
 
 .osteo__all {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     max-width: 1200px;
     margin: 0 auto;
@@ -365,7 +362,7 @@ a .btn:hover {
 
 
 .osteo__all__link {
-    flex: 1;
+    /* flex: 1; */
 }
 
 .osteo__all__link--services {
@@ -373,6 +370,16 @@ a .btn:hover {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.osteo__all__link--services p {
+    margin-bottom: 15px;
 }
 
 .osteo__all__link:hover {
@@ -764,6 +771,7 @@ a .btn:hover {
 
     .advice {
         flex-direction: column;
+        align-items: center;
         width: 95%;
         margin: 20px auto;
     }
