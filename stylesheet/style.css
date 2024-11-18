@@ -68,7 +68,8 @@ img {
 
 h2 {
     font-family: "Josefin Slab", serif;
-    color: #7D451B;
+    /* color: #7D451B; */
+    color: #B18369;
     font-size: 48px;
     font-weight: 600;
     line-height: 55px;
@@ -186,7 +187,8 @@ a .btn:hover {
 }
 
 .btn-light {
-    background-color: #D9BDAA;
+    /* background-color: #D9BDAA; */
+    background-color: #B18369;
 }
 
 .btn-footer {
@@ -254,8 +256,9 @@ a .btn:hover {
 }
 
 .dropdown-content__wrapper__link:hover {
-    background-color: #c0a492;
+    background-color: #B18369;
     color: #ffffff;
+    opacity: 1;
 }
 
 
@@ -366,7 +369,7 @@ a .btn:hover {
 }
 
 .osteo__all__link--services {
-    background-color: #F0EAE6;
+    background-color: #B18369;
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -480,6 +483,8 @@ a .btn:hover {
     width: 600px;
     height: 450px;
     background-color: red;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .banner {
@@ -518,7 +523,7 @@ a .btn:hover {
 .advice {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 0 25px;
 }
 
 .advice__title {
@@ -654,21 +659,47 @@ a .btn:hover {
     display: none;
 }
 
-/* @media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
+
+    .osteo__all {
+            grid-template-columns: repeat(1, 1fr);
+
+    }
 
     .osteo__all__figcaption {
         position: initial;
-        background: red;
         opacity: 1;
+        align-items: flex-start;
+        padding: 0 10px;
+        margin-bottom: 15px;
+        background: initial;
+    }
+
+    .osteo__all__figcaption__desc {
+        text-align: left;
+        padding: 0;
+        color: #4A5568;
+
     }
 
     .osteo__all__figcaption__title {
-        color: black;
+        font-family: "Josefin Slab", serif;
+        font-weight: 600;
+        color: #D9BDAA;
+        font-size: 24px;
+        margin-bottom: 10px;
     }
     .osteo__all__figure {
         overflow: initial;
+        height: initial;
+        display: flex;
+        flex-direction: column-reverse;
     }
-} */
+
+    .osteo__all__img {
+        max-height: 400px;
+    }
+}
 
 @media screen and (max-width: 950px) {
 
