@@ -877,3 +877,45 @@ a .btn:hover {
         margin-bottom: 20px;
     }
 }
+
+
+/* 1. Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* 2. Make nav sticky */
+.section-nav {
+    position: sticky;
+    top: 2rem;
+    right: 0;
+    align-self: start;
+    width: 250px;
+    border: 1px solid black;
+}
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.section-nav li.active > a {
+    color: #333;
+    font-weight: 500;
+}
+.section-nav li {
+    list-style: none;
+}
+/* Sidebar Navigation */
+.section-nav {
+    padding-left: 0;
+    border: 1px solid #efefef;
+    padding: 5px;
+}
+.section-nav .section-nav-link {
+    text-decoration: none;
+    display: block;
+    color: #ff5656;
+    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+.section-nav .section-nav-link:hover,
+.section-nav .section-nav-link:focus {
+    color: #666;
+}
+
+
+

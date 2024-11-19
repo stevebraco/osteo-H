@@ -33,17 +33,16 @@ btnMedical.addEventListener('click', () => {
     console.log(entries)
     entries.forEach(entry => {
       const id = entry.target.getAttribute('id');
-      console.log(id)
       if (entry.intersectionRatio > 0) {
-        document.querySelector(`.section-nav li a[href="#${id}"]`).parentElement.classList.add('active');
+        document.querySelector(`.section-nav li .section-nav-link[href="#${id}"]`).parentElement.classList.add('active');
       } else {
-        document.querySelector(`.section-nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+        document.querySelector(`.section-nav li .section-nav-link[href="#${id}"]`).parentElement.classList.remove('active');
       }
     });
   });
 
   // Track all sections that have an `id` applied
-  document.querySelectorAll('section[id]').forEach((section) => {
+  document.querySelectorAll('article[id]').forEach((section) => {
     observer.observe(section);
   });
   
