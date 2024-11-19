@@ -41,6 +41,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+main > nav {
+  position: fixed;
+  top: 2rem;
+  align-self: start;
+}
+
+
 
 a {
     font-family: "Josefin Slab", serif;
@@ -84,13 +98,21 @@ h3 {
     line-height: 33px;
 }
 
-p {
+p, li {
     font-family: "Josefin Sans", sans-serif;
-    color: #4A5568;
+    color: #212121;
+    font-weight: 300;
     font-size: 16px;
     line-height: 25px;
     /* margin-bottom: 10px; */
+}
 
+li {
+    list-style: inside;
+}
+
+strong {
+    font-weight: 400;
 }
 
 .rect {
@@ -163,9 +185,9 @@ font-family: "Josefin Slab", serif;
     font-family: "Josefin Slab", serif;
     border: none;
     color: #ffffff;
-    width: 150px;
-    height: 60px;
-    border-radius: 8px;
+    /* width: 150px; */
+    padding: 0 32px;
+    height: 44px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
@@ -183,7 +205,8 @@ a .btn:hover {
 }
 
 .btn-black {
-    background-color: #282828;
+    /* background-color: #282828; */
+    background-color: #B18369;
 }
 
 .btn-light {
@@ -370,7 +393,6 @@ a .btn:hover {
 
 .osteo__all__link--services {
     background-color: #B18369;
-    width: 100%;
     height: 100%;
     border-radius: 8px;
     display: flex;
@@ -380,9 +402,13 @@ a .btn:hover {
     padding: 0 10px;
     text-align: center;
 }
+.osteo__all__link--services__title {
+    color: #ffe3d0;
+}
 
 .osteo__all__link--services p {
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .osteo__all__link:hover {
@@ -442,7 +468,7 @@ a .btn:hover {
 
 .osteo__all__figcaption__link {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 14px;
     border-color: #ffffff;
 }
 .comfort {
@@ -463,7 +489,6 @@ a .btn:hover {
 .comfort__wrapper__home {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 3%;
 }
 
@@ -480,8 +505,8 @@ a .btn:hover {
 }
 
 .photo {
-    width: 600px;
-    height: 450px;
+    width: 465px;
+    height: 470px;
     background-color: red;
     object-fit: cover;
     border-radius: 8px;
@@ -498,6 +523,10 @@ a .btn:hover {
     overflow: hidden;
 }
 
+.banner-intro {
+    margin-bottom: 50px;
+}
+
 .banner__img {
     position: absolute;
     z-index: -1;
@@ -508,7 +537,7 @@ a .btn:hover {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -533,7 +562,7 @@ a .btn:hover {
 }
 
 .advice__card {
-    background-color: #F5F5F5;
+    background-color: rgba(237,234,230,1);
     max-width: 612px;
     border-radius: 8px;
     padding: 20px 36px;
@@ -555,7 +584,7 @@ a .btn:hover {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .advice__card__avatar__img {
@@ -573,7 +602,7 @@ a .btn:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0 20px;
+    padding: 5px 0 20px;
 }
 .advice__card__bottom__stars {
     object-fit: contain;
@@ -659,6 +688,26 @@ a .btn:hover {
     display: none;
 }
 
+.article {
+    padding: 0 5px;
+}
+.article__intro {
+    margin-bottom: 20px;
+}
+.article__wrapper {
+    margin-bottom: 20px;
+}
+.article__wrapper__title {}
+.article__wrapper__list {
+    padding: 0 25px;
+}
+.article__wrapper__list-b {
+    margin-bottom: 0;
+}
+.article__wrapper__text {
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 1050px) {
 
     .osteo__all {
@@ -678,7 +727,7 @@ a .btn:hover {
     .osteo__all__figcaption__desc {
         text-align: left;
         padding: 0;
-        color: #4A5568;
+        color: #000000;
 
     }
 
@@ -699,6 +748,17 @@ a .btn:hover {
     .osteo__all__img {
         max-height: 400px;
     }
+
+    .osteo__all__figcaption__link {
+    color: #ffffff;
+    font-size: 14px;
+    border-color: #ffffff;
+    background-color: #B18369;
+    padding: 0 16px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
 }
 
 @media screen and (max-width: 950px) {
