@@ -552,6 +552,28 @@ a .btn:hover {
     line-height: 55px;
 }
 
+.banner-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-secondary__img {
+    width: 45%;
+}
+
+.banner-secondary__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner-secondary__article p {
+    text-align: center;
+}
+
 .advice {
     display: flex;
     flex-wrap: wrap;
