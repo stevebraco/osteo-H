@@ -194,6 +194,9 @@ font-family: "Josefin Slab", serif;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a .btn:hover {
@@ -550,6 +553,8 @@ a .btn:hover {
     font-size: 48px;
     max-width: 580px;
     line-height: 55px;
+    font-family: "Josefin Slab", serif;
+
 }
 
 .banner-secondary {

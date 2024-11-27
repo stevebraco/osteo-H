@@ -4,33 +4,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Henrique Nunes, ostéopathe à Bruges, propose des soins adaptés pour améliorer le bien-être et traiter les douleurs. Consultations pour enfants, adultes, sportifs, et femmes enceintes.">
+  
+  <!-- Meta Description -->
+  <meta name="description" 
+    content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile." />
+  
+  <!-- Fonts and Styles -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="stylesheet/style.css" />
-  <title>Henrique Nunes - Ostéopathe à Bruges, Consultations à Domicile et en Cabinet</title>
+
+  <!-- Page Title -->
+  <title>Henrique Nunes - Ostéopathe à Bruges | Soins en Cabinet et à Domicile</title>
+
+  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Henrique Nunes",
-      "specialty": "Ostéopathie",
+      "@type": "MedicalBusiness",
+      "name": "Henrique Nunes - Ostéopathe",
+      "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
       "address": {
-        "@type": "33520",
+        "@type": "PostalAddress",
         "streetAddress": "Allée de la Salamandre",
         "addressLocality": "Bruges",
-        "addressCountry": "France"
+        "postalCode": "33520",
+        "addressCountry": "FR"
       },
-      "telephone": "Numéro de téléphone",
-      "sameAs": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+      "telephone": "+33XXXXXXX",
+      "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
+      "image": "URL_DE_VOTRE_IMAGE",
+      "areaServed": "Bruges et environs",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ]
     }
   </script>
 </head>
@@ -48,10 +69,9 @@
         <span class="navbar__link">Ostéopathie</span>
         <div class="dropdown-content">
           <div class="dropdown-content__wrapper">
-            <a class="dropdown-content__wrapper__link" id="osteo-link" href="osteopathie.html">Définition</a>
-            <a class="dropdown-content__wrapper__link" id="osteo-link"
-              href="consultation-osteopathie.html">Consultation</a>
-            <a class="dropdown-content__wrapper__link" id="osteo-link" href="quand-consulter-un-osteopathe.html">Quand
+            <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
+            <a class="dropdown-content__wrapper__link" href="consultation-osteopathie.html">Consultation</a>
+            <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
               consulter ?</a>
 
           </div>
@@ -59,17 +79,17 @@
       </div>
       <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
       <a class="navbar__link" href="tarifs.html">Tarifs</a>
-      <a class="navbar__link" href="liendoctolib">
-        <button class="btn btn-black">Rdv en ligne</button>
-      </a>
+      <button class="btn btn-black"
+        onclick="window.location.href='https://www.doctolib.fr/osteopathe/bruges/henrique-nunes'">Rdv en ligne</button>
+
     </nav>
   </header>
   <main class="">
 
     <section data-aos="fade-in" class="banner banner-intro">
-      <img class="banner__img" src="./assets/images/bannerwhen.png" alt="séance osteopathie">
+      <img class="banner__img" src="./assets/images/bannerwhen.png" loading="lazy" alt="séance osteopathie">
       <div class="banner__wrapper">
-        <h2 class="banner__title">Quand Consulter un Ostéopathe ?</h2>
+        <h1 class="banner__title">Quand Consulter un Ostéopathe ?</h1>
       </div>
     </section>
     <!-- <nav class="section-nav">
@@ -83,7 +103,7 @@
 		</ol>
 	</nav> -->
 
-    <section class="mw-container article">
+    <div class="mw-container article">
       <article data-aos="fade-in" id="enfants" class="article__wrapper">
         <h2 class="article__wrapper__title">Enfants</h2>
         <div class="article__container">
@@ -120,7 +140,7 @@
               </ul>
             </article>
           </div>
-          <img data-aos="fade-left" class="article__wrapper__img" src="./assets/images/enfants2.jpg" alt="Enfants">
+          <img data-aos="fade-left" class="article__wrapper__img" loading="lazy" src="./assets/images/enfants2.jpg" alt="Enfants">
         </div>
       </article>
       <article data-aos="fade-in" id="femmes-enceintes" class="article__wrapper">
@@ -155,7 +175,7 @@
               gérer votre
               stress</strong> ou votre
             <strong>fatigue</strong>, notamment vos <strong> fonctions
-              respiratoires</strong>. Il est vital de maintenir votre <strong></strong>équilibre</strong> et de vous
+              respiratoires</strong>. Il est vital de maintenir votre <strong>équilibre</strong> et de vous
             <strong>renforcer</strong> afin de préserver
             votre <strong>santé</strong>
             et celle de votre <strong>enfant</strong>.
@@ -206,7 +226,7 @@
               </p>
             </article>
           </div>
-          <img data-aos="fade-left" src="./assets/images/femmes-enc2.jpg" alt="" srcset="">
+          <img data-aos="fade-left" src="./assets/images/femmes-enc2.jpg" loading="lazy" alt="photo femme enceinte">
         </div>
 
       </article>
@@ -218,7 +238,8 @@
         <p class="article__wrapper__text">Elles peuvent provoquer des <strong>perturbations fonctionnelles</strong>
           immédiates ou différées. Des <strong>déformations</strong> (parfois visibles, souvent insoupçonnables ou
           bénignes) existent ou se développent chez de nombreux <strong>nouveau-nés</strong>, votre
-          <strong>ostéopathe</strong> saura les identifier et y remédier.</p>
+          <strong>ostéopathe</strong> saura les identifier et y remédier.
+        </p>
         <div class="article__container article__container--res">
           <div>
             <article>
@@ -226,7 +247,8 @@
                 A chacun son équilibre</h3>
               <p class="article__wrapper__text">Un examen <strong>ostéopathique</strong> permet de vérifier
                 l’<strong>équilibre</strong> entre les systèmes <strong>osseux</strong>, <strong>organiques</strong> et
-                <strong>musculaires</strong> de votre <strong>enfant</strong>.</p>
+                <strong>musculaires</strong> de votre <strong>enfant</strong>.
+              </p>
               <p class="article__wrapper__text">Les interventions chez le <strong>nourrisson</strong> peuvent prévenir :
               </p>
               <ul class="article__wrapper__list">
@@ -236,7 +258,8 @@
                 <li><strong>Troubles du sommeil</strong> et <strong>bronchiolites</strong> à répétition</li>
               </ul>
               <p class="article__wrapper__text">Ainsi, l’<strong>ostéopathe</strong> rétablit au
-                <strong>nourrisson</strong> son <strong>rythme normal</strong>.</p>
+                <strong>nourrisson</strong> son <strong>rythme normal</strong>.
+              </p>
             </article>
             <article>
               <h3 class="article__wrapper__list-b">
@@ -252,18 +275,19 @@
                 <li>Présente un <strong>méplat</strong> à l’arrière de la tête.</li>
                 <li>A des <strong>coliques</strong>, des signes de nervosité, d’hypertonicité ou d’apathie.</li>
                 <li>Est sujet à des <strong>otites</strong> ou <strong>rhinites</strong> à répétition, des signes de
-                  <strong>torticoli congénital</strong>, un <strong>strabisme</strong>, etc.</li>
+                  <strong>torticoli congénital</strong>, un <strong>strabisme</strong>, etc.
+                </li>
 
               </ul>
             </article>
           </div>
-          <img data-aos="fade-right" class="article__wrapper__img" src="./assets/images/newborn.jpg" alt="" srcset="">
+          <img data-aos="fade-right" class="article__wrapper__img" loading="lazy" src="./assets/images/newborn.jpg" alt="photo nouveau nés">
         </div>
 
       </article>
       <article data-aos="fade-in" id="seniors" class="article__wrapper">
         <h2 class="article__wrapper__title">Pour les Seniors</h2>
-        <article id="séniors" class="article__wrapper">
+        <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">
             Moins de souplesse, c’est normal</h3>
           <p>Au fil des années, les <strong>ligaments</strong> perdent de leur <strong>élasticité</strong>, les
@@ -271,13 +295,14 @@
             <strong>douloureux</strong> ou <strong>difficiles</strong>. La <strong>vigueur</strong> et
             l’<strong>endurance</strong> diminuent, et la <strong>perte musculaire</strong> se fait sentir. Les
             <strong>douleurs diffuses</strong> apparaissant tendent à faire diminuer l’<strong>activité
-              quotidienne</strong>.</p>
+              quotidienne</strong>.
+          </p>
           <p>L’<strong>ostéopathe</strong> vous aidera à conserver le niveau d’<strong>activité</strong> destiné
             à préserver votre <strong>mobilité</strong> et votre <strong>santé</strong>.</p>
 
         </article>
 
-        <article id="séniors" class="article__wrapper">
+        <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">
             Arthrose et Soutien ostéopathique</h3>
           <p>Après <strong>50 ans</strong>, l’<strong>arthrose du genou</strong>, la plus courante, atteint
@@ -285,22 +310,24 @@
             dans les suites d’<strong>arthrose</strong> ! Avant d’envisager une intervention
             <strong>chirurgicale</strong> et pour limiter la consommation d’<strong>anti-inflammatoires</strong>
             ou d’<strong>antalgiques</strong>, le traitement <strong>ostéopathique</strong> peut vous aider à
-            retrouver un certain <strong>confort</strong>.</p>
+            retrouver un certain <strong>confort</strong>.
+          </p>
 
         </article>
         <div class="article__container">
           <div>
-            <article id="séniors" class="article__wrapper">
+            <article class="article__wrapper">
               <h3 class="article__wrapper__list-b">
                 Préserver votre mobilité</h3>
               <p>Vous ressentez des <strong>douleurs articulaires</strong> ou <strong>vertébrales</strong>, des
                 <strong>raideurs</strong>, des <strong>tensions chroniques</strong>. Votre
                 <strong>squelette</strong> et vos <strong>articulations</strong> connaissent un
                 <strong>vieillissement</strong>. L’<strong>ostéopathie</strong> est particulièrement adaptée à
-                cette période de la vie.</p>
+                cette période de la vie.
+              </p>
 
             </article>
-            <article id="séniors" class="article__wrapper">
+            <article class="article__wrapper">
               <h3 class="article__wrapper__list-b">
                 Quand Consulter un Ostéopathe ?</h3>
               <p>À titre préventif :</p>
@@ -315,7 +342,8 @@
                   intervention <strong>chirurgicale</strong>, chutes sans lésions visibles sur une radiologie, après
                   tout <strong>traumatisme</strong>.</li>
                 <li>Pour <strong>douleurs d’origine vertébrale</strong>, cervicales, dorsales, lombaires ou
-                  <strong>coccygiennes</strong>.</li>
+                  <strong>coccygiennes</strong>.
+                </li>
                 <li>Pour <strong>engourdissement des membres</strong>.</li>
                 <li>Pour certains types de <strong>névralgies</strong> (sciatalgie, cruralgie, etc.).</li>
                 <li>Pour <strong>maux de tête</strong>, syndrome <strong>vertigineux</strong>.</li>
@@ -328,8 +356,8 @@
               </ul>
             </article>
           </div>
-          <img class="article__wrapper__img article__wrapper__imgb" data-aos="fade-left"
-            src="./assets/images/oldmen.jpg" alt="">
+          <img class="article__wrapper__img article__wrapper__imgb" loading="lazy" data-aos="fade-left"
+            src="./assets/images/oldmen.jpg" alt="photo séniors">
 
         </div>
 
@@ -339,16 +367,31 @@
         <h2 class="article__wrapper__title">Pour les Sportifs</h2>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Les Risques de la Pratique du Sport</h3>
-          <p class="article__wrapper__text"><strong>Contractures</strong>, <strong>entorses</strong>, <strong>déchirures musculaires</strong>, <strong>inflammations locales</strong> ou <strong>douleurs chroniques</strong> peuvent résulter de la pratique assidue ou ponctuelle d'un sport. Toute restriction ou perte de <strong>mobilité</strong> des <strong>muscles</strong>, des <strong>articulations</strong> ou des éléments <strong>péri-articulaires</strong> peut altérer vos <strong>performances</strong> et votre état de <strong>santé</strong>.</p>
+          <p class="article__wrapper__text"><strong>Contractures</strong>, <strong>entorses</strong>, <strong>déchirures
+              musculaires</strong>, <strong>inflammations locales</strong> ou <strong>douleurs chroniques</strong>
+            peuvent résulter de la pratique assidue ou ponctuelle d'un sport. Toute restriction ou perte de
+            <strong>mobilité</strong> des <strong>muscles</strong>, des <strong>articulations</strong> ou des éléments
+            <strong>péri-articulaires</strong> peut altérer vos <strong>performances</strong> et votre état de
+            <strong>santé</strong>.</p>
         </article>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Soigner Vos Traumatismes Sportifs</h3>
-          <p class="article__wrapper__text">Votre <strong>ostéopathe</strong> traite vos <strong>traumatismes sportifs</strong> et vous aide à conserver votre <strong>équilibre corporel</strong> tout en améliorant vos <strong>performances</strong>. Grâce à des techniques <strong>ostéopathiques</strong> appropriées, basées sur la notion de <strong>globalité</strong>, il restaure la <strong>mobilité</strong> de vos systèmes <strong>osseux</strong>, <strong>musculaires</strong> et <strong>organiques</strong>.</p>
-          <p class="article__wrapper__text">Certaines formes d’<strong>entorse</strong>, de <strong>foulure</strong>, de <strong>tendinopathie</strong> et de <strong>pubalgie</strong> peuvent être aisément réduites par votre <strong>ostéopathe</strong>. Adaptée aux <strong>enfants</strong>, l’<strong>ostéopathie</strong> est également indiquée pour corriger les conséquences de <strong>chutes</strong>, de <strong>mouvements répétés</strong> ou de <strong>traumatismes divers</strong>.</p>
+          <p class="article__wrapper__text">Votre <strong>ostéopathe</strong> traite vos <strong>traumatismes
+              sportifs</strong> et vous aide à conserver votre <strong>équilibre corporel</strong> tout en améliorant
+            vos <strong>performances</strong>. Grâce à des techniques <strong>ostéopathiques</strong> appropriées,
+            basées sur la notion de <strong>globalité</strong>, il restaure la <strong>mobilité</strong> de vos systèmes
+            <strong>osseux</strong>, <strong>musculaires</strong> et <strong>organiques</strong>.</p>
+          <p class="article__wrapper__text">Certaines formes d’<strong>entorse</strong>, de <strong>foulure</strong>, de
+            <strong>tendinopathie</strong> et de <strong>pubalgie</strong> peuvent être aisément réduites par votre
+            <strong>ostéopathe</strong>. Adaptée aux <strong>enfants</strong>, l’<strong>ostéopathie</strong> est
+            également indiquée pour corriger les conséquences de <strong>chutes</strong>, de <strong>mouvements
+              répétés</strong> ou de <strong>traumatismes divers</strong>.</p>
         </article>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Renforcer Votre Corps</h3>
-          <p class="article__wrapper__text">Votre <strong>ostéopathe</strong> peut améliorer votre <strong>souplesse articulaire</strong> et <strong>ligamentaire</strong>, ainsi qu’optimiser vos <strong>capacités physiques</strong> et <strong>respiratoires</strong> pour une meilleure récupération après l’effort.</p>
+          <p class="article__wrapper__text">Votre <strong>ostéopathe</strong> peut améliorer votre <strong>souplesse
+              articulaire</strong> et <strong>ligamentaire</strong>, ainsi qu’optimiser vos <strong>capacités
+              physiques</strong> et <strong>respiratoires</strong> pour une meilleure récupération après l’effort.</p>
         </article>
         <div class="article__container">
           <div>
@@ -369,7 +412,8 @@
                   <li>Pour faire un <strong>bilan ostéopathique</strong>.</li>
                   <li>Pour préparer une <strong>épreuve sportive</strong>.</li>
                   <li>Pour optimiser vos <strong>capacités physiques</strong>.</li>
-                  <li>Avant de démarrer une <strong>nouvelle activité sportive</strong> ou une <strong>nouvelle saison</strong>.</li>
+                  <li>Avant de démarrer une <strong>nouvelle activité sportive</strong> ou une <strong>nouvelle
+                      saison</strong>.</li>
                   <li>Avant une <strong>pratique occasionnelle</strong>.</li>
                   <li>Après une <strong>pratique sportive intense</strong>.</li>
                 </ul>
@@ -377,25 +421,36 @@
               <div>
                 <p class="article__wrapper__text"><strong>À titre curatif</strong> :</p>
                 <ul class="article__wrapper__list">
-                  <li>Après un <strong>traumatisme</strong>, une <strong>intervention chirurgicale</strong>, ou une <strong>chute sans lésion visible</strong> à la radio, pour des séquelles de <strong>fractures</strong>.</li>
-                  <li>Pour rééquilibrer avec précision les axes <strong>articulaires</strong> perturbés par un <strong>choc</strong>.</li>
+                  <li>Après un <strong>traumatisme</strong>, une <strong>intervention chirurgicale</strong>, ou une
+                    <strong>chute sans lésion visible</strong> à la radio, pour des séquelles de
+                    <strong>fractures</strong>.</li>
+                  <li>Pour rééquilibrer avec précision les axes <strong>articulaires</strong> perturbés par un
+                    <strong>choc</strong>.</li>
                 </ul>
               </div>
             </article>
             <article class="article__wrapper">
               <h3 class="article__wrapper__list-b">L’ostéopathie optimise les capacités sportives</h3>
-              <p class="article__wrapper__text">Que vous soyez <strong>sportif</strong> occasionnel ou régulier, votre <strong>corps</strong> subit des contraintes. Cela peut entraîner des <strong>perturbations physiques</strong> ou des <strong>douleurs gênantes</strong>. Votre <strong>ostéopathe</strong> intervient pour prévenir ou guérir les <strong>maux</strong> liés à la pratique <strong>sportive</strong>.</p>
+              <p class="article__wrapper__text">Que vous soyez <strong>sportif</strong> occasionnel ou régulier, votre
+                <strong>corps</strong> subit des contraintes. Cela peut entraîner des <strong>perturbations
+                  physiques</strong> ou des <strong>douleurs gênantes</strong>. Votre <strong>ostéopathe</strong>
+                intervient pour prévenir ou guérir les <strong>maux</strong> liés à la pratique
+                <strong>sportive</strong>.</p>
             </article>
           </div>
-          <img class="article__wrapper__img" src="/assets/images/sportifs.png" alt="">
+          <img class="article__wrapper__img" src="/assets/images/sportifs.png" loading="lazy" alt="photo sportifs">
         </div>
       </article>
       <article data-aos="fade-in" id="teams" class="article__wrapper">
         <h2 class="article__wrapper__title">Ostéopathie en entreprise</h2>
-        <p class="article__wrapper__text">Votre ostéopathe, Maxime CHOISEAU, exerçant à Noisy-le-Grand, aux portes de Paris, est formée à la prise en charge des troubles musculo-squelettiques induits par l'activité professionnelle ou le stress lié à celle-ci.</p>
+        <p class="article__wrapper__text">Votre ostéopathe, Maxime CHOISEAU, exerçant à Noisy-le-Grand, aux portes de
+          Paris, est formée à la prise en charge des troubles musculo-squelettiques induits par l'activité
+          professionnelle ou le stress lié à celle-ci.</p>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Ostéopathie et Troubles Musculo-Squelettiques (TMS)</h3>
-          <p class="article__wrapper__text">Les troubles musculo-squelettiques (TMS) recouvrent un large éventail de pathologies qui affectent principalement les muscles, les nerfs et les tendons. Ces pathologies entraînent des douleurs de plus en plus gênantes pouvant aller jusqu'à l'incapacité de travailler.</p>
+          <p class="article__wrapper__text">Les troubles musculo-squelettiques (TMS) recouvrent un large éventail de
+            pathologies qui affectent principalement les muscles, les nerfs et les tendons. Ces pathologies entraînent
+            des douleurs de plus en plus gênantes pouvant aller jusqu'à l'incapacité de travailler.</p>
           <p>Les douleurs les plus fréquentes sont :</p>
           <ul class="article__wrapper__list">
             <li>Lombalgies (douleurs dans le bas du dos).</li>
@@ -403,48 +458,65 @@
             <li>Tendinites.</li>
             <li>Cervicalgies (douleurs au niveau de la nuque).</li>
           </ul>
-          <p class="article__wrapper__text">L'ostéopathie est en première ligne dans la prévention et le traitement de ces douleurs, apportant au patient une amélioration de son état grâce à une prise en charge globale et à des gestes non invasifs.</p>
+          <p class="article__wrapper__text">L'ostéopathie est en première ligne dans la prévention et le traitement de
+            ces douleurs, apportant au patient une amélioration de son état grâce à une prise en charge globale et à des
+            gestes non invasifs.</p>
         </article>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Pourquoi Faire Appel à un Ostéopathe en Entreprise ?</h3>
           <p class="article__wrapper__text">L'ostéopathie au sein des entreprises est devenue un réel atout.</p>
-          <p class="article__wrapper__text">Certaines formes d’<strong>entorse</strong>, de <strong>foulure</strong>, de <strong>tendinopathie</strong> et de <strong>pubalgie</strong> peuvent être aisément réduites par votre <strong>ostéopathe</strong>. Adaptée aux <strong>enfants</strong>, l’<strong>ostéopathie</strong> est également indiquée pour corriger les conséquences de <strong>chutes</strong>, de <strong>mouvements répétés</strong> ou de <strong>traumatismes divers</strong>.</p>
+          <p class="article__wrapper__text">Certaines formes d’<strong>entorse</strong>, de <strong>foulure</strong>, de
+            <strong>tendinopathie</strong> et de <strong>pubalgie</strong> peuvent être aisément réduites par votre
+            <strong>ostéopathe</strong>. Adaptée aux <strong>enfants</strong>, l’<strong>ostéopathie</strong> est
+            également indiquée pour corriger les conséquences de <strong>chutes</strong>, de <strong>mouvements
+              répétés</strong> ou de <strong>traumatismes divers</strong>.</p>
         </article>
         <article class="article__wrapper">
           <h3 class="article__wrapper__list-b">Renforcer Votre Corps</h3>
-          <p class="article__wrapper__text">Selon une étude menée par Hygie en 2005, "près d'1/4 des salariés a pris au moins un arrêt maladie en 2005" (23%).</p>
-          <p class="article__wrapper__text">Ces interruptions de travail peuvent causer du tort à l'entreprise, allant même jusqu'à handicaper son bon fonctionnement.</p>
-          <p class="article__wrapper__text">Devant cette augmentation constante du nombre d'arrêts de travail, il est nécessaire pour les entreprises de trouver des solutions. C'est là que l'ostéopathie entre en jeu</p>
-          <p class="article__wrapper__text">En effet, selon la CRAMIF, plus des 3/4 des maladies professionnelles reconnues sont des troubles musculo-squelettiques.</p>
-          <p class="article__wrapper__text">La prise en charge ostéopathique, au sein même de l'entreprise, facilite l'accès aux soins des employés, sans perturber leur emploi du temps professionnel.</p>
-          <p class="article__wrapper__text">Elle permet également à l'ostéopathe d'évaluer l'ergonomie du poste de travail, et donc de donner des conseils précis et concrets aux salariés afin de l'améliorer. Le traitement ostéopathique peut ainsi permettre une diminution du nombre d'arrêts de travail, et même en réduire leur durée.</p>
+          <p class="article__wrapper__text">Selon une étude menée par Hygie en 2005, "près d'1/4 des salariés a pris au
+            moins un arrêt maladie en 2005" (23%).</p>
+          <p class="article__wrapper__text">Ces interruptions de travail peuvent causer du tort à l'entreprise, allant
+            même jusqu'à handicaper son bon fonctionnement.</p>
+          <p class="article__wrapper__text">Devant cette augmentation constante du nombre d'arrêts de travail, il est
+            nécessaire pour les entreprises de trouver des solutions. C'est là que l'ostéopathie entre en jeu</p>
+          <p class="article__wrapper__text">En effet, selon la CRAMIF, plus des 3/4 des maladies professionnelles
+            reconnues sont des troubles musculo-squelettiques.</p>
+          <p class="article__wrapper__text">La prise en charge ostéopathique, au sein même de l'entreprise, facilite
+            l'accès aux soins des employés, sans perturber leur emploi du temps professionnel.</p>
+          <p class="article__wrapper__text">Elle permet également à l'ostéopathe d'évaluer l'ergonomie du poste de
+            travail, et donc de donner des conseils précis et concrets aux salariés afin de l'améliorer. Le traitement
+            ostéopathique peut ainsi permettre une diminution du nombre d'arrêts de travail, et même en réduire leur
+            durée.</p>
         </article>
-            <article class="article__wrapper">
-              <h3 class="article__wrapper__list-b">Une Efficacité et un Bien-Être Retrouvés</h3>
-                <p class="article__wrapper__text">La prise en charge ostéopathique permet une amélioration de la productivité et de la qualité du travail des employés.</p>
-                <p class="article__wrapper__text">De plus, cette démarche sera très appréciée par les salariés, leur montrant l'importance que l'entreprise attache à leurs conditions de travail et à leur bien-être.</p>
-                <p class="article__wrapper__text">En définitive, l'ostéopathie confère aux salariés une meilleure adaptation à leurs contraintes de travail, permettant ainsi un gain de concentration dans une optique de recherche de productivité.</p>
-                <p class="article__wrapper__text">Pour tout renseignement concernant l'intervention de votre ostéopathe en entreprise, n'hésitez pas à la contacter par téléphone ou par mail via la rubrique "Contact".</p>
-            </article>
-            
-          </div>
-        </div>
+        <article class="article__wrapper">
+          <h3 class="article__wrapper__list-b">Une Efficacité et un Bien-Être Retrouvés</h3>
+          <p class="article__wrapper__text">La prise en charge ostéopathique permet une amélioration de la productivité
+            et de la qualité du travail des employés.</p>
+          <p class="article__wrapper__text">De plus, cette démarche sera très appréciée par les salariés, leur montrant
+            l'importance que l'entreprise attache à leurs conditions de travail et à leur bien-être.</p>
+          <p class="article__wrapper__text">En définitive, l'ostéopathie confère aux salariés une meilleure adaptation à
+            leurs contraintes de travail, permettant ainsi un gain de concentration dans une optique de recherche de
+            productivité.</p>
+          <p class="article__wrapper__text">Pour tout renseignement concernant l'intervention de votre ostéopathe en
+            entreprise, n'hésitez pas à la contacter par téléphone ou par mail via la rubrique "Contact".</p>
+        </article>
+
       </article>
-      
-    </section>
+
+    </div>
 
 
     <section class="banner">
-      <img class="banner__img" src="./assets/images/banner.jpg" alt="séance osteopathie">
+      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg" loading="lazy" alt="Séance d'ostéopathie">
       <div class="banner__wrapper">
         <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
-        <button class="btn btn-light btn-xl">Prendre rendez-vous</button>
+        <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
       </div>
     </section>
 
   </main>
   <footer class="footer">
-    <section class="footer__wrapper mw-container">
+    <div class="footer__wrapper mw-container">
       <article class="footer__wrapper__me">
         <div>
           <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
@@ -455,12 +527,12 @@
           Consultations uniquement sur rendez vous.</p>
         <button class="btn btn-light">Prendre rendez-vous</button>
       </article>
-      <article class="footer__wrapper__consultation">
+      <div class="footer__wrapper__consultation">
         <div class="footer__wrapper__consultation__btns">
           <button class="btn btn-footer" id="consultation">Consultations à domicile</button>
           <button class="btn btn-footer btn-disabled" id="medical">Médical Stadium</button>
         </div>
-        <section class="content-consultation">
+        <div class="content-consultation">
           <p class="article__wrapper__text"> <span class="content-consultation__day">Horaires :</span></p>
           <div>
             <p class="article__wrapper__text"><span class="content-consultation__day">Lundi</span> <span>14:00 -
@@ -470,8 +542,8 @@
             <p class="article__wrapper__text"><span class="content-consultation__day">Vendredi</span> <span>9:30 -
                 19h30</span></p>
           </div>
-        </section>
-        <section class="content-medical close">
+        </div>
+        <div class="content-medical close">
           <p class="article__wrapper__text"> <span class="content-consultation__day">Adresse :</span> <span>8 Rue
               Georges Nègrevergne, 33700 Mérignac
             </span></p>
@@ -482,35 +554,35 @@
             <p class="article__wrapper__text"><span class="content-consultation__day">Jeudi</span> <span>9h30 - 14h30,
                 16h00 - 20h00</span></p>
           </div>
-        </section>
-      </article>
-    </section>
+        </div>
+      </div>
+    </div>
   </footer>
-</body>
-<script src="js/index.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-  AOS.init({
-    // Global settings:
-    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-    startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-    initClassName: "aos-init", // class applied after initialization
-    animatedClassName: "aos-animate", // class applied on animation
-    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="js/index.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
-    delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 500, // values from 0 to 3000, with step 50ms
-    easing: "ease", // default easing for AOS animations
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
-  });
-</script>
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 500, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+</body>
 
 </html>

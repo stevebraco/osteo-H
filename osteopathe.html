@@ -4,33 +4,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Henrique Nunes, ostéopathe à Bruges, propose des soins adaptés pour améliorer le bien-être et traiter les douleurs. Consultations pour enfants, adultes, sportifs, et femmes enceintes.">
+  
+  <!-- Meta Description -->
+  <meta name="description" 
+    content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile." />
+  
+  <!-- Fonts and Styles -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="stylesheet/style.css" />
-  <title>Henrique Nunes - Ostéopathe à Bruges, Consultations à Domicile et en Cabinet</title>
+
+  <!-- Page Title -->
+  <title>Henrique Nunes - Ostéopathe à Bruges | Soins en Cabinet et à Domicile</title>
+
+  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Henrique Nunes",
-      "specialty": "Ostéopathie",
+      "@type": "MedicalBusiness",
+      "name": "Henrique Nunes - Ostéopathe",
+      "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
       "address": {
-        "@type": "33520",
+        "@type": "PostalAddress",
         "streetAddress": "Allée de la Salamandre",
         "addressLocality": "Bruges",
-        "addressCountry": "France"
+        "postalCode": "33520",
+        "addressCountry": "FR"
       },
-      "telephone": "Numéro de téléphone",
-      "sameAs": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+      "telephone": "+33XXXXXXX",
+      "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
+      "image": "URL_DE_VOTRE_IMAGE",
+      "areaServed": "Bruges et environs",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ]
     }
   </script>
 </head>
@@ -48,10 +69,10 @@
         <span class="navbar__link">Ostéopathie</span>
         <div class="dropdown-content">
           <div class="dropdown-content__wrapper">
-            <a class="dropdown-content__wrapper__link" id="osteo-link" href="osteopathie.html">Définition</a>
-            <a class="dropdown-content__wrapper__link" id="osteo-link"
+            <a class="dropdown-content__wrapper__link"  href="osteopathie.html">Définition</a>
+            <a class="dropdown-content__wrapper__link" 
               href="consultation-osteopathie.html">Consultation</a>
-            <a class="dropdown-content__wrapper__link" id="osteo-link" href="quand-consulter-un-osteopathe.html">Quand
+            <a class="dropdown-content__wrapper__link"  href="quand-consulter-un-osteopathe.html">Quand
               consulter ?</a>
 
           </div>
@@ -59,21 +80,20 @@
       </div>
       <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
       <a class="navbar__link" href="tarifs.html">Tarifs</a>
-      <a class="navbar__link" href="liendoctolib">
-        <button class="btn btn-black">Rdv en ligne</button>
-      </a>
+  <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+
     </nav>
   </header>
   <main class="">
 
     <section data-aos="fade-in" class="banner banner-intro">
-      <img class="banner__img" src="./assets/images/bannerTeam.jpg" alt="séance ostéopathie">
+      <img class="banner__img" loading="lazy" src="./assets/images/bannerTeam.jpg" alt="séance ostéopathie">
       <div class="banner__wrapper">
-        <h2 class="banner__title">Votre Ostéopathe</h2>
+        <h1 class="banner__title">Votre Ostéopathe</h1>
       </div>
     </section>
   
-    <section class="mw-container article">
+    <div class="mw-container article">
       <div class="article__container">
         <div>
   
@@ -88,7 +108,7 @@
             <p class="article__wrapper__text">En tant qu'enseignant chez <strong>Eurosteo</strong> (École d'ostéopathie pour professionnels de santé), je suis l'évolution et l'actualité en <strong>traumatologie du sport</strong> et en <strong>prévention des blessures</strong>.</p>
           </article>
         </div>
-        <img class="article__wrapper__img" src="./assets/images/osteo1.jpg" alt="" srcset="">
+        <img class="article__wrapper__img" loading="lazy" src="./assets/images/osteo1.jpg" alt="ostéopathe Henrique Nunes" >
       </div>
   
       <article class="article__wrapper">
@@ -125,23 +145,23 @@
   
       <article class="article__wrapper">
         <h2 class="article__wrapper__title">Collaboration avec des Clubs Sportifs</h2>
-        <img src="./assets/images/clubs.png" alt="" srcset="">
+        <img src="./assets/images/clubs.png" loading="lazy" alt="Photo des clubs" >
       </article>
   
-    </section>
+    </div>
   
     <section class="banner">
-      <img class="banner__img" src="./assets/images/banner.jpg" alt="séance osteopathie">
+      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg"  loading="lazy"alt="Séance d'ostéopathie">
       <div class="banner__wrapper">
         <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
-        <button class="btn btn-light btn-xl">Prendre rendez-vous</button>
+        <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
       </div>
     </section>
   
   </main>
   
   <footer class="footer">
-    <section class="footer__wrapper mw-container">
+    <div class="footer__wrapper mw-container">
       <article class="footer__wrapper__me">
         <div>
           <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
@@ -152,12 +172,12 @@
           Consultations uniquement sur rendez vous.</p>
         <button class="btn btn-light">Prendre rendez-vous</button>
       </article>
-      <article class="footer__wrapper__consultation">
+      <div class="footer__wrapper__consultation">
         <div class="footer__wrapper__consultation__btns">
           <button class="btn btn-footer" id="consultation">Consultations à domicile</button>
           <button class="btn btn-footer btn-disabled" id="medical">Médical Stadium</button>
         </div>
-        <section class="content-consultation">
+        <div class="content-consultation">
           <p class="article__wrapper__text"> <span class="content-consultation__day">Horaires :</span></p>
           <div>
             <p class="article__wrapper__text"><span class="content-consultation__day">Lundi</span> <span>14:00 -
@@ -167,8 +187,8 @@
             <p class="article__wrapper__text"><span class="content-consultation__day">Vendredi</span> <span>9:30 -
                 19h30</span></p>
           </div>
-        </section>
-        <section class="content-medical close">
+        </div>
+        <div class="content-medical close">
           <p class="article__wrapper__text"> <span class="content-consultation__day">Adresse :</span> <span>8 Rue
               Georges Nègrevergne, 33700 Mérignac
             </span></p>
@@ -179,35 +199,37 @@
             <p class="article__wrapper__text"><span class="content-consultation__day">Jeudi</span> <span>9h30 - 14h30,
                 16h00 - 20h00</span></p>
           </div>
-        </section>
-      </article>
-    </section>
+        </div>
+      </div>
+    </div>
   </footer>
-</body>
-<script src="js/index.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="js/index.js"></script>
+  <script>
+    AOS.init();
+    document.addEventListener('DOMContentLoaded', function() {
   AOS.init({
     // Global settings:
-    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-    startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-    initClassName: "aos-init", // class applied after initialization
-    animatedClassName: "aos-animate", // class applied on animation
-    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
-    delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 500, // values from 0 to 3000, with step 50ms
-    easing: "ease", // default easing for AOS animations
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 500, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
   });
-</script>
+});
+  </script>
+</body>
 
 </html>
