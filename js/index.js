@@ -47,3 +47,18 @@ btnMedical.addEventListener('click', () => {
   });
   
 });
+
+const navbar = document.querySelector('.navbar__wrapper')
+const btnMenu = document.querySelector('.menu')
+const btnClose = document.querySelector('.menu-close')
+btnMenu.addEventListener('click', () => {
+  navbar.classList.toggle('show-menu')
+  btnMenu.classList.add('test')
+  btnClose.classList.remove('test')
+})
+
+btnClose.addEventListener('click', () => {
+  navbar.classList.toggle('show-menu')
+  btnMenu.classList.remove('test')
+  btnClose.classList.add('test')
+})

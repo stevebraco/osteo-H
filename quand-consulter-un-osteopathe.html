@@ -60,28 +60,37 @@
 
   <header data-aos="fade-in" class="header mw-container">
     <div class="header__wrapper">
+      <nav class="navbar">
+      <a href="index.html">
       <p class="header__name">Henrique Nunes</p>
       <p class="header__wrapper__job">Ostéopathe à Bruges</p>
+    </a>
     </div>
-    <nav class="navbar">
-      <a class="navbar__link" href="index.html">Accueil</a>
-      <div class="dropdown">
-        <span class="navbar__link">Ostéopathie</span>
-        <div class="dropdown-content">
-          <div class="dropdown-content__wrapper">
-            <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-            <a class="dropdown-content__wrapper__link" href="consultation-osteopathie.html">Consultation</a>
-            <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
-              consulter ?</a>
-
+    <div class="navbar">
+      <div class="navbar__wrapper">
+        <div class="navbar__menu">
+        <a class="navbar__link" href="index.html">Accueil</a>
+        <div class="dropdown">
+          <span class="navbar__link">Ostéopathie</span>
+          <div class="dropdown-content">
+            <div class="dropdown-content__wrapper">
+              <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
+              <a class="dropdown-content__wrapper__link"
+              href="consultation-osteopathie.html">Consultation</a>
+              <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
+                consulter ?</a>
+                
+              </div>
+            </div>
           </div>
+          <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
+          <a class="navbar__link" href="tarifs.html">Tarifs</a>
         </div>
       </div>
-      <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
-      <a class="navbar__link" href="tarifs.html">Tarifs</a>
-      <button class="btn btn-black"
-        onclick="window.location.href='https://www.doctolib.fr/osteopathe/bruges/henrique-nunes'">Rdv en ligne</button>
-
+        <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+        <button class="menu"><img class="menu__img" src="./assets/images/menu.png" alt="Icone Menu"></button>
+        <button class="menu-close test"><img class="menu__img" src="./assets/images/close.png" alt="Icone Menu"></button>
+      </div>
     </nav>
   </header>
   <main class="">
@@ -560,9 +569,9 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  <script src="js/index.js"></script>
   <script>
-    AOS.init();
-    AOS.init({
-      // Global settings:
+    document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+    // Global settings:
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
       initClassName: "aos-init", // class applied after initialization
@@ -571,7 +580,7 @@
       disableMutationObserver: false, // disables automatic mutations' detections (advanced)
       debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
       throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
+  
       // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
       offset: 120, // offset (in px) from the original trigger point
       delay: 0, // values from 0 to 3000, with step 50ms
@@ -580,7 +589,8 @@
       once: false, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
-    });
+  });
+});
   </script>
 </body>
 

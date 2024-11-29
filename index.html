@@ -62,27 +62,37 @@
 
   <header data-aos="fade-in" class="header mw-container">
     <div class="header__wrapper">
+      <nav class="navbar">
+      <a href="index.html">
       <p class="header__name">Henrique Nunes</p>
       <p class="header__wrapper__job">Ostéopathe à Bruges</p>
+    </a>
     </div>
-    <nav class="navbar">
-      <a class="navbar__link" href="index.html">Accueil</a>
-      <div class="dropdown">
-        <span class="navbar__link">Ostéopathie</span>
-        <div class="dropdown-content">
-          <div class="dropdown-content__wrapper">
-            <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-            <a class="dropdown-content__wrapper__link"
+    <div class="navbar">
+      <div class="navbar__wrapper">
+        <div class="navbar__menu">
+        <a class="navbar__link" href="index.html">Accueil</a>
+        <div class="dropdown">
+          <span class="navbar__link">Ostéopathie</span>
+          <div class="dropdown-content">
+            <div class="dropdown-content__wrapper">
+              <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
+              <a class="dropdown-content__wrapper__link"
               href="consultation-osteopathie.html">Consultation</a>
-            <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
-              consulter ?</a>
-
+              <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
+                consulter ?</a>
+                
+              </div>
+            </div>
           </div>
+          <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
+          <a class="navbar__link" href="tarifs.html">Tarifs</a>
         </div>
       </div>
-      <a class="navbar__link" href="osteopathe.html">Votre ostéopathe</a>
-      <a class="navbar__link" href="tarifs.html">Tarifs</a>
-<a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+        <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+        <button class="menu"><img class="menu__img" src="./assets/images/menu.png" alt="Icone Menu"></button>
+        <button class="menu-close test"><img class="menu__img" src="./assets/images/close.png" alt="Icone Menu"></button>
+      </div>
     </nav>
   </header>
   <main>
@@ -252,19 +262,13 @@
       </div>
     </section>
 
-    <section class="banner sect-mb">
-      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg" loading="lazy" alt="Séance d'ostéopathie">
-      <div class="banner__wrapper">
-        <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
-        <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
-      </div>
-    </section>
+   
 
     <section class="advice sect-mb mw-container">
       <h2 class="advice__title">L’Avis de mes Patients</h2>
       <div class="advice__card">
         <div class="advice__card__avatar">
-          <div class="advice__card__avatar__img"></div>
+          <img class="advice__card__avatar__img" src="https://lh3.googleusercontent.com/a-/ALV-UjVQUUc2s--gsdCzxnn29CN_4ALC4dwW6rY5qun-1KUXj4loq_Y=w60-h60-p-rp-mo-br100" alt="Avis Google utilisateur">
           <p>Clément Jeandet</p>
         </div>
         <p class="advice__card__avatar__desc">“Henrique me suit et m'accompagne depuis début 2024 à travers sa double
@@ -280,19 +284,23 @@
       </div>
       <div class="advice__card">
         <div class="advice__card__avatar">
-          <div class="advice__card__avatar__img"></div>
-          <p>Clément Jeandet</p>
+          <img class="advice__card__avatar__img" src="https://lh3.googleusercontent.com/a-/ALV-UjXJILmWfJKDG7VGkmpLikJu-39uX5rx1z3D0XCn_KbwelXJ2rs=w60-h60-p-rp-mo-br100" alt="Avis Google utilisateur">
+          <p>Julie R</p>
         </div>
-        <p class="advice__card__avatar__desc">“Henrique me suit et m'accompagne depuis début 2024 à travers sa double
-          compétence d'ostéopathe et de
-          préparateur physique. Souffrant de troubles posturaux sévères depuis près de 10 ans, j'ai pu retrouver
-          rapidement, suffisamment de mobilité et de confiance dans mes capacités avec l'aide d'Henrique...”</p>
+        <p class="advice__card__avatar__desc">“Excellent ostéopathe, qui prend bien le temps.  Henrique n'hésite pas à renvoyer vers d'autres professionnels de santé de confiance si besoin, afin d'avoir une prise en charge globale, permettant d'améliorer sa santé de manière générale.”</p>
           <div class="advice__card__bottom">
             <img class="advice__card__bottom__stars" loading="lazy" src="././assets/images/etoiles-avis-patients.png" alt="Étoiles d'avis des patients">
             <a href="" class="advice__card__bottom__link">
               <img class="advice__card__bottom__google" loading="lazy" src="././assets/images/icône-google.png" alt="Icône Google">
             </a>
           </div>
+      </div>
+    </section>
+    <section class="banner">
+      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg" loading="lazy" alt="Séance d'ostéopathie">
+      <div class="banner__wrapper">
+        <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
+        <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
       </div>
     </section>
   </main>
@@ -336,7 +344,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/index.js"></script>
   <script>
-    AOS.init();
+ 
+    
     document.addEventListener('DOMContentLoaded', function() {
   AOS.init({
     // Global settings:
