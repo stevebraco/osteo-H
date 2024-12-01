@@ -59,27 +59,29 @@
 <body>
 
   <header data-aos="fade-in" class="header mw-container">
+    <nav class="navbar">
     <div class="header__wrapper">
-      <nav class="navbar">
-      <a href="index.html">
-      <p class="header__name">Henrique Nunes</p>
-      <p class="header__wrapper__job">Ostéopathe à Bruges</p>
-    </a>
+        <a href="index.html">
+          <p class="header__name">Henrique Nunes</p>
+          <p class="header__wrapper__job">Ostéopathe à Bruges</p>
+        </a>
     </div>
-    <div class="navbar">
+    <div class="navbar__container">
       <div class="navbar__wrapper">
         <div class="navbar__menu">
-        <a class="navbar__link" href="index.html">Accueil</a>
-        <div class="dropdown">
-          <span class="navbar__link">Ostéopathie</span>
-          <div class="dropdown-content">
-            <div class="dropdown-content__wrapper">
-              <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-              <a class="dropdown-content__wrapper__link"
-              href="consultation-osteopathie.html">Consultation</a>
-              <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
-                consulter ?</a>
-                
+          <a class="navbar__link" href="index.html">Accueil</a>
+          <a class="navbar__link navbar__link__mobile" href="osteopathie.html">Ostéopathie</a>
+          <a class="navbar__link navbar__link__mobile" href="consultation-osteopathie.html">Consultation</a>
+          <a class="navbar__link navbar__link__mobile" href="quand-consulter-un-osteopathe.html">Quand
+            consulter ?</a>
+          <div class="dropdown">
+            <span class="navbar__link">Ostéopathie</span>
+            <div class="dropdown-content">
+              <div class="dropdown-content__wrapper">
+                <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
+                <a class="dropdown-content__wrapper__link" href="consultation-osteopathie.html">Consultation</a>
+                <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
+                  consulter ?</a>
               </div>
             </div>
           </div>
@@ -87,17 +89,18 @@
           <a class="navbar__link" href="tarifs.html">Tarifs</a>
         </div>
       </div>
-        <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
-        <button class="menu"><img class="menu__img" src="./assets/images/menu.png" alt="Icone Menu"></button>
-        <button class="menu-close test"><img class="menu__img" src="./assets/images/close.png" alt="Icone Menu"></button>
-      </div>
+      <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+        aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+      <button class="menu"><img class="menu__img" src="./assets/images/menu.svg" alt="Icone Menu"></button>
+      <button class="menu-close test"><img class="menu__img" src="./assets/images/close.svg" alt="Icone Menu"></button>
+    </div>
     </nav>
   </header>
   <main class="">
 
     <section data-aos="fade-in" class="banner banner-intro">
-      <img class="banner__img" src="./assets/images/bannerwhen.png" loading="lazy" alt="séance osteopathie">
-      <div class="banner__wrapper">
+      <img class="banner__img" src="./assets/images/bannerwhen.webp" loading="lazy" alt="séance osteopathie">
+      <div class="banner__wrapper banner__wrapper--intro">
         <h1 class="banner__title">Quand Consulter un Ostéopathe ?</h1>
       </div>
     </section>
@@ -149,7 +152,7 @@
               </ul>
             </article>
           </div>
-          <img data-aos="fade-left" class="article__wrapper__img" loading="lazy" src="./assets/images/enfants2.jpg" alt="Enfants">
+          <img data-aos="fade-left" class="article__wrapper__img" loading="lazy" src="./assets/images/enfants2.webp" alt="Enfants">
         </div>
       </article>
       <article data-aos="fade-in" id="femmes-enceintes" class="article__wrapper">
@@ -235,7 +238,7 @@
               </p>
             </article>
           </div>
-          <img data-aos="fade-left" class="article__wrapper__img" src="./assets/images/femmes-enc2.jpg" loading="lazy" alt="photo femme enceinte">
+          <img data-aos="fade-left" class="article__wrapper__img" src="./assets/images/1-91b1af1b.webp" loading="lazy" alt="photo femme enceinte">
         </div>
 
       </article>
@@ -290,7 +293,7 @@
               </ul>
             </article>
           </div>
-          <img data-aos="fade-right" class="article__wrapper__img" loading="lazy" src="./assets/images/osteopathie-nouveau-nes.jpg" alt="photo nouveau nés">
+          <img data-aos="fade-right" class="article__wrapper__img" loading="lazy" src="./assets/images/osteopathie-nouveau-nes.webp" alt="photo nouveau nés">
         </div>
 
       </article>
@@ -366,7 +369,7 @@
             </article>
           </div>
           <img class="article__wrapper__img article__wrapper__imgb" loading="lazy" data-aos="fade-left"
-            src="./assets/images/oldmen.jpg" alt="photo séniors">
+            src="./assets/images/oldmen.webp" alt="photo séniors">
 
         </div>
 
@@ -447,7 +450,7 @@
                 <strong>sportive</strong>.</p>
             </article>
           </div>
-          <img class="article__wrapper__img" src="/assets/images/osteopathie-sportifs.png" loading="lazy" alt="photo sportifs">
+          <img class="article__wrapper__img" src="/assets/images/osteopathie-sportifs.webp" loading="lazy" alt="photo sportifs">
         </div>
       </article>
       <article data-aos="fade-in" id="teams" class="article__wrapper">
@@ -479,35 +482,40 @@
               également indiquée pour corriger les conséquences de <strong>chutes</strong>, de <strong>mouvements
                 répétés</strong> ou de <strong>traumatismes divers</strong>.</p>
         </article>
-        <article class="article__wrapper">
-            <h3 class="article__wrapper__list-b">Renforcer Votre Corps</h3>
-            <p class="article__wrapper__text">Selon une <strong>étude</strong> menée par Hygie en 2005, "près d'1/4 des <strong>salariés</strong> a pris au
-              moins un <strong>arrêt maladie</strong> en 2005" (23%).</p>
-            <p class="article__wrapper__text">Ces <strong>interruptions</strong> de travail peuvent causer du tort à l'<strong>entreprise</strong>, allant
-              même jusqu'à <strong>handicaper</strong> son bon fonctionnement.</p>
-            <p class="article__wrapper__text">Devant cette augmentation constante du nombre d'<strong>arrêts de travail</strong>, il est
-              nécessaire pour les <strong>entreprises</strong> de trouver des <strong>solutions</strong>. C'est là que l'<strong>ostéopathie</strong> entre en jeu</p>
-            <p class="article__wrapper__text">En effet, selon la <strong>CRAMIF</strong>, plus des 3/4 des <strong>maladies professionnelles</strong>
-              reconnues sont des troubles <strong>musculo-squelettiques</strong>.</p>
-            <p class="article__wrapper__text">La prise en charge <strong>ostéopathique</strong>, au sein même de l'<strong>entreprise</strong>, facilite
-              l'accès aux <strong>soins</strong> des <strong>employés</strong>, sans perturber leur emploi du temps <strong>professionnel</strong>.</p>
-            <p class="article__wrapper__text">Elle permet également à l'<strong>ostéopathe</strong> d'évaluer l'<strong>ergonomie</strong> du poste de
-              travail, et donc de donner des <strong>conseils</strong> précis et concrets aux <strong>salariés</strong> afin de l'améliorer. Le <strong>traitement</strong>
-              <strong>ostéopathique</strong> peut ainsi permettre une diminution du nombre d'<strong>arrêts de travail</strong>, et même en réduire leur
-              durée.</p>
-        </article>
-        <article class="article__wrapper">
-            <h3 class="article__wrapper__list-b">Une Efficacité et un Bien-Être Retrouvés</h3>
-            <p class="article__wrapper__text">La prise en charge <strong>ostéopathique</strong> permet une <strong>amélioration</strong> de la <strong>productivité</strong>
-              et de la <strong>qualité</strong> du travail des <strong>employés</strong>.</p>
-            <p class="article__wrapper__text">De plus, cette démarche sera très appréciée par les <strong>salariés</strong>, leur montrant
-              l'<strong>importance</strong> que l'<strong>entreprise</strong> attache à leurs <strong>conditions de travail</strong> et à leur <strong>bien-être</strong>.</p>
-            <p class="article__wrapper__text">En définitive, l'<strong>ostéopathie</strong> confère aux <strong>salariés</strong> une meilleure adaptation à
-              leurs <strong>contraintes</strong> de travail, permettant ainsi un <strong>gain</strong> de <strong>concentration</strong> dans une optique de recherche de
-              <strong>productivité</strong>.</p>
-            <p class="article__wrapper__text">Pour tout <strong>renseignement</strong> concernant l'<strong>intervention</strong> de votre <strong>ostéopathe</strong> en
-              <strong>entreprise</strong>, n'hésitez pas à la <strong>contacter</strong> par <strong>téléphone</strong> ou par <strong>mail</strong> via la rubrique "Contact".</p>
-        </article>
+        <div class="article__container">
+          <div>
+            <article class="article__wrapper">
+                <h3 class="article__wrapper__list-b">Renforcer Votre Corps</h3>
+                <p class="article__wrapper__text">Selon une <strong>étude</strong> menée par Hygie en 2005, "près d'1/4 des <strong>salariés</strong> a pris au
+                  moins un <strong>arrêt maladie</strong> en 2005" (23%).</p>
+                <p class="article__wrapper__text">Ces <strong>interruptions</strong> de travail peuvent causer du tort à l'<strong>entreprise</strong>, allant
+                  même jusqu'à <strong>handicaper</strong> son bon fonctionnement.</p>
+                <p class="article__wrapper__text">Devant cette augmentation constante du nombre d'<strong>arrêts de travail</strong>, il est
+                  nécessaire pour les <strong>entreprises</strong> de trouver des <strong>solutions</strong>. C'est là que l'<strong>ostéopathie</strong> entre en jeu</p>
+                <p class="article__wrapper__text">En effet, selon la <strong>CRAMIF</strong>, plus des 3/4 des <strong>maladies professionnelles</strong>
+                  reconnues sont des troubles <strong>musculo-squelettiques</strong>.</p>
+                <p class="article__wrapper__text">La prise en charge <strong>ostéopathique</strong>, au sein même de l'<strong>entreprise</strong>, facilite
+                  l'accès aux <strong>soins</strong> des <strong>employés</strong>, sans perturber leur emploi du temps <strong>professionnel</strong>.</p>
+                <p class="article__wrapper__text">Elle permet également à l'<strong>ostéopathe</strong> d'évaluer l'<strong>ergonomie</strong> du poste de
+                  travail, et donc de donner des <strong>conseils</strong> précis et concrets aux <strong>salariés</strong> afin de l'améliorer. Le <strong>traitement</strong>
+                  <strong>ostéopathique</strong> peut ainsi permettre une diminution du nombre d'<strong>arrêts de travail</strong>, et même en réduire leur
+                  durée.</p>
+            </article>
+            <article class="article__wrapper">
+                <h3 class="article__wrapper__list-b">Une Efficacité et un Bien-Être Retrouvés</h3>
+                <p class="article__wrapper__text">La prise en charge <strong>ostéopathique</strong> permet une <strong>amélioration</strong> de la <strong>productivité</strong>
+                  et de la <strong>qualité</strong> du travail des <strong>employés</strong>.</p>
+                <p class="article__wrapper__text">De plus, cette démarche sera très appréciée par les <strong>salariés</strong>, leur montrant
+                  l'<strong>importance</strong> que l'<strong>entreprise</strong> attache à leurs <strong>conditions de travail</strong> et à leur <strong>bien-être</strong>.</p>
+                <p class="article__wrapper__text">En définitive, l'<strong>ostéopathie</strong> confère aux <strong>salariés</strong> une meilleure adaptation à
+                  leurs <strong>contraintes</strong> de travail, permettant ainsi un <strong>gain</strong> de <strong>concentration</strong> dans une optique de recherche de
+                  <strong>productivité</strong>.</p>
+                <p class="article__wrapper__text">Pour tout <strong>renseignement</strong> concernant l'<strong>intervention</strong> de votre <strong>ostéopathe</strong> en
+                  <strong>entreprise</strong>, n'hésitez pas à la <strong>contacter</strong> par <strong>téléphone</strong> ou par <strong>mail</strong> via la rubrique "Contact".</p>
+            </article>
+          </div>
+          <img data-aos="fade-left" class="article__wrapper__img" src="./assets/images/osteopathie-entreprise.webp" alt="équipe de travail">
+        </div>
     </article>
     
 
@@ -515,7 +523,7 @@
 
 
     <section class="banner">
-      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg" loading="lazy" alt="Séance d'ostéopathie">
+      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.webp" loading="lazy" alt="Séance d'ostéopathie">
       <div class="banner__wrapper">
         <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
         <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>

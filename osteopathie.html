@@ -59,27 +59,29 @@
 <body>
 
   <header data-aos="fade-in" class="header mw-container">
+    <nav class="navbar">
     <div class="header__wrapper">
-      <nav class="navbar">
-      <a href="index.html">
-      <p class="header__name">Henrique Nunes</p>
-      <p class="header__wrapper__job">Ostéopathe à Bruges</p>
-    </a>
+        <a href="index.html">
+          <p class="header__name">Henrique Nunes</p>
+          <p class="header__wrapper__job">Ostéopathe à Bruges</p>
+        </a>
     </div>
-    <div class="navbar">
+    <div class="navbar__container">
       <div class="navbar__wrapper">
         <div class="navbar__menu">
-        <a class="navbar__link" href="index.html">Accueil</a>
-        <div class="dropdown">
-          <span class="navbar__link">Ostéopathie</span>
-          <div class="dropdown-content">
-            <div class="dropdown-content__wrapper">
-              <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-              <a class="dropdown-content__wrapper__link"
-              href="consultation-osteopathie.html">Consultation</a>
-              <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
-                consulter ?</a>
-                
+          <a class="navbar__link" href="index.html">Accueil</a>
+          <a class="navbar__link navbar__link__mobile" href="osteopathie.html">Ostéopathie</a>
+          <a class="navbar__link navbar__link__mobile" href="consultation-osteopathie.html">Consultation</a>
+          <a class="navbar__link navbar__link__mobile" href="quand-consulter-un-osteopathe.html">Quand
+            consulter ?</a>
+          <div class="dropdown">
+            <span class="navbar__link">Ostéopathie</span>
+            <div class="dropdown-content">
+              <div class="dropdown-content__wrapper">
+                <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
+                <a class="dropdown-content__wrapper__link" href="consultation-osteopathie.html">Consultation</a>
+                <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe.html">Quand
+                  consulter ?</a>
               </div>
             </div>
           </div>
@@ -87,16 +89,17 @@
           <a class="navbar__link" href="tarifs.html">Tarifs</a>
         </div>
       </div>
-        <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
-        <button class="menu"><img class="menu__img" src="./assets/images/menu.png" alt="Icone Menu"></button>
-        <button class="menu-close test"><img class="menu__img" src="./assets/images/close.png" alt="Icone Menu"></button>
-      </div>
+      <a class="btn btn-black" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+        aria-label="Prendre rendez-vous en ligne">Rdv en ligne</a>
+      <button class="menu"><img class="menu__img" src="./assets/images/menu.svg" alt="Icone Menu"></button>
+      <button class="menu-close test"><img class="menu__img" src="./assets/images/close.svg" alt="Icone Menu"></button>
+    </div>
     </nav>
   </header>
   <main class="">
     <section class="banner banner-intro">
-      <img class="banner__img" src="./assets/images/bannerosteo.png" loading="lazy" alt="séance osteopathie">
-      <div class="banner__wrapper">
+      <img class="banner__img" src="./assets/images/bannerosteo.webp" loading="lazy" alt="séance osteopathie">
+      <div class="banner__wrapper banner__wrapper--intro">
        <h1 class="banner__title">L’ostéopathie </h1>
       </div>
     </section>
@@ -109,7 +112,7 @@
         <article class="article__wrapper">
             <h2 class="article__wrapper__title">Les principes de l'ostéopathie</h2>
             <p class="article__wrapper__text"><strong>L'ostéopathie</strong> obtient ses résultats grâce à une intervention uniquement <strong>manuelle</strong>. La caractéristique de cette thérapie, dont <strong>l'efficacité</strong> n'est plus à prouver, est de s'intéresser au <strong>corps humain</strong> comme un tout et de traiter la <strong>cause des troubles</strong> en respectant la relation entre le <strong>corps du patient</strong> et sa <strong>pensée</strong>, son <strong>psychisme</strong>. Un <strong>esprit sain</strong> dans un <strong>corps sain</strong> !  </p>
-            <img class="article__wrapper__img" loading="lazy" src="./assets/images/image.png" alt="photo séance ostéo" >
+            <!-- <img class="" loading="lazy" src="https://img.freepik.com/photos-gratuite/patiente-subissant-therapie-physique_23-2148836487.webp?t=st=1732884814~exp=1732888414~hmac=dc1f6b7de3a4f6b32064b51fe26cb5fd77ec207556cf3c06a05cf390fa4ddde4&w=1380" alt="photo séance ostéo" > -->
         </article>
         <article class="article__wrapper">
           <h2 class="article__wrapper__title">Déroulement d'une séance </h2>
@@ -155,7 +158,7 @@
     
 
     <section class="banner">
-      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.jpg" loading="lazy" alt="Séance d'ostéopathie">
+      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.webp" loading="lazy" alt="Séance d'ostéopathie">
       <div class="banner__wrapper">
         <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
         <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
