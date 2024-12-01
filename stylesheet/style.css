@@ -1087,5 +1087,17 @@ a .btn:hover {
     .show-menu {
         top: 85px;
     }
+    .osteo__all__figcaption {
+        padding: 0;
+    }
+
+    .navbar__container .btn {
+        width: 100px;
+        padding: 0;
+    }
+
+    .header__wrapper__job {
+        text-align: left;
+    }
 }
 
