@@ -1075,6 +1075,14 @@ a .btn:hover {
 
 @media screen and (max-width: 500px) {
 
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
     .header {
         height: 90px;
     }
