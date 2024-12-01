@@ -1080,7 +1080,12 @@ a .btn:hover {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 17px;
+    }
+
+    li {
+        line-height: 22px;
+        padding: 3px 0;
     }
 
     .header {
