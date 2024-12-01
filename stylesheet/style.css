@@ -916,14 +916,20 @@ a .btn:hover {
         justify-content: center;   
     }
 
-    .banner__wrapper--intro {
-        align-items: start;
-    }
     
     .banner__title {
         text-align: center;
         font-size: 36px;
         /* max-width: 385px; */
+    }
+
+    .banner__title--intro {
+        text-align: left;
+    }
+    
+    .banner__wrapper--intro {
+        align-items: start;
+        text-align: left;
     }
     
     .photo {
