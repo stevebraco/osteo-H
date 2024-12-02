@@ -30,7 +30,6 @@ btnMedical.addEventListener('click', () => {
 
   window.addEventListener('DOMContentLoaded', () => {
   const observer = new IntersectionObserver(entries => {
-    console.log(entries)
     entries.forEach(entry => {
       const id = entry.target.getAttribute('id');
       if (entry.intersectionRatio > 0) {
@@ -51,14 +50,30 @@ btnMedical.addEventListener('click', () => {
 const navbar = document.querySelector('.navbar__wrapper')
 const btnMenu = document.querySelector('.menu')
 const btnClose = document.querySelector('.menu-close')
+const body = document.querySelector('body')
+const header = document.querySelector('.header')
 btnMenu.addEventListener('click', () => {
   navbar.classList.toggle('show-menu')
   btnMenu.classList.add('test')
   btnClose.classList.remove('test')
+  body.classList.add('over-hidden')
 })
 
 btnClose.addEventListener('click', () => {
   navbar.classList.toggle('show-menu')
   btnMenu.classList.remove('test')
   btnClose.classList.add('test')
+  body.classList.remove('over-hidden')
+
 })
+
+document.addEventListener('scroll', () => {
+  const shouldScroll = window.scrollY > 700;
+  
+  // Ajout ou suppression de la classe
+  if (shouldScroll && !header.classList.contains('scrolled')) {
+    header.classList.add('scrolled');
+  } else if (!shouldScroll && header.classList.contains('scrolled')) {
+    header.classList.remove('scrolled');
+  }
+});

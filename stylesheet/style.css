@@ -19,6 +19,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
 
 a {
     font-family: "Josefin Slab", serif;
@@ -26,12 +34,12 @@ a {
     color: #000000;
     font-weight: 600;
     font-size: 15px;
-    transition: all .2s ease-in-out;
     border-bottom: 1px solid transparent;
 }
 
 main {
     overflow: hidden;
+    position: relative;
 }
 
 button {
@@ -39,10 +47,28 @@ button {
     background: none;
 }
 
+.icon__wrapper {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .2s ease-in-out;
+}
+
+.icon__wrapper:hover {
+    opacity: 1;
+}
+
 .navbar__link:hover, .btn:hover, .hero__wrapper__link:hover, .osteo__all__figcaption__link:hover {
     opacity: .5;
     /* border-color: #00000080; */
 }
+
+
 
 img {
     width: 100%;
@@ -52,7 +78,7 @@ h2 {
     font-family: "Josefin Slab", serif;
     /* color: #7D451B; */
     color: #B18369;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
     line-height: 55px;
 }
@@ -111,6 +137,19 @@ strong {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    z-index: 999;
+    box-shadow: none; /* Pas d'ombre initialement */
+    transition: all .5s ease-in-out;  
+    position: sticky;
+    top: -100px;
+    width: 100%;
+}
+
+.header.scrolled {
+    background-color: #ffffff;
+    opacity: 0.99;
+    top: 0;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 .header__wrapper {
@@ -142,18 +181,22 @@ strong {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    padding: 0 25px;
+
 }
 .navbar__menu {
     display: flex;
     align-items: baseline;
     justify-content: center;
     gap: 30px;
+
 }
 
 .navbar__container {
     display: flex;
     align-items: center;
     gap: 30px;
+
 }
 
 .link-ext {
@@ -170,7 +213,9 @@ font-family: "Josefin Slab", serif;
     font-weight: 600;
     font-size: 15px;
     transition: all .2s ease-in-out;
-    border-bottom: 1px solid transparent;}
+    border-bottom: 1px solid transparent;
+
+}
 
 .btn {
     font-family: "Josefin Slab", serif;
@@ -359,7 +404,7 @@ a .btn:hover {
 }
 
 .osteo__intro__title {
-    max-width: 900px;
+    max-width: 650px;
     text-align: center;
     margin: 50px auto;
 }
@@ -1072,9 +1117,6 @@ a .btn:hover {
         max-width: 100%;
     }
 
-    .comfort__wrapper__home__article h3 {
-        text-align: left;
-    }
 
 }
 
