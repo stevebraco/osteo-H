@@ -831,6 +831,44 @@ a .btn:hover {
     height: 100%;
     object-fit: fill;
   }
+
+  .consultation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .consultation__card {
+    background: #F5F5F5;
+    padding: 20px 36px;
+    width: 38%;
+    border-radius: 10px;
+  }
+
+  .consultation__card__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .consultation__card__wrapper__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .consultation__card__wrapper__km {
+    color: #4A5568;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .consultation__card__wrapper__price {
+    color: #4A5568;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
   
   /* Animation de défilement */
   @keyframes scroll-left {
@@ -913,6 +951,15 @@ a .btn:hover {
     
     .hero__wrapper__link {
         justify-content: center;
+    }
+
+    .consultation {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .consultation__card {
+        width: 90%;
     }
     
 }
