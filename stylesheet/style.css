@@ -279,6 +279,7 @@ a .btn:hover {
     display: inline-block;
     padding: initial;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -1093,6 +1094,10 @@ a .btn:hover {
     .btn-footer {
         width: 50%;
     }
+    .icon__wrapper {
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
 @media screen and (max-width: 785px) {
@@ -1252,5 +1257,6 @@ a .btn:hover {
     .header__wrapper__job {
         text-align: left;
     }
+    
 }
 
