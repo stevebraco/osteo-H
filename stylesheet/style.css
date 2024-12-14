@@ -960,7 +960,7 @@ a .btn:hover {
     }
 
     .consultation__card {
-        width: 90%;
+        width: initial;
     }
     
 }
@@ -1212,6 +1212,11 @@ a .btn:hover {
     .comfort__wrapper__home__article {
         width: 100%;
         max-width: 100%;
+    }
+
+    .article__wrapper__img--osteo {
+        object-position: 0px -85px;
+        height: 400px;
     }
 
 
