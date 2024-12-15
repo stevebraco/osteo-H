@@ -114,7 +114,7 @@ strong {
 
 .rect {
     width: 52%;
-    height: 900px;
+    height: 800px;
     background-color: #F0EAE6;
     position: absolute;
     top: 0;
@@ -681,6 +681,47 @@ a .btn:hover {
     width: 30px;
     height: 30px;
     object-fit: contain;
+}
+
+.collab-club {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 70px;
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container img {
+    height: auto;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #b2846b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 10;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 
 .footer {
