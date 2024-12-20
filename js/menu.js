@@ -3,15 +3,15 @@ const body = document.querySelector('body')
 
 export const openMenu = (btnMenu, btnClose) => {
     navbar.classList.toggle('show-menu')
-    btnMenu.classList.add('test')
-    btnClose.classList.remove('test')
+    btnMenu.classList.add('hidden')
+    btnClose.classList.remove('hidden')
     body.classList.add('over-hidden')
   }
 
 export const closeMenu = (btnMenu, btnClose) => {
     navbar.classList.toggle('show-menu')
-    btnMenu.classList.remove('test')
-    btnClose.classList.add('test')
+    btnMenu.classList.remove('hidden')
+    btnClose.classList.add('hidden')
     body.classList.remove('over-hidden')
   
   }

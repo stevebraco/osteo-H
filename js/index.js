@@ -10,6 +10,7 @@ const btnClose = document.querySelector('.menu-close')
 
 
 
+
 btnConsultation.addEventListener('click', () => showConsultation(btnConsultation, btnMedical));
 btnMedical.addEventListener('click', () => showMedical(btnConsultation, btnMedical));
 
@@ -21,14 +22,19 @@ document.addEventListener('DOMContentLoaded', aos);
 
 document.addEventListener('scroll', scrollTop);
 
- document.addEventListener('DOMContentLoaded', function () {
-      new Glide('.glide', {
-        type: 'carousel',      // Type de carrousel
-        startAt: 0,            // L'index du premier slide
-        perView: 3,            // Nombre de slides visibles à la fois
-        gap: 0,               // Espace entre les slides
-        autoplay: 2000,        // Défilement automatique toutes les 3 secondes (3000 ms)
-        hoverpause: false,      // Arrêter l'autoplay au survol
-        loop: true             // Faire tourner les slides en boucle
-      }).mount();
-    });
+document.addEventListener('DOMContentLoaded', function () {
+  new Glide('.glide', {
+    type: 'carousel',      // Type de carrousel
+    startAt: 0,            // L'index du premier slide
+    perView: 3,            // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
+    gap: 0,                // Espace entre les slides
+    autoplay: 2000,        // Défilement automatique toutes les 3 secondes (3000 ms)
+    hoverpause: false,     // Arrêter l'autoplay au survol
+    loop: true,            // Faire tourner les slides en boucle
+    breakpoints: {
+      785: {
+        perView: 1,        // À partir de 785px, afficher une seule image
+      }
+    }
+  }).mount();
+});

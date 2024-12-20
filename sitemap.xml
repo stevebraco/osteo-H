@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/</loc> <!-- Page d'accueil -->
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/osteopathie.html</loc> <!-- Page Ostéopathie -->
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/consultation-osteopathie-bruges.html</loc> <!-- Page Consultation -->
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/quand-consulter-un-osteopathe-bruges.html</loc> <!-- Page Quand consulter ? -->
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/osteopathe-bruges.html</loc> <!-- Page Votre Ostéopathe -->
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/tarifs.html</loc> <!-- Page Tarifs -->
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>

@@ -2,7 +2,6 @@ const contentConsultation = document.querySelector('.content-consultation')
 const contentMedical = document.querySelector('.content-medical')
 
 function toggleContent(showElement, hideElement) {
-    showElement.classList.add('show');
     showElement.classList.remove('close');
     hideElement.classList.remove('show');
     hideElement.classList.add('close');

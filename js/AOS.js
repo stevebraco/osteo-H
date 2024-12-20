@@ -1,7 +1,10 @@
 export const aos =  () => {
     AOS.init({
       // Global settings:
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      disable: () => {
+      // Fonction pour vérifier si l'appareil est mobile
+      return window.innerWidth < 768; // Désactiver si la largeur de l'écran est inférieure à 768px
+    }, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
       initClassName: "aos-init", // class applied after initialization
       animatedClassName: "aos-animate", // class applied on animation
