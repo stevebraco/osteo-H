@@ -1,403 +1,614 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile."
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Meta Description -->
-  <meta name="description"
-    content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile." />
+    <!-- Fonts and Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet/aos.css" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <!-- Fonts and Styles -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="stylesheet/aos.css">
-  <link rel="stylesheet" href="stylesheet/style.css">
-  <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Page Title -->
+    <title>Henrique Nunes - Ostéopathe Bruges | Cabinet & Domicile</title>
 
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Henrique Nunes - Ostéopathe",
+        "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Allée de la Salamandre",
+          "addressLocality": "Bruges",
+          "postalCode": "33520",
+          "addressCountry": "FR"
+        },
+        "telephone": "0650636977",
+        "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
+        "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/h6imafab3aqd2orokn12.webp",
+        "areaServed": "Bruges et environs",
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "19:00"
+          }
+        ],
+        "medicalSpecialty": "Osteopathic"
+      }
+    </script>
+  </head>
 
-  <!-- Page Title -->
-  <title>Henrique Nunes - Ostéopathe à Bruges | Soins en Cabinet et à Domicile</title>
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Physician",
-  "name": "Henrique Nunes - Ostéopathe",
-  "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Allée de la Salamandre",
-    "addressLocality": "Bruges",
-    "postalCode": "33520",
-    "addressCountry": "FR"
-  },
-  "telephone": "0650636977",
-  "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
-  "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/h6imafab3aqd2orokn12.webp",
-  "areaServed": "Bruges et environs",
-  "priceRange": "$$",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "19:00"
-    }
-  ],
-  "medicalSpecialty": "Osteopathic"
-}
-</script>
-</head>
-
-
-<body>
-  <div class="rect" data-aos="fade-left"></div>
-  <header class="header">
-
-    <nav class="navbar mw-container">
-      <div class="header__wrapper">
-        <a href="/">
-          <span class="header__name">Henrique Nunes</span>
-          <span class="header__wrapper__job">Ostéopathe à Bruges</span>
-        </a>
-      </div>
-      <div class="navbar__container">
-        <div class="navbar__wrapper">
-          <div class="navbar__menu">
-            <a class="navbar__link" href="/">Accueil</a>
-            <a class="navbar__link navbar__link__mobile" href="osteopathie.html">Ostéopathie</a>
-            <a class="navbar__link navbar__link__mobile" href="consultation-osteopathie-bruges.html">Consultation</a>
-            <a class="navbar__link navbar__link__mobile" href="quand-consulter-un-osteopathe-bruges.html">Quand
-              consulter ?</a>
-            <div class="dropdown">
-              <span class="navbar__link">Ostéopathie</span>
-              <div class="dropdown-content">
-                <div class="dropdown-content__wrapper">
-                  <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-                  <a class="dropdown-content__wrapper__link"
-                    href="consultation-osteopathie-bruges.html">Consultation</a>
-                  <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe-bruges.html">Quand
-                    consulter ?</a>
+  <body>
+    <div class="rect" data-aos="fade-left"></div>
+    <header class="header">
+      <nav class="navbar mw-container">
+        <div class="header__wrapper">
+          <a href="/">
+            <span class="header__name">Henrique Nunes</span>
+            <span class="header__wrapper__job">Ostéopathe à Bruges</span>
+          </a>
+        </div>
+        <div class="navbar__container">
+          <div class="navbar__wrapper">
+            <div class="navbar__menu">
+              <a class="navbar__link" href="/">Accueil</a>
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="osteopathie.html"
+                >Ostéopathie</a
+              >
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="consultation-osteopathie-bruges.html"
+                >Consultation</a
+              >
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="quand-consulter-un-osteopathe-bruges.html"
+                >Quand consulter ?</a
+              >
+              <div class="dropdown">
+                <span class="navbar__link">Ostéopathie</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-content__wrapper">
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="osteopathie.html"
+                      >Définition</a
+                    >
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="consultation-osteopathie-bruges.html"
+                      >Consultation</a
+                    >
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="quand-consulter-un-osteopathe-bruges.html"
+                      >Quand consulter ?</a
+                    >
+                  </div>
                 </div>
               </div>
+              <a class="navbar__link" href="osteopathe-bruges.html"
+                >Votre ostéopathe</a
+              >
+              <a class="navbar__link" href="tarifs.html">Tarifs</a>
+              <a class="navbar__link" href="articles.html">Articles</a>
             </div>
-            <a class="navbar__link" href="osteopathe-bruges.html">Votre ostéopathe</a>
-            <a class="navbar__link" href="tarifs.html">Tarifs</a>
+          </div>
+          <a
+            class="btn btn-black"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Rdv en ligne</a
+          >
+          <button class="menu">
+            <img
+              class="menu__img"
+              src="./assets/images/menu.svg"
+              alt="Icone Menu"
+              loading="lazy"
+            />
+          </button>
+          <button class="menu-close hidden">
+            <img
+              class="menu__img"
+              src="./assets/images/close.svg"
+              alt="Icone Menu"
+              loading="lazy"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main id="up" class="main">
+      <a href="#up" class="icon__wrapper">
+        <img src="./assets/images/ArrowUpIcon.svg" alt="icon fleche" />
+      </a>
+      <section data-aos="fade-right" class="hero sect-mb mw-container">
+        <div class="hero__wrapper">
+          <h1>
+            <span class="hero__wrapper__name">Henrique Nunes</span>
+            <span class="hero__wrapper__location">Ostéopathe à Bruges</span>
+          </h1>
+          <p class="hero__wrapper__desc">
+            Ostéopathe expérimenté, situé à Bruges, je suis dédié à améliorer
+            votre bien-être grâce à des techniques adaptées à chaque patient.
+            Mon cabinet d'ostéopathie propose des soins personnalisés pour
+            soulager les douleurs, améliorer la mobilité, et prévenir les
+            troubles musculo-squelettiques, que vous soyez adulte, enfant ou
+            sportif.
+          </p>
+          <a class="hero__wrapper__link" href="osteopathie.html">
+            <img
+              class="hero__wrapper__link__img"
+              src="./assets/images/roundIcon.webp"
+              alt="Logo rond ostéopathie"
+            />
+            <span class="hero__wrapper__link__text"
+              >En savoir plus sur l'ostéopathie</span
+            ></a
+          >
+        </div>
+        <img
+          class="hero__img"
+          src="./assets/images/photo-henrique-nunes.webp"
+          loading="lazy"
+          alt="Photo de l'ostéopathe Henrique Nunes"
+        />
+      </section>
+      <section class="osteo sect-mb">
+        <article class="osteo__intro">
+          <h2 class="osteo__intro__title">
+            L'Ostéopathie pour Tous : Un Soin Adapté à Chaque Âge de la Vie
+          </h2>
+          <p class="osteo__intro__desc">
+            Que vous soyez enfant, femme enceinte, senior ou sportif,
+            l’ostéopathie offre des solutions adaptées à vos besoins
+            spécifiques. En rétablissant l’équilibre de votre corps, elle
+            soulage les douleurs, prévient les troubles musculo-squelettiques et
+            favorise un bien-être global. Découvrez comment l’ostéopathie peut
+            améliorer votre qualité de vie, quel que soit votre âge ou votre
+            condition physique.
+          </p>
+        </article>
+        <div class="osteo__all">
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-sportifs.webp"
+                loading="lazy"
+                alt="Photo de sportifs"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie pour les Sportifs
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  Optimiser les performances, prévenir et traiter les blessures
+                  liées au sport. L'ostéopathie aide à prévenir et traiter les
+                  blessures sportives comme les entorses, déchirures, et
+                  douleurs chroniques. Elle améliore la mobilité, optimise les
+                  performances et favorise la récupération après l’effort.
+                </p>
+                <a
+                  class="osteo__all__figcaption__link"
+                  href="quand-consulter-un-osteopathe-bruges.html?#sportifs"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-enfants.webp"
+                loading="lazy"
+                alt="Photo d'enfants"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie pour les Enfants
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  Prévenir les troubles posturaux et favoriser une croissance
+                  harmonieuse grâce à un suivi ostéopathique. L’ostéopathie aide
+                  à corriger les déséquilibres, améliore la posture et soutient
+                  le bien-être général de votre enfant.
+                </p>
+                <a
+                  href="quand-consulter-un-osteopathe-bruges.html?#enfants"
+                  class="osteo__all__figcaption__link"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-femmes-enceintes.webp"
+                loading="lazy"
+                alt="Photo d'une femme enceinte"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie pour les Femmes enceintes
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  Soulager les douleurs, préparer le corps pour une grossesse
+                  harmonieuse. L'ostéopathie rééquilibre votre corps pendant la
+                  grossesse, facilite l'accouchement et soulage les douleurs
+                  postnatales, tout en soutenant le bien-être de la maman et du
+                  bébé.
+                </p>
+                <a
+                  class="osteo__all__figcaption__link"
+                  href="quand-consulter-un-osteopathe-bruges.html?#femmes-enceintes"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-nouveau-nes.webp"
+                loading="lazy"
+                alt="Photo de nouveau-nés"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie pour les Nouveau Nés
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  L’accouchement peut provoquer des tensions sur le crâne et le
+                  corps de votre bébé, entraînant des troubles digestifs,
+                  déformations crâniennes ou inconforts. L’ostéopathie aide à
+                  rétablir son équilibre et favorise son bien-être. Offrez à
+                  votre enfant un accompagnement doux pour bien démarrer sa vie.
+                </p>
+                <a
+                  class="osteo__all__figcaption__link"
+                  href="quand-consulter-un-osteopathe-bruges.html?#nouveau-nes"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-seniors.webp"
+                loading="lazy"
+                alt="Photo de seniors"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie pour les Seniors
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  Maintenir la mobilité, prévenir les douleurs articulaires et
+                  vertébrales efficacement. L'ostéopathie aide à soulager les
+                  douleurs liées à l'arthrose, les tensions musculaires et les
+                  troubles fonctionnels, tout en soutenant la santé globale.
+                </p>
+                <a
+                  class="osteo__all__figcaption__link"
+                  href="quand-consulter-un-osteopathe-bruges.html?#seniors"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="osteo__all__link">
+            <figure class="osteo__all__figure">
+              <img
+                class="osteo__all__img"
+                src="./assets/images/osteopathie-entreprise.webp"
+                loading="lazy"
+                alt="Photo d'une équipe en entreprise"
+              />
+              <figcaption class="osteo__all__figcaption">
+                <h3 class="osteo__all__figcaption__title">
+                  Ostéopathie en Entreprise
+                </h3>
+                <p class="osteo__all__figcaption__desc">
+                  Amélioration de la productivité, du bien-être physique et
+                  psychique de vos collaborateurs. L'ostéopathie en entreprise
+                  prévient les troubles musculo-squelettiques, réduit les arrêts
+                  maladie et optimise l'ergonomie, favorisant ainsi un
+                  environnement de travail plus productif et sain.
+                </p>
+                <a
+                  class="osteo__all__figcaption__link"
+                  href="quand-consulter-un-osteopathe-bruges.html?#entreprise"
+                  >En savoir plus</a
+                >
+              </figcaption>
+            </figure>
           </div>
         </div>
-        <a class="btn btn-black" target="_blank" rel="noopener noreferrer"
-          href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv
-          en ligne</a>
-        <button class="menu"><img class="menu__img" src="./assets/images/menu.svg" alt="Icone Menu"
-            loading="lazy"></button>
-        <button class="menu-close hidden"><img class="menu__img" src="./assets/images/close.svg" alt="Icone Menu"
-            loading="lazy"></button>
-      </div>
-    </nav>
-  </header>
-  <main id="up" class="main">
-    <a href="#up" class="icon__wrapper">
-      <img src="./assets/images/ArrowUpIcon.svg" alt="icon fleche">
-    </a>
-    <section data-aos="fade-right" class="hero sect-mb mw-container">
-      <div class="hero__wrapper">
-        <h1>
-          <span class="hero__wrapper__name">Henrique Nunes</span>
-          <span class="hero__wrapper__location">Ostéopathe à Bruges</span>
-        </h1>
-        <p class="hero__wrapper__desc">
-          Ostéopathe expérimenté, situé à Bruges, je suis dédié à améliorer
-          votre bien-être grâce à des techniques adaptées à chaque patient.
-          Mon cabinet d'ostéopathie propose des soins personnalisés pour
-          soulager les douleurs, améliorer la mobilité, et prévenir les
-          troubles musculo-squelettiques, que vous soyez adulte, enfant ou
-          sportif.
-        </p>
-        <a class="hero__wrapper__link" href="osteopathie.html"> <img class="hero__wrapper__link__img"
-            src="./assets/images/roundIcon.webp" alt="Logo rond ostéopathie"> <span class="hero__wrapper__link__text">En
-            savoir plus
-            sur l'ostéopathie</span></a>
-      </div>
-      <img class="hero__img" src="./assets/images/photo-henrique-nunes.webp" loading="lazy"
-        alt="Photo de l'ostéopathe Henrique Nunes" />
-    </section>
-    <section class="osteo sect-mb">
-      <article class="osteo__intro">
-        <h2 class="osteo__intro__title">
-          L'Ostéopathie pour Tous : Un Soin Adapté à Chaque Âge de la Vie
+      </section>
+      <section class="comfort mw-container sect-mb">
+        <h2 class="comfort__title">
+          Votre Bien-être : Chez Vous ou au Cabinet
         </h2>
-        <p class="osteo__intro__desc">
-          Que vous soyez enfant, femme enceinte, senior ou sportif,
-          l’ostéopathie offre des solutions adaptées à vos besoins
-          spécifiques. En rétablissant l’équilibre de votre corps, elle
-          soulage les douleurs, prévient les troubles musculo-squelettiques et
-          favorise un bien-être global. Découvrez comment l’ostéopathie peut
-          améliorer votre qualité de vie, quel que soit votre âge ou votre
-          condition physique.
-        </p>
-      </article>
-      <div class="osteo__all">
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-sportifs.webp" loading="lazy"
-              alt="Photo de sportifs" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie pour les Sportifs</h3>
-              <p class="osteo__all__figcaption__desc">
-                Optimiser les performances, prévenir et traiter les blessures liées au sport.
+        <div class="comfort__wrapper">
+          <div data-aos="fade-up" class="comfort__wrapper__home">
+            <img
+              class="photo"
+              src="assets/images/photo-henrique-domicile.webp"
+              loading="lazy"
+              alt="Photo de l'ostéopathe Henrique lors d'une consultation à domicile"
+            />
+            <article class="comfort__wrapper__home__article">
+              <h3>
+                Les Bienfaits d’une Séance d’Ostéopathie à Domicile sur Bordeaux
+                et ses Alentours
+              </h3>
+              <div class="comfort_wrapper__home__article__text">
+                <p>
+                  En choisissant un ostéopathe à domicile sur Bordeaux et ses
+                  alentours, comme Bruges, Le Bouscat, Blanquefort, Eysines, ou
+                  Caudéran, vous profitez d’un confort optimal pour vos séances
+                  d’ostéopathie.
+                </p>
+                <p>
+                  Fini le stress des déplacements, surtout en cas de douleurs ou
+                  de fatigue : je me déplace directement chez vous, avec tout le
+                  matériel nécessaire pour assurer une séance de qualité dans le
+                  calme et la sécurité de votre espace personnel.
+                </p>
+              </div>
+              <button
+                class="btn btn-light"
+                onclick="window.location.href='consultation-osteopathie-bruges.html'"
+              >
+                En savoir plus
+              </button>
+            </article>
+          </div>
 
-                L'ostéopathie aide à prévenir et traiter les blessures sportives comme les entorses, déchirures, et
-                douleurs chroniques. Elle améliore la mobilité, optimise les performances et favorise la récupération
-                après l’effort.
-              </p>
-              <a class="osteo__all__figcaption__link" href="quand-consulter-un-osteopathe-bruges.html?#sportifs">En
-                savoir
-                plus</a>
-            </figcaption>
-          </figure>
+          <div data-aos="fade-up" class="comfort__wrapper__home flex-column">
+            <article class="comfort__wrapper__home__article">
+              <h3>Un Accueil Serein dans Notre Clinique à Mérignac</h3>
+              <div class="comfort_wrapper__home__article__text">
+                <p>
+                  En optant pour une consultation en ostéopathie au
+                  <a class="link-ext" href="https://www.medical-stadium.com/"
+                    >Medical Stadium</a
+                  >
+                  de Mérignac, vous bénéficiez d'un environnement calme et
+                  spécialement conçu pour votre bien-être. Notre établissement
+                  est entièrement équipé pour vous offrir des séances
+                  d'ostéopathie de haute qualité, dans un cadre professionnel et
+                  confortable. Profitez d'un soin personnalisé, adapté à vos
+                  besoins, pour soulager vos douleurs et améliorer votre
+                  mobilité.
+                </p>
+              </div>
+              <button
+                class="btn btn-light"
+                onclick="window.location.href='consultation-osteopathie-bruges.html'"
+              >
+                En savoir plus
+              </button>
+            </article>
+            <img
+              class="photo"
+              src="assets/images/clinique-medical-stadium.webp"
+              loading="lazy"
+              alt="Photo de la clinique de Mérignac"
+            />
+          </div>
         </div>
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-enfants.webp" loading="lazy"
-              alt="Photo d'enfants" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie pour les Enfants</h3>
-              <p class="osteo__all__figcaption__desc">
-                Prévenir les troubles posturaux et favoriser une croissance harmonieuse grâce à un suivi ostéopathique.
-                L’ostéopathie aide à corriger les déséquilibres, améliore la posture et soutient le bien-être général de
-                votre enfant.
-              </p>
-              <a href="quand-consulter-un-osteopathe-bruges.html?#enfants" class="osteo__all__figcaption__link">En
-                savoir plus</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-femmes-enceintes.webp" loading="lazy"
-              alt="Photo d'une femme enceinte" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie pour les Femmes enceintes</h3>
-              <p class="osteo__all__figcaption__desc">
-                Soulager les douleurs, préparer le corps pour une grossesse harmonieuse. L'ostéopathie rééquilibre votre
-                corps pendant la grossesse, facilite l'accouchement et soulage les douleurs postnatales, tout en
-                soutenant le bien-être de la maman et du bébé.
-              </p>
-              <a class="osteo__all__figcaption__link"
-                href="quand-consulter-un-osteopathe-bruges.html?#femmes-enceintes">En
-                savoir plus</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-nouveau-nes.webp" loading="lazy"
-              alt="Photo de nouveau-nés" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie pour les Nouveau Nés</h3>
-              <p class="osteo__all__figcaption__desc">
-                L’accouchement peut provoquer des tensions sur le crâne et le corps de votre bébé, entraînant des
-                troubles digestifs, déformations crâniennes ou inconforts. L’ostéopathie aide à rétablir son équilibre
-                et favorise son bien-être. Offrez à votre enfant un accompagnement doux pour bien démarrer sa vie. </p>
-              <a class="osteo__all__figcaption__link" href="quand-consulter-un-osteopathe-bruges.html?#nouveau-nes">En
-                savoir
-                plus</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-seniors.webp" loading="lazy"
-              alt="Photo de seniors" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie pour les Seniors</h3>
-              <p class="osteo__all__figcaption__desc">
-                Maintenir la mobilité, prévenir les douleurs articulaires et vertébrales efficacement. L'ostéopathie
-                aide à soulager les douleurs liées à l'arthrose, les tensions musculaires et les troubles fonctionnels,
-                tout en soutenant la santé globale.
-              </p>
-              <a class="osteo__all__figcaption__link" href="quand-consulter-un-osteopathe-bruges.html?#seniors">En
-                savoir
-                plus</a>
-            </figcaption>
-          </figure>
-        </div>
+      </section>
 
-        <div class="osteo__all__link">
-          <figure class="osteo__all__figure">
-            <img class="osteo__all__img" src="./assets/images/osteopathie-entreprise.webp" loading="lazy"
-              alt="Photo d'une équipe en entreprise" />
-            <figcaption class="osteo__all__figcaption">
-              <h3 class="osteo__all__figcaption__title">Ostéopathie en Entreprise</h3>
-              <p class="osteo__all__figcaption__desc">
-                Amélioration de la productivité, du bien-être physique et psychique de vos collaborateurs. L'ostéopathie
-                en entreprise prévient les troubles musculo-squelettiques, réduit les arrêts maladie et optimise
-                l'ergonomie, favorisant ainsi un environnement de travail plus productif et sain.
-              </p>
-              <a class="osteo__all__figcaption__link" href="quand-consulter-un-osteopathe-bruges.html?#entreprise">En
-                savoir
-                plus</a>
-            </figcaption>
-          </figure>
-        </div>
-
-      </div>
-    </section>
-    <section class="comfort mw-container sect-mb">
-      <h2 class="comfort__title">Votre Bien-être : Chez Vous ou au Cabinet</h2>
-      <div class="comfort__wrapper">
-        <div data-aos="fade-up" class="comfort__wrapper__home">
-          <img class="photo" src="assets/images/photo-henrique-domicile.webp" loading="lazy"
-            alt="Photo de l'ostéopathe Henrique lors d'une consultation à domicile">
-          <article class="comfort__wrapper__home__article">
-            <h3>Les Bienfaits d’une Séance d’Ostéopathie à Domicile sur Bordeaux et ses Alentours</h3>
-            <div class="comfort_wrapper__home__article__text">
-              <p>En choisissant un ostéopathe à domicile sur Bordeaux et ses alentours, comme Bruges, Le Bouscat,
-                Blanquefort, Eysines, ou Caudéran, vous profitez d’un confort optimal pour vos séances d’ostéopathie.
-              </p>
-              <p>Fini le stress des déplacements, surtout en cas de douleurs ou de fatigue : je me déplace directement
-                chez vous, avec tout le matériel nécessaire pour assurer une séance de qualité dans le calme et la
-                sécurité de votre espace personnel.</p>
+      <section class="advice sect-mb mw-container">
+        <h2 class="advice__title">L’Avis de mes Patients</h2>
+        <div class="advice__card">
+          <div>
+            <div class="advice__card__avatar">
+              <img
+                class="advice__card__avatar__img"
+                loading="lazy"
+                src="./assets/images/avatar-clement.png"
+                alt="Avis Google utilisateur"
+              />
+              <p>Clément Jeandet</p>
             </div>
-            <button class="btn btn-light" onclick="window.location.href='consultation-osteopathie-bruges.html'">En
-              savoir
-              plus</button>
-          </article>
+            <p class="advice__card__avatar__desc">
+              “Henrique me suit et m'accompagne depuis début 2024 à travers sa
+              double compétence d'ostéopathe et de préparateur physique.
+              Souffrant de troubles posturaux sévères depuis près de 10 ans,
+              j'ai pu retrouver rapidement, suffisamment de mobilité et de
+              confiance dans mes capacités avec l'aide d'Henrique...”
+            </p>
+          </div>
+          <div class="advice__card__bottom">
+            <img
+              class="advice__card__bottom__stars"
+              loading="lazy"
+              src="./assets/images/etoiles-avis-patients.png"
+              alt="Étoiles d'avis des patients"
+            />
+            <a
+              href="https://www.google.com/search?q=Henrique+NUNES+ost%C3%A9opathe&rlz=1C5CHFA_enFR1138FR1138&oq=Henrique+NUNES+ost%C3%A9opathe&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPTIGCAYQRRg9MgYIBxBFGD3SAQc2NzJqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&zx=1733064567348&no_sw_cr=1"
+              class="advice__card__bottom__link"
+            >
+              <img
+                class="advice__card__bottom__google"
+                loading="lazy"
+                src="./assets/images/icône-google.png"
+                alt="Icône Google"
+              />
+            </a>
+          </div>
         </div>
-
-        <div data-aos="fade-up" class="comfort__wrapper__home flex-column">
-          <article class="comfort__wrapper__home__article">
-            <h3>Un Accueil Serein dans Notre Clinique à Mérignac</h3>
-            <div class="comfort_wrapper__home__article__text">
-              <p>En optant pour une consultation en ostéopathie au <a class="link-ext"
-                  href="https://www.medical-stadium.com/">Medical Stadium</a> de Mérignac, vous bénéficiez d'un
-                environnement calme et spécialement conçu pour votre bien-être. Notre établissement est entièrement
-                équipé pour vous offrir des séances d'ostéopathie de haute qualité, dans un cadre professionnel et
-                confortable. Profitez d'un soin personnalisé, adapté à vos besoins, pour soulager vos douleurs et
-                améliorer votre mobilité.</p>
-            </div>
-            <button class="btn btn-light" onclick="window.location.href='consultation-osteopathie-bruges.html'">En
-              savoir
-              plus</button>
-          </article>
-          <img class="photo" src="assets/images/clinique-medical-stadium.webp" loading="lazy"
-            alt="Photo de la clinique de Mérignac">
-
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="advice sect-mb mw-container">
-      <h2 class="advice__title">L’Avis de mes Patients</h2>
-      <div class="advice__card">
-        <div>
-
+        <div class="advice__card">
           <div class="advice__card__avatar">
-            <img class="advice__card__avatar__img" loading="lazy" src="./assets/images/avatar-clement.png"
-              alt="Avis Google utilisateur">
-            <p>Clément Jeandet</p>
+            <img
+              class="advice__card__avatar__img"
+              src="./assets/images/avatar-julie.webp"
+              alt="Avis Google utilisateur"
+            />
+            <p>Julie R</p>
           </div>
-          <p class="advice__card__avatar__desc">“Henrique me suit et m'accompagne depuis début 2024 à travers sa double
-            compétence d'ostéopathe et de
-            préparateur physique. Souffrant de troubles posturaux sévères depuis près de 10 ans, j'ai pu retrouver
-            rapidement, suffisamment de mobilité et de confiance dans mes capacités avec l'aide d'Henrique...”</p>
+          <p class="advice__card__avatar__desc">
+            “Excellent ostéopathe, qui prend bien le temps. Henrique n'hésite
+            pas à renvoyer vers d'autres professionnels de santé de confiance si
+            besoin, afin d'avoir une prise en charge globale, permettant
+            d'améliorer sa santé de manière générale.”
+          </p>
+          <div class="advice__card__bottom">
+            <img
+              class="advice__card__bottom__stars"
+              loading="lazy"
+              src="./assets/images/etoiles-avis-patients.svg"
+              alt="Étoiles d'avis des patients"
+            />
+            <a
+              href="https://www.google.com/search?q=Henrique+NUNES+ost%C3%A9opathe&rlz=1C5CHFA_enFR1138FR1138&oq=Henrique+NUNES+ost%C3%A9opathe&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPTIGCAYQRRg9MgYIBxBFGD3SAQc2NzJqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&zx=1733064567348&no_sw_cr=1"
+              class="advice__card__bottom__link"
+            >
+              <img
+                class="advice__card__bottom__google"
+                loading="lazy"
+                src="./assets/images/icône-google.svg"
+                alt="Icône Google"
+              />
+            </a>
+          </div>
         </div>
-        <div class="advice__card__bottom">
-          <img class="advice__card__bottom__stars" loading="lazy" src="./assets/images/etoiles-avis-patients.png"
-            alt="Étoiles d'avis des patients">
-          <a href="https://www.google.com/search?q=Henrique+NUNES+ost%C3%A9opathe&rlz=1C5CHFA_enFR1138FR1138&oq=Henrique+NUNES+ost%C3%A9opathe&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPTIGCAYQRRg9MgYIBxBFGD3SAQc2NzJqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&zx=1733064567348&no_sw_cr=1"
-            class="advice__card__bottom__link">
-            <img class="advice__card__bottom__google" loading="lazy" src="./assets/images/icône-google.png"
-              alt="Icône Google">
-          </a>
+      </section>
+      <section class="banner">
+        <img
+          class="banner__img"
+          src="./assets/images/banner-seance-osteopathie.webp"
+          loading="lazy"
+          alt="Séance d'ostéopathie"
+        />
+        <div class="banner__wrapper">
+          <h3 class="banner__title">
+            Faites le premier pas vers un corps en pleine forme.
+          </h3>
+          <a
+            class="btn btn-light btn-xl"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Prendre rendez-vous</a
+          >
         </div>
-      </div>
-      <div class="advice__card">
-        <div class="advice__card__avatar">
-          <img class="advice__card__avatar__img" src="./assets/images/avatar-julie.webp" alt="Avis Google utilisateur">
-          <p>Julie R</p>
-        </div>
-        <p class="advice__card__avatar__desc">“Excellent ostéopathe, qui prend bien le temps. Henrique n'hésite pas à
-          renvoyer vers d'autres professionnels de santé de confiance si besoin, afin d'avoir une prise en charge
-          globale, permettant d'améliorer sa santé de manière générale.”</p>
-        <div class="advice__card__bottom">
-          <img class="advice__card__bottom__stars" loading="lazy" src="./assets/images/etoiles-avis-patients.svg"
-            alt="Étoiles d'avis des patients">
-          <a href="https://www.google.com/search?q=Henrique+NUNES+ost%C3%A9opathe&rlz=1C5CHFA_enFR1138FR1138&oq=Henrique+NUNES+ost%C3%A9opathe&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBggFEEUYPTIGCAYQRRg9MgYIBxBFGD3SAQc2NzJqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&zx=1733064567348&no_sw_cr=1"
-            class="advice__card__bottom__link">
-            <img class="advice__card__bottom__google" loading="lazy" src="./assets/images/icône-google.svg"
-              alt="Icône Google">
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="banner">
-      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.webp" loading="lazy"
-        alt="Séance d'ostéopathie">
-      <div class="banner__wrapper">
-        <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
-        <a class="btn btn-light btn-xl" href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
-          aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__wrapper mw-container">
-      <article class="footer__wrapper__me">
-        <div>
-          <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
-          <h3 class="footer__wrapper__me__job">Ostéopathe à Bruges</h3>
-        </div>
-        <p class="footer__wrapper__para">Prise en charge des nourrissons, enfants, femmes enceintes, adultes, sportifs,
-          personnes agées.
-          Consultations uniquement sur rendez vous.</p>
-        <a class="btn btn-light" target="_blank" rel="noopener noreferrer"
-          href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
-          aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
-      </article>
-      <div class="footer__wrapper__consultation">
-        <div class="footer__wrapper__consultation__btns">
-          <button class="btn btn-footer" id="consultation">Consultations à domicile</button>
-          <button class="btn btn-footer btn-disabled" id="medical">Médical Stadium</button>
-        </div>
-        <div class="content-consultation">
-          <p> <span class="content-consultation__day">Horaires :</span></p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper mw-container">
+        <article class="footer__wrapper__me">
           <div>
-            <p><span class="content-consultation__day">Lundi</span> <span>14h00 - 20h00</span></p>
-            <p><span class="content-consultation__day">Mardi</span> <span>9h30 - 15h30</span></p>
-            <p><span class="content-consultation__day">Vendredi</span> <span>9h30 - 19h30</span></p>
+            <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
+            <h3 class="footer__wrapper__me__job">Ostéopathe à Bruges</h3>
           </div>
-        </div>
-        <div class="content-medical close">
-          <p> <span class="content-consultation__day">Adresse :</span> <span>8 Rue Georges Nègrevergne, 33700 Mérignac
-            </span></p>
-          <p> <span class="content-consultation__day">Horaires :</span></p>
-          <div>
-            <p><span class="content-consultation__day">Lundi</span> <span>9h30 - 13h00</span></p>
-            <p><span class="content-consultation__day">Jeudi</span> <span>9h30 - 14h30, 16h00 - 20h00</span></p>
+          <p class="footer__wrapper__para">
+            Prise en charge des nourrissons, enfants, femmes enceintes, adultes,
+            sportifs, personnes agées. Consultations uniquement sur rendez vous.
+          </p>
+          <a
+            class="btn btn-light"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Prendre rendez-vous</a
+          >
+        </article>
+        <div class="footer__wrapper__consultation">
+          <div class="footer__wrapper__consultation__btns">
+            <button class="btn btn-footer" id="consultation">
+              Consultations à domicile
+            </button>
+            <button class="btn btn-footer btn-disabled" id="medical">
+              Médical Stadium
+            </button>
+          </div>
+          <div class="content-consultation">
+            <p><span class="content-consultation__day">Horaires :</span></p>
+            <div>
+              <p>
+                <span class="content-consultation__day">Lundi</span>
+                <span>14h00 - 20h00</span>
+              </p>
+              <p>
+                <span class="content-consultation__day">Mardi</span>
+                <span>9h30 - 15h30</span>
+              </p>
+              <p>
+                <span class="content-consultation__day">Vendredi</span>
+                <span>9h30 - 19h30</span>
+              </p>
+            </div>
+          </div>
+          <div class="content-medical close">
+            <p>
+              <span class="content-consultation__day">Adresse :</span>
+              <span>8 Rue Georges Nègrevergne, 33700 Mérignac </span>
+            </p>
+            <p><span class="content-consultation__day">Horaires :</span></p>
+            <div>
+              <p>
+                <span class="content-consultation__day">Lundi</span>
+                <span>9h30 - 13h00</span>
+              </p>
+              <p>
+                <span class="content-consultation__day">Jeudi</span>
+                <span>9h30 - 14h30, 16h00 - 20h00</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <p class="developBy">© 2024 Web development by <a target="_blank" rel="noopener noreferrer"
-        href="https://stevebraco.vercel.app/">Steve Braco</a>. All rights reserved.</p>
-  </footer>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script type="module" src="js/index.js"></script>
-
-</body>
-
+      <p class="developBy">
+        © 2024 Web development by
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://stevebraco.vercel.app/"
+          >Steve Braco</a
+        >. All rights reserved.
+      </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module" src="js/index.js"></script>
+  </body>
 </html>

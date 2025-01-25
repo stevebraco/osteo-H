@@ -1,263 +1,427 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile."
+    />
 
-  <!-- Meta Description -->
-  <meta name="description"
-    content="Henrique Nunes, ostéopathe à Bruges (33520), vous propose des soins personnalisés pour soulager vos douleurs et améliorer votre bien-être. Consultations en cabinet ou à domicile." />
+    <!-- Fonts and Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet/aos.css" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <!-- Fonts and Styles -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&family=Josefin+Sans:wght@100..700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="stylesheet/aos.css">
-  <link rel="stylesheet" href="stylesheet/style.css">
-  <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Page Title -->
+    <title>
+      Henrique Nunes - Ostéopathe à Bruges | Soins en Cabinet et à Domicile
+    </title>
 
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Henrique Nunes - Ostéopathe",
+        "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Allée de la Salamandre",
+          "addressLocality": "Bruges",
+          "postalCode": "33520",
+          "addressCountry": "FR"
+        },
+        "telephone": "0650636977",
+        "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
+        "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/h6imafab3aqd2orokn12.webp",
+        "areaServed": "Bruges et environs",
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "19:00"
+          }
+        ],
+        "medicalSpecialty": "Osteopathic"
+      }
+    </script>
+  </head>
 
-  <!-- Page Title -->
-  <title>Henrique Nunes - Ostéopathe à Bruges | Soins en Cabinet et à Domicile</title>
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Physician",
-  "name": "Henrique Nunes - Ostéopathe",
-  "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Allée de la Salamandre",
-    "addressLocality": "Bruges",
-    "postalCode": "33520",
-    "addressCountry": "FR"
-  },
-  "telephone": "0650636977",
-  "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
-  "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/h6imafab3aqd2orokn12.webp",
-  "areaServed": "Bruges et environs",
-  "priceRange": "$$",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "19:00"
-    }
-  ],
-  "medicalSpecialty": "Osteopathic"
-}
-</script>
-</head>
-
-<body>
-
-  <header class="header">
-
-    <nav class="navbar mw-container">
-      <div class="header__wrapper">
-        <a href="/">
-          <span class="header__name">Henrique Nunes</span>
-          <span class="header__wrapper__job">Ostéopathe à Bruges</span>
-        </a>
-      </div>
-      <div class="navbar__container">
-        <div class="navbar__wrapper">
-          <div class="navbar__menu">
-            <a class="navbar__link" href="/">Accueil</a>
-            <a class="navbar__link navbar__link__mobile" href="osteopathie.html">Ostéopathie</a>
-            <a class="navbar__link navbar__link__mobile" href="consultation-osteopathie-bruges.html">Consultation</a>
-            <a class="navbar__link navbar__link__mobile" href="quand-consulter-un-osteopathe-bruges.html">Quand
-              consulter ?</a>
-            <div class="dropdown">
-              <span class="navbar__link">Ostéopathie</span>
-              <div class="dropdown-content">
-                <div class="dropdown-content__wrapper">
-                  <a class="dropdown-content__wrapper__link" href="osteopathie.html">Définition</a>
-                  <a class="dropdown-content__wrapper__link"
-                    href="consultation-osteopathie-bruges.html">Consultation</a>
-                  <a class="dropdown-content__wrapper__link" href="quand-consulter-un-osteopathe-bruges.html">Quand
-                    consulter ?</a>
+  <body>
+    <header class="header">
+      <nav class="navbar mw-container">
+        <div class="header__wrapper">
+          <a href="/">
+            <span class="header__name">Henrique Nunes</span>
+            <span class="header__wrapper__job">Ostéopathe à Bruges</span>
+          </a>
+        </div>
+        <div class="navbar__container">
+          <div class="navbar__wrapper">
+            <div class="navbar__menu">
+              <a class="navbar__link" href="/">Accueil</a>
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="osteopathie.html"
+                >Ostéopathie</a
+              >
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="consultation-osteopathie-bruges.html"
+                >Consultation</a
+              >
+              <a
+                class="navbar__link navbar__link__mobile"
+                href="quand-consulter-un-osteopathe-bruges.html"
+                >Quand consulter ?</a
+              >
+              <div class="dropdown">
+                <span class="navbar__link">Ostéopathie</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-content__wrapper">
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="osteopathie.html"
+                      >Définition</a
+                    >
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="consultation-osteopathie-bruges.html"
+                      >Consultation</a
+                    >
+                    <a
+                      class="dropdown-content__wrapper__link"
+                      href="quand-consulter-un-osteopathe-bruges.html"
+                      >Quand consulter ?</a
+                    >
+                  </div>
                 </div>
               </div>
+              <a class="navbar__link" href="osteopathe-bruges.html"
+                >Votre ostéopathe</a
+              >
+              <a class="navbar__link" href="tarifs.html">Tarifs</a>
+              <a class="navbar__link" href="articles.html">Articles</a>
             </div>
-            <a class="navbar__link" href="osteopathe-bruges.html">Votre ostéopathe</a>
-            <a class="navbar__link" href="tarifs.html">Tarifs</a>
           </div>
+          <a
+            class="btn btn-black"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Rdv en ligne</a
+          >
+          <button class="menu">
+            <img
+              class="menu__img"
+              src="./assets/images/menu.svg"
+              alt="Icone Menu"
+              loading="lazy"
+            />
+          </button>
+          <button class="menu-close show">
+            <img
+              class="menu__img"
+              src="./assets/images/close.svg"
+              alt="Icone Menu"
+              loading="lazy"
+            />
+          </button>
         </div>
-        <a class="btn btn-black" target="_blank" rel="noopener noreferrer"
-          href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes" aria-label="Prendre rendez-vous en ligne">Rdv
-          en ligne</a>
-        <button class="menu"><img class="menu__img" src="./assets/images/menu.svg" alt="Icone Menu"
-            loading="lazy"></button>
-        <button class="menu-close show"><img class="menu__img" src="./assets/images/close.svg" alt="Icone Menu"
-            loading="lazy"></button>
-      </div>
-    </nav>
-  </header>
-  <main id="up" class="main">
-    <a href="#up" class="icon__wrapper">
-      <img src="./assets/images/ArrowUpIcon.svg" alt="icon fleche">
-    </a>
-    <section class="banner banner-intro">
-      <img class="banner__img" src="./assets/images/banner-physio.jpg" loading="lazy"
-        alt="Séance d'ostéopathie personnalisée à Bruges">
-      <div class="banner__wrapper banner__wrapper--intro">
-        <h1 class="banner__title banner__title--intro">L’ostéopathie </h1>
-      </div>
-    </section>
-    <div data-aos="fade-in" class="mw-container article">
-      <article class="article__intro">
-        <h2 class="article__wrapper__title">Ostéopathie : Une Thérapie Reconnue</h2>
-        <div class="article__intro">
-          <p class="article__wrapper__text"><strong>L'ostéopathie</strong> est une pratique thérapeutique
-            <strong>manuelle</strong> née vers <strong>1870</strong> aux <strong>États-Unis</strong> grâce au médecin
-            <strong>Andrew Taylor Still</strong>. Introduite en <strong>France</strong> dans les années 50, elle a vu
-            son
-            succès grandir au fil des ans et est aujourd'hui une <strong>thérapie reconnue</strong>. Elle a été
-            <strong>réglementée</strong> par la loi du <strong>4 mars 2002</strong> relative aux <strong>droits des
-              patients</strong> et à la <strong>qualité du système de santé</strong>.
+      </nav>
+    </header>
+    <main id="up" class="main">
+      <a href="#up" class="icon__wrapper">
+        <img src="./assets/images/ArrowUpIcon.svg" alt="icon fleche" />
+      </a>
+      <section class="banner banner-intro">
+        <img
+          class="banner__img"
+          src="./assets/images/banner-physio.jpg"
+          loading="lazy"
+          alt="Séance d'ostéopathie personnalisée à Bruges"
+        />
+        <div class="banner__wrapper banner__wrapper--intro">
+          <h1 class="banner__title banner__title--intro">L’ostéopathie</h1>
+        </div>
+      </section>
+      <div data-aos="fade-in" class="mw-container article">
+        <article class="article__intro">
+          <h2 class="article__wrapper__title">
+            Ostéopathie : Une Thérapie Reconnue
+          </h2>
+          <div class="article__intro">
+            <p class="article__wrapper__text">
+              <strong>L'ostéopathie</strong> est une pratique thérapeutique
+              <strong>manuelle</strong> née vers <strong>1870</strong> aux
+              <strong>États-Unis</strong> grâce au médecin
+              <strong>Andrew Taylor Still</strong>. Introduite en
+              <strong>France</strong> dans les années 50, elle a vu son succès
+              grandir au fil des ans et est aujourd'hui une
+              <strong>thérapie reconnue</strong>. Elle a été
+              <strong>réglementée</strong> par la loi du
+              <strong>4 mars 2002</strong> relative aux
+              <strong>droits des patients</strong> et à la
+              <strong>qualité du système de santé</strong>.
+            </p>
+            <p class="article__wrapper__text">
+              Pour découvrir le déroulement d'une consultation,
+              <a class="link-ext" href="consultation-osteopathie-bruges.html"
+                >cliquez ici</a
+              >.
+            </p>
+          </div>
+
+          <p class="article__wrapper__text">
+            <strong
+              >💡 À savoir : Seuls les praticiens titulaires d'un diplôme
+              délivré par un organisme agréé par le Ministère de la Santé
+              peuvent exercer l'ostéopathie.</strong
+            >
           </p>
-          <p class="article__wrapper__text">Pour découvrir le déroulement d'une consultation, <a class="link-ext"
-              href="consultation-osteopathie-bruges.html">cliquez ici</a>.</p>
-        </div>
-
-        <p class="article__wrapper__text"><strong>💡 À savoir : Seuls les praticiens titulaires d'un diplôme délivré par
-            un organisme agréé par le Ministère de la Santé peuvent exercer l'ostéopathie.</strong></p>
-      </article>
-      <article class="article__wrapper">
-        <h2 class="article__wrapper__title">Les principes de l'ostéopathie</h2>
-        <p class="article__wrapper__text"><strong>L'ostéopathie</strong> obtient ses résultats grâce à une intervention
-          uniquement <strong>manuelle</strong>. La caractéristique de cette thérapie, dont <strong>l'efficacité</strong>
-          n'est plus à prouver, est de s'intéresser au <strong>corps humain</strong> comme un tout et de traiter la
-          <strong>cause des troubles</strong> en respectant la relation entre le <strong>corps du patient</strong> et sa
-          <strong>pensée</strong>, son <strong>psychisme</strong>. Un <strong>esprit sain</strong> dans un <strong>corps
-            sain</strong> ! 
-        </p>
-        <!-- <img class="" loading="lazy" src="https://img.freepik.com/photos-gratuite/patiente-subissant-therapie-physique_23-2148836487.webp?t=st=1732884814~exp=1732888414~hmac=dc1f6b7de3a4f6b32064b51fe26cb5fd77ec207556cf3c06a05cf390fa4ddde4&w=1380" alt="photo séance ostéo" > -->
-      </article>
-      <article class="article__wrapper">
-        <h2 class="article__wrapper__title">Déroulement d'une séance </h2>
-        <p class="article__wrapper__text">Une séance chez l'ostéopathe <strong> dure entre 40 et 60 minutes</strong> et
-          se divise en trois étapes clés :</p>
-        <article class="article__wrapper">
-          <h3 class="article__wrapper__list-b">1. Anamnèse complète </h3>
-          <p class="article__wrapper__text"> <strong> L'ostéopathe</strong> commence par un <strong> questionnement
-              détaillé du patient </strong> :</p>
-          <ul class="article__wrapper__list">
-            <li> <strong> Raison de la consultation</strong> : Pourquoi le patient est-il venu ?</li>
-            <li> <strong> Antécédents médicaux </strong>: Opérations, maladies, traumatismes, etc.</li>
-            <li> <strong> Traitements en cours</strong> : Médicaments, suivi médical, etc.</li>
-          </ul>
         </article>
         <article class="article__wrapper">
-          <h3 class="article__wrapper__list-b">2. Tests médicaux et ostéopathiques </h3>
-          <p><strong>L'ostéopathe</strong> réalise une série de tests pour confirmer que la pathologie peut être traitée
-            par l'ostéopathie. </p>
-          <p class="article__wrapper__text">Si ce n'est pas le cas, il orientera le patient vers le professionnel de
-            santé approprié.</p>
-          <p class="article__wrapper__text">Exemples de tests réalisés :</p>
-          <ul class="article__wrapper__list">
-            <li><strong> Tests médicaux </strong> ou <strong>tests d'exclusion</strong>.</li>
-            <li><strong> Tests statiques</strong> et <strong> dynamiques posturaux</strong>.</li>
-            <li><strong> Tests ostéopathiques</strong> pour établir un <strong>diagnostic précis</strong>.</li>
-          </ul>
+          <h2 class="article__wrapper__title">
+            Les principes de l'ostéopathie
+          </h2>
+          <p class="article__wrapper__text">
+            <strong>L'ostéopathie</strong> obtient ses résultats grâce à une
+            intervention uniquement <strong>manuelle</strong>. La
+            caractéristique de cette thérapie, dont
+            <strong>l'efficacité</strong> n'est plus à prouver, est de
+            s'intéresser au <strong>corps humain</strong> comme un tout et de
+            traiter la <strong>cause des troubles</strong> en respectant la
+            relation entre le <strong>corps du patient</strong> et sa
+            <strong>pensée</strong>, son <strong>psychisme</strong>. Un
+            <strong>esprit sain</strong> dans un <strong>corps sain</strong> ! 
+          </p>
+          <!-- <img class="" loading="lazy" src="https://img.freepik.com/photos-gratuite/patiente-subissant-therapie-physique_23-2148836487.webp?t=st=1732884814~exp=1732888414~hmac=dc1f6b7de3a4f6b32064b51fe26cb5fd77ec207556cf3c06a05cf390fa4ddde4&w=1380" alt="photo séance ostéo" > -->
         </article>
         <article class="article__wrapper">
-          <h3 class="article__wrapper__list-b">3. Traitement ostéopathique</h3>
-          <p class="article__wrapper__text"> <strong>L'ostéopathe</strong> utilise des techniques dites douces, adaptées
-            à chaque patient, et basées sur les besoins spécifiques identifiés :</p>
-          <ul class="article__wrapper__list">
-            <li><strong>Techniques structurelles</strong> et <strong>articulaires</strong>.</li>
-            <li><strong>Techniques faciales</strong>, musculaires et crâniennes.</li>
-            <li><strong>Techniques viscérales</strong>.</li>
-          </ul>
-          <p class="article__wrapper__text">Chaque traitement est <strong> personnalisé et sans douleur</strong>. </p>
-          <p class="article__wrapper__text">L'ostéopathe peut également donner des conseils, tels que :</p>
-          <ul class="article__wrapper__list">
-            <li><strong>Étirements</strong> et <strong>échauffements</strong>.</li>
-            <li><strong>Sports</strong> et <strong>exercices adaptés</strong>.</li>
-            <li><strong>Conseils diététiques</strong> pour un rétablissement optimal..</li>
-          </ul>
+          <h2 class="article__wrapper__title">Déroulement d'une séance</h2>
+          <p class="article__wrapper__text">
+            Une séance chez l'ostéopathe
+            <strong> dure entre 40 et 60 minutes</strong> et se divise en trois
+            étapes clés :
+          </p>
+          <article class="article__wrapper">
+            <h3 class="article__wrapper__list-b">1. Anamnèse complète</h3>
+            <p class="article__wrapper__text">
+              <strong> L'ostéopathe</strong> commence par un
+              <strong> questionnement détaillé du patient </strong> :
+            </p>
+            <ul class="article__wrapper__list">
+              <li>
+                <strong> Raison de la consultation</strong> : Pourquoi le
+                patient est-il venu ?
+              </li>
+              <li>
+                <strong> Antécédents médicaux </strong>: Opérations, maladies,
+                traumatismes, etc.
+              </li>
+              <li>
+                <strong> Traitements en cours</strong> : Médicaments, suivi
+                médical, etc.
+              </li>
+            </ul>
+          </article>
+          <article class="article__wrapper">
+            <h3 class="article__wrapper__list-b">
+              2. Tests médicaux et ostéopathiques
+            </h3>
+            <p>
+              <strong>L'ostéopathe</strong> réalise une série de tests pour
+              confirmer que la pathologie peut être traitée par l'ostéopathie.
+            </p>
+            <p class="article__wrapper__text">
+              Si ce n'est pas le cas, il orientera le patient vers le
+              professionnel de santé approprié.
+            </p>
+            <p class="article__wrapper__text">Exemples de tests réalisés :</p>
+            <ul class="article__wrapper__list">
+              <li>
+                <strong> Tests médicaux </strong> ou
+                <strong>tests d'exclusion</strong>.
+              </li>
+              <li>
+                <strong> Tests statiques</strong> et
+                <strong> dynamiques posturaux</strong>.
+              </li>
+              <li>
+                <strong> Tests ostéopathiques</strong> pour établir un
+                <strong>diagnostic précis</strong>.
+              </li>
+            </ul>
+          </article>
+          <article class="article__wrapper">
+            <h3 class="article__wrapper__list-b">
+              3. Traitement ostéopathique
+            </h3>
+            <p class="article__wrapper__text">
+              <strong>L'ostéopathe</strong> utilise des techniques dites douces,
+              adaptées à chaque patient, et basées sur les besoins spécifiques
+              identifiés :
+            </p>
+            <ul class="article__wrapper__list">
+              <li>
+                <strong>Techniques structurelles</strong> et
+                <strong>articulaires</strong>.
+              </li>
+              <li>
+                <strong>Techniques faciales</strong>, musculaires et crâniennes.
+              </li>
+              <li><strong>Techniques viscérales</strong>.</li>
+            </ul>
+            <p class="article__wrapper__text">
+              Chaque traitement est
+              <strong> personnalisé et sans douleur</strong>.
+            </p>
+            <p class="article__wrapper__text">
+              L'ostéopathe peut également donner des conseils, tels que :
+            </p>
+            <ul class="article__wrapper__list">
+              <li>
+                <strong>Étirements</strong> et <strong>échauffements</strong>.
+              </li>
+              <li>
+                <strong>Sports</strong> et <strong>exercices adaptés</strong>.
+              </li>
+              <li>
+                <strong>Conseils diététiques</strong> pour un rétablissement
+                optimal..
+              </li>
+            </ul>
+          </article>
+          <p class="article__wrapper__text">
+            Vous ne savez pas si l'ostéopathie est faite pour vous ? Consultez
+            notre guide pour savoir
+            <a class="link-ext" href="quand-consulter-un-osteopathe-bruges.html"
+              >quand consulter un ostéopathe</a
+            >
+            et comment une séance peut vous aider.
+          </p>
         </article>
-        <p class="article__wrapper__text">Vous ne savez pas si l'ostéopathie est faite pour vous ? Consultez notre guide
-          pour savoir <a class="link-ext" href="quand-consulter-un-osteopathe-bruges.html">quand consulter un
-            ostéopathe</a> et comment une séance peut vous aider.</p>
-      </article>
-    </div>
-    <section class="banner">
-      <img class="banner__img" src="./assets/images/banner-seance-osteopathie.webp" loading="lazy"
-        alt="Séance d'ostéopathie">
-      <div class="banner__wrapper">
-        <h3 class="banner__title">Faites le premier pas vers un corps en pleine forme.</h3>
-        <a class="btn btn-light btn-xl" target="_blank" rel="noopener noreferrer"
-          href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
-          aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
-
       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__wrapper mw-container">
-      <article class="footer__wrapper__me">
-        <div>
-          <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
-          <h3 class="footer__wrapper__me__job">Ostéopathe à Bruges</h3>
+      <section class="banner">
+        <img
+          class="banner__img"
+          src="./assets/images/banner-seance-osteopathie.webp"
+          loading="lazy"
+          alt="Séance d'ostéopathie"
+        />
+        <div class="banner__wrapper">
+          <h3 class="banner__title">
+            Faites le premier pas vers un corps en pleine forme.
+          </h3>
+          <a
+            class="btn btn-light btn-xl"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Prendre rendez-vous</a
+          >
         </div>
-        <p class="footer__wrapper__para">Prise en charge des nourrissons, enfants, femmes enceintes, adultes, sportifs,
-          personnes agées.
-          Consultations uniquement sur rendez vous.</p>
-        <a class="btn btn-light" target="_blank" rel="noopener noreferrer"
-          href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
-          aria-label="Prendre rendez-vous en ligne">Prendre rendez-vous</a>
-      </article>
-      <div class="footer__wrapper__consultation">
-        <div class="footer__wrapper__consultation__btns">
-          <button class="btn btn-footer" id="consultation">Consultations à domicile</button>
-          <button class="btn btn-footer btn-disabled" id="medical">Médical Stadium</button>
-        </div>
-        <div class="content-consultation">
-          <p class="article__wrapper__text"> <span class="content-consultation__day">Horaires :</span></p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper mw-container">
+        <article class="footer__wrapper__me">
           <div>
-            <p class="article__wrapper__text"><span class="content-consultation__day">Lundi</span> <span>14h00 -
-                20h00</span></p>
-            <p class="article__wrapper__text"><span class="content-consultation__day">Mardi</span> <span>9h30 -
-                15h30</span></p>
-            <p class="article__wrapper__text"><span class="content-consultation__day">Vendredi</span> <span>9h30 -
-                19h30</span></p>
+            <h2 class="footer__wrapper__me__title">HENRIQUE NUNES</h2>
+            <h3 class="footer__wrapper__me__job">Ostéopathe à Bruges</h3>
+          </div>
+          <p class="footer__wrapper__para">
+            Prise en charge des nourrissons, enfants, femmes enceintes, adultes,
+            sportifs, personnes agées. Consultations uniquement sur rendez vous.
+          </p>
+          <a
+            class="btn btn-light"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.doctolib.fr/osteopathe/bruges/henrique-nunes"
+            aria-label="Prendre rendez-vous en ligne"
+            >Prendre rendez-vous</a
+          >
+        </article>
+        <div class="footer__wrapper__consultation">
+          <div class="footer__wrapper__consultation__btns">
+            <button class="btn btn-footer" id="consultation">
+              Consultations à domicile
+            </button>
+            <button class="btn btn-footer btn-disabled" id="medical">
+              Médical Stadium
+            </button>
+          </div>
+          <div class="content-consultation">
+            <p class="article__wrapper__text">
+              <span class="content-consultation__day">Horaires :</span>
+            </p>
+            <div>
+              <p class="article__wrapper__text">
+                <span class="content-consultation__day">Lundi</span>
+                <span>14h00 - 20h00</span>
+              </p>
+              <p class="article__wrapper__text">
+                <span class="content-consultation__day">Mardi</span>
+                <span>9h30 - 15h30</span>
+              </p>
+              <p class="article__wrapper__text">
+                <span class="content-consultation__day">Vendredi</span>
+                <span>9h30 - 19h30</span>
+              </p>
+            </div>
+          </div>
+          <div class="content-medical close">
+            <p class="article__wrapper__text">
+              <span class="content-consultation__day">Adresse :</span>
+              <span>8 Rue Georges Nègrevergne, 33700 Mérignac </span>
+            </p>
+            <p class="article__wrapper__text">
+              <span class="content-consultation__day">Horaires :</span>
+            </p>
+            <div>
+              <p class="article__wrapper__text">
+                <span class="content-consultation__day">Lundi</span>
+                <span>9h30 - 13h00</span>
+              </p>
+              <p class="article__wrapper__text">
+                <span class="content-consultation__day">Jeudi</span>
+                <span>9h30 - 14h30, 16h00 - 20h00</span>
+              </p>
+            </div>
           </div>
         </div>
-        <div class="content-medical close">
-          <p class="article__wrapper__text"> <span class="content-consultation__day">Adresse :</span> <span>8 Rue
-              Georges Nègrevergne, 33700 Mérignac
-            </span></p>
-          <p class="article__wrapper__text"> <span class="content-consultation__day">Horaires :</span></p>
-          <div>
-            <p class="article__wrapper__text"><span class="content-consultation__day">Lundi</span> <span>9h30 -
-                13h00</span></p>
-            <p class="article__wrapper__text"><span class="content-consultation__day">Jeudi</span> <span>9h30 - 14h30,
-                16h00 - 20h00</span></p>
-          </div>
-        </div>
       </div>
-    </div>
-    <p class="mw-container developBy">© 2024 Web development by <a target="_blank" rel="noopener noreferrer"
-        href="https://stevebraco.vercel.app/">Steve Braco</a>. All rights reserved.</p>
-  </footer>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script type="module" src="js/index.js"></script>
-
-</body>
-
+      <p class="mw-container developBy">
+        © 2024 Web development by
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://stevebraco.vercel.app/"
+          >Steve Braco</a
+        >. All rights reserved.
+      </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module" src="js/index.js"></script>
+  </body>
 </html>

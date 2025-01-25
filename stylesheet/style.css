@@ -1,1 +1,1290 @@
-.banner,.carousel-container,.dropdown-content,.over-hidden,main{overflow:hidden}.btn,.dropdown,.icon__wrapper,.menu,.menu-close{cursor:pointer}.developBy a,.link-ext{text-decoration:underline}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}.navbar__link,a{color:#000;border-bottom:1px solid transparent}a,h2{font-family:"Josefin Slab",serif}html{scroll-behavior:smooth}a{text-decoration:none;font-weight:600;font-size:15px}main{position:relative}button{border:none;background:0 0}.icon__wrapper{position:fixed;z-index:999;bottom:30px;right:30px;opacity:.5;transition:opacity .2s ease-in-out;width:30px;height:30px}.icon__wrapper:hover{opacity:1}.btn:hover,.hero__wrapper__link:hover,.navbar__link:hover,.osteo__all__figcaption__link:hover{opacity:.5}img{width:100%}h2{color:#b18369;font-size:36px;font-weight:500;line-height:55px}.header__name,.header__wrapper__job,h3{font-family:"Josefin Slab",serif;font-weight:600}h3{color:#d9bdaa;font-size:24px;margin-bottom:25px;line-height:33px}li,p{font-family:"Josefin Sans",sans-serif;color:#212121;font-weight:300;font-size:16px;line-height:25px}li{list-style:inside}li::marker{color:#b18369}strong{font-weight:400}.rect{width:52%;height:800px;background-color:#f0eae6;position:absolute;top:0;right:0;z-index:-1}.mw-container{max-width:1100px;margin:0 auto}.sect-mb{margin-bottom:200px}.header{height:90px;display:flex;justify-content:space-between;align-items:center;z-index:999;box-shadow:none;transition:.5s ease-in-out;position:sticky;top:-100px;width:100%}.navbar,.navbar__container{align-items:center;gap:30px}.header.scrolled{background-color:#fff;opacity:.99;top:0;box-shadow:0 -6px 10px 5px rgba(0,0,0,.5)}.header__wrapper{transition:.7s ease-in-out}.header__wrapper:hover{transform:scale(1.05)}.header__name{color:#000;text-transform:uppercase;font-size:20px}.header__wrapper__job{font-size:11px;text-align:center;display:block}.navbar{width:100%;display:flex;justify-content:space-between;padding:0 25px}.navbar__menu{display:flex;align-items:baseline;justify-content:center;gap:30px}.navbar__container{display:flex}.link-ext{font-weight:200;font-family:"Josefin Sans",sans-serif}.btn,.navbar__link{font-family:"Josefin Slab",serif;font-weight:600;transition:.2s ease-in-out}.navbar__link{text-decoration:none;font-size:15px}.btn{border:none;color:#fff;padding:0 32px;height:44px;font-size:16px;display:flex;align-items:center;justify-content:center}a .btn:hover{border-color:transparent;text-decoration:none}.btn-xl{height:90px;width:250px;font-size:18px}.btn-black,.btn-light{background-color:#b18369}.btn-footer{width:150px;height:40px;border-radius:initial;border-bottom:1px solid #fff;padding:0}.btn-disabled{color:#aeaeae80;border-bottom:1px solid #aeaeae69;transition:.2s}.hero__wrapper__desc,.hero__wrapper__name{font-family:"Josefin Slab",serif;font-weight:600;margin-bottom:15px;color:#000}.advice__card,.dropdown,.dropdown-content,.osteo__all__figcaption{transition:.2s ease-in-out}.btn-disabled:hover{color:#aeaeae;border-bottom:1px solid #aeaeae}.dropdown{position:relative;display:inline-block;padding:initial}.dropdown-content{display:none;position:absolute;top:30px;background-color:#f9f9f9;border-radius:8px;min-width:255px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);z-index:1}.dropdown-content__wrapper{display:flex;flex-direction:column}.dropdown:hover .dropdown-content{display:block}.dropdown span:hover{padding-bottom:50px}.dropdown-content__wrapper__link{padding:15px}.dropdown-content__wrapper__link:not(:last-child){border-bottom:1px solid #e7e7e7}.dropdown-content__wrapper__link:hover{background-color:#b18369;color:#fff;opacity:1}.hero{font-family:"Josefin Slab",serif;display:flex;justify-content:space-between;align-items:center;padding:0 10px}.hero__wrapper{max-width:41.3%;padding-bottom:30px}.hero__wrapper__name{font-size:60px;text-align:center;text-wrap:nowrap}.hero__wrapper__location{font-weight:600;font-size:48px;margin-bottom:15px;text-align:center;text-wrap:nowrap}.hero__wrapper__desc{font-size:16px;line-height:25px}.hero__wrapper__link{font-weight:700;display:flex;align-items:center;gap:10px;margin-top:30px}.hero__wrapper__link:hover{border-bottom:0 solid transparent}.hero__wrapper__link__img{object-fit:contain;width:30px;height:30px}.hero__wrapper__link__text{font-family:"Josefin Sans",sans-serif;border-bottom:1px solid #000}.banner__title,.tooltip{font-family:"Josefin Slab",serif}.advice__card__bottom__link:hover,.osteo__all__link:hover{border-color:transparent}.hero__img{max-width:50%;width:100%;height:100%;max-height:633px}.comfort,.osteo{padding:0 10px}.osteo__intro{margin-bottom:85px}.osteo__intro__title{max-width:650px;text-align:center;margin:50px auto}.osteo__intro__desc{max-width:1050px;margin:0 auto;text-align:center;line-height:25px}.osteo__all{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:15px;max-width:1200px;margin:0 auto}.osteo__all__link--services{background-color:#b18369;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 10px;text-align:center}.osteo__all__link--services__title{color:#ffe3d0}.osteo__all__link--services p{margin-bottom:15px;color:#fff}.osteo__all__link:hover{opacity:1}.osteo__all__figure{position:relative;overflow:hidden;flex:1;height:350px;border-radius:8px}.osteo__all__img{height:100%;object-fit:cover}.osteo__all__figcaption{position:absolute;top:0;left:0;z-index:99;width:100%;height:100%;background:rgba(0,0,0,.55);text-align:center;opacity:0;display:flex;flex-direction:column;justify-content:center;align-items:center}.osteo__all__figcaption:hover{opacity:1}.osteo__all__figcaption__title{color:#fff;font-size:20px;margin-bottom:15px}.osteo__all__figcaption__desc{color:#fff;font-size:14px;margin-bottom:15px;line-height:20px;padding:0 10px}.osteo__all__figcaption__link{color:#fff;font-size:14px;border-color:#fff}.comfort__title{text-align:center;margin-bottom:50px}.comfort__wrapper{display:flex;flex-direction:column;gap:100px}.comfort__wrapper__home{display:flex;align-items:center;gap:3%}.comfort__wrapper__home__article{max-width:530px}.article__intro,.article__wrapper,.comfort_wrapper__home__article__text{margin-bottom:20px}.comfort_wrapper__home__article__text p{margin-bottom:10px}.photo{width:465px;height:470px;object-fit:cover}.banner{width:100%;height:400px;background:#00000093;display:flex;justify-content:center;align-items:center;position:relative}.banner__wrapper,.collab-club{display:flex;justify-content:space-between}.banner-intro{margin-bottom:50px}.banner__img{position:absolute;z-index:-1;object-fit:cover;height:100%}.banner__wrapper{align-items:center;width:100%;max-width:1100px;margin:0 auto;padding:0 15px}.banner__title{color:#fff;font-size:48px;line-height:55px}.advice__card__avatar__desc,.tooltip{font-size:14px}.banner-secondary{display:flex;align-items:center;justify-content:center}.banner-secondary__img{width:45%}.banner-secondary__article{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}.banner-secondary__article p{text-align:center}.advice{display:flex;flex-wrap:wrap;gap:0 8px;padding:0 10px}.advice__title{text-align:center;margin-bottom:50px;flex-basis:100%}.advice__card{background-color:#edeae6;max-width:612px;border-radius:8px;padding:20px 36px;flex:1;display:flex;flex-direction:column;justify-content:space-between}.advice__card:hover{background-color:#d9bdaa}.advice__card:hover p{color:#fff}.advice__card:hover .advice__card__bottom__stars{filter:brightness(0) invert(1)}.advice__card__avatar{display:flex;align-items:center;gap:15px;margin-bottom:5px}.advice__card__avatar__img{border-radius:50%;width:50px;height:50px}.advice__card__bottom{display:flex;align-items:center;justify-content:space-between;padding:5px 0 20px}.advice__card__bottom__stars{object-fit:contain;width:105px;height:16px}.advice__card__bottom__google{width:30px;height:30px;object-fit:contain}.collab-club{align-items:center;gap:3%;margin-bottom:70px}.tooltip-container{position:relative;display:inline-block}.tooltip-container img{height:auto;cursor:pointer}.tooltip{position:absolute;bottom:-25px;left:50%;transform:translateX(-50%);background:#b2846b;color:#fff;padding:5px 10px;border-radius:5px;white-space:nowrap;visibility:hidden;opacity:0;transition:opacity .2s,visibility .2s;z-index:10}.tooltip-container:hover .tooltip{visibility:visible;opacity:1}.footer{background-color:#282828}.footer__wrapper{padding:50px 135px;display:flex;justify-content:space-between;gap:20px}.footer__wrapper__me{display:flex;flex-direction:column;gap:30px}.footer__wrapper__me__job,.footer__wrapper__me__title{color:#fff;font-weight:500;font-size:20px;margin-bottom:0;line-height:initial}.footer__wrapper__me__job{font-size:16px}.footer__wrapper__para{max-width:450px;color:#aeaeae;line-height:initial}.content-consultation p,.content-consultation__day,.content-medical p{font-size:13px;color:#fff;font-family:"Josefin Slab",serif}.footer__wrapper__consultation__btns{margin-bottom:10px;display:flex}.close,.content-medical,.hidden,.navbar__link__mobile{display:none}.content-consultation,.content-medical{display:flex;flex-direction:column;font-family:"Josefin Slab",serif;gap:5px}.content-consultation__day{border-bottom:1px solid #fff}.consultation__card__wrapper__km,.consultation__card__wrapper__price{color:#4a5568;font-family:"Josefin Sans",sans-serif;font-weight:400}.menu-close{width:35px;height:35px}.article__container{display:flex;gap:3%;margin-bottom:20px}.article__container--res{flex-direction:row-reverse}.article{padding:0 10px}.article__wrapper__title{margin-bottom:8px}.article__wrapper__list{padding:0 25px}.article__wrapper__list-b{margin-bottom:5px}.article__wrapper__text{padding-bottom:5px}.article__wrapper__img{margin-top:20px;width:45%;height:575px;object-fit:cover}.article__wrapper__imgb{width:40%;height:initial;object-fit:contain}.carousel-container{width:100%;max-width:1100px;position:relative;margin:auto;height:400px}.glide{padding-bottom:100px;background:#ccbba9}.glide__slide{font-size:1.5rem;text-align:center;padding:50px 20px;margin:10px;list-style:none;max-height:500px}.consultation{display:flex;justify-content:space-between;margin-bottom:25px}.consultation__card{background:#f5f5f5;padding:20px 36px;width:38%;border-radius:10px}.consultation__card__wrapper{display:flex;flex-direction:column;gap:25px;margin-top:30px}.consultation__card__wrapper__info{display:flex;justify-content:space-between}.consultation__card__wrapper__price{font-size:22px}@keyframes scroll-left{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}.menu{width:35px;height:35px;display:none}.developBy{color:#787878;max-width:1100px;margin:0 auto;padding:0 50px}.developBy a{color:#787878}@media screen and (max-width:1545px){.glide__slide{max-height:300px}}@media screen and (max-width:1050px){.osteo__all{grid-template-columns:repeat(1,1fr)}.osteo__all__figcaption{position:initial;opacity:1;align-items:flex-start;padding:0 10px;margin-bottom:15px;background:initial}.osteo__all__figcaption__desc{text-align:left;padding:0;color:#000}.osteo__all__figcaption__title{font-family:"Josefin Slab",serif;font-weight:600;color:#d9bdaa;font-size:24px;margin-bottom:10px}.osteo__all__figure{overflow:initial;height:initial;display:flex;flex-direction:column-reverse}.osteo__all__img{height:300px}.osteo__all__figcaption__link{color:#fff;font-size:14px;border-color:#fff;background-color:#b18369;padding:0 16px;height:44px;display:flex;align-items:center}}@media screen and (max-width:950px){.hero__wrapper__location,.hero__wrapper__name{font-size:48px;display:block}.hero__wrapper__location{font-size:36px}.hero__wrapper__desc{text-align:center}.hero__wrapper__link{justify-content:center}.consultation{flex-direction:column;gap:15px}.consultation__card{width:initial}.btn-xl{width:170px;height:60px}.sect-mb{margin-bottom:50px}h2{font-size:32px;line-height:35px}.hero__wrapper__link__text,p{font-size:14px}.osteo__all__figcaption__title{text-align:left}.comfort__title,.osteo__intro{margin-bottom:20px}.osteo__intro__title{max-width:645px;margin:30px auto}.flex-column,.hero{flex-direction:column}.hero__wrapper{margin-top:80px;max-width:95%}.comfort__wrapper{gap:25px;margin:0 auto}.comfort__wrapper__home{flex-direction:column-reverse;gap:25px}.comfort__wrapper__home__article h3{text-align:center;max-width:555px;margin:0 auto}.comfort__wrapper__home__article{max-width:95%;margin:0 auto}.banner__wrapper{flex-direction:column;align-items:center;justify-content:center}.banner__title{text-align:center;font-size:24px}.banner__title--intro{text-align:left}.banner__wrapper--intro{align-items:start;text-align:left}.photo{width:100%}.advice{flex-direction:column;align-items:center;gap:10px;margin:20px auto}.footer__wrapper{padding:20px;flex-direction:column}.footer__wrapper__me{gap:20px;margin-bottom:20px}.btn-footer{width:50%}.icon__wrapper{bottom:10px;right:10px}}@media screen and (max-width:810px){.menu{display:block}.dropdown,.hidden,.rect{display:none}.navbar__wrapper{flex-direction:column;justify-content:space-between;align-items:center;position:absolute;right:0;top:-800px;width:100%;background:#f4eadf;overflow:auto;-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:top;transform-origin:top;transition:.5s;transition:max-height .3s,transform .3s,-webkit-transform .3s;z-index:1;height:calc(100vh - 100px)}.navbar__link{color:#000;padding:10px;display:block;font-size:20px}.navbar__menu{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%}.menu__img{object-fit:contain;width:23px;height:23px}.show-menu{max-height:100vh;padding-bottom:1rem;-webkit-transform:scaleY(1);transform:scaleY(1);top:90px}.navbar__link__mobile{display:block}.glide{padding:0}.glide__slide{max-height:400px}}@media screen and (max-width:650px){h2,h3{line-height:27px}.article__wrapper__img,.banner{height:300px;width:100%}li,p{font-size:14px}h2{font-size:26px}h3{margin-bottom:10px}.article__container{flex-direction:column}.article__wrapper__img{object-fit:cover}.comfort__wrapper{width:100%}.comfort__wrapper__home__article{width:100%;max-width:100%}.article__wrapper__img--osteo{object-position:0px -85px;height:400px}}@media screen and (max-width:500px){h2{font-size:22px}h3{font-size:17px}li{line-height:22px;padding:3px 0}.header{height:90px}.header__name{font-size:14px;display:block}.show-menu{top:85px}.osteo__all__figcaption{padding:0}.navbar__container .btn{width:100px;padding:0}.header__wrapper__job{text-align:left}}
+.banner,
+.carousel-container,
+.dropdown-content,
+.over-hidden,
+main {
+  overflow: hidden;
+}
+.btn,
+.dropdown,
+.icon__wrapper,
+.menu,
+.menu-close {
+  cursor: pointer;
+}
+.developBy a,
+.link-ext {
+  text-decoration: underline;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.navbar__link,
+a {
+  color: #000;
+  border-bottom: 1px solid transparent;
+}
+a,
+h2 {
+  font-family: "Josefin Slab", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+main {
+  position: relative;
+}
+button {
+  border: none;
+  background: 0 0;
+}
+.icon__wrapper {
+  position: fixed;
+  z-index: 999;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+  width: 30px;
+  height: 30px;
+}
+.icon__wrapper:hover {
+  opacity: 1;
+}
+.btn:hover,
+.hero__wrapper__link:hover,
+.navbar__link:hover,
+.osteo__all__figcaption__link:hover {
+  opacity: 0.5;
+}
+img {
+  width: 100%;
+}
+h2 {
+  color: #b18369;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 55px;
+}
+.header__name,
+.header__wrapper__job,
+h3 {
+  font-family: "Josefin Slab", serif;
+  font-weight: 600;
+}
+h3 {
+  color: #d9bdaa;
+  font-size: 24px;
+  margin-bottom: 25px;
+  line-height: 33px;
+}
+li,
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #212121;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+li {
+  list-style: inside;
+}
+li::marker {
+  color: #b18369;
+}
+strong {
+  font-weight: 400;
+}
+.rect {
+  width: 52%;
+  height: 800px;
+  background-color: #f0eae6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.mw-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.sect-mb {
+  margin-bottom: 200px;
+}
+.header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  box-shadow: none;
+  transition: 0.5s ease-in-out;
+  position: sticky;
+  top: -100px;
+  width: 100%;
+}
+.navbar,
+.navbar__container {
+  align-items: center;
+  gap: 30px;
+}
+.header.scrolled {
+  background-color: #fff;
+  opacity: 0.99;
+  top: 0;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.header__wrapper {
+  transition: 0.7s ease-in-out;
+}
+.header__wrapper:hover {
+  transform: scale(1.05);
+}
+.header__name {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.header__wrapper__job {
+  font-size: 11px;
+  text-align: center;
+  display: block;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.navbar__menu {
+  display: flex;
+  align-items: baseline;
+  justify-jscontent: center;
+  gap: 30px;
+}
+.navbar__container {
+  display: flex;
+}
+.link-ext {
+  font-weight: 200;
+  font-family: "Josefin Sans", sans-serif;
+}
+.btn,
+.navbar__link {
+  font-family: "Josefin Slab", serif;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+.navbar__link {
+  text-decoration: none;
+  font-size: 15px;
+}
+.btn {
+  border: none;
+  color: #fff;
+  padding: 0 32px;
+  height: 44px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a .btn:hover {
+  border-color: transparent;
+  text-decoration: none;
+}
+.btn-xl {
+  height: 90px;
+  width: 250px;
+  font-size: 18px;
+}
+.btn-black,
+.btn-light {
+  background-color: #b18369;
+}
+.btn-footer {
+  width: 150px;
+  height: 40px;
+  border-radius: initial;
+  border-bottom: 1px solid #fff;
+  padding: 0;
+}
+.btn-disabled {
+  color: #aeaeae80;
+  border-bottom: 1px solid #aeaeae69;
+  transition: 0.2s;
+}
+.hero__wrapper__desc,
+.hero__wrapper__name {
+  font-family: "Josefin Slab", serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+.advice__card,
+.dropdown,
+.dropdown-content,
+.osteo__all__figcaption {
+  transition: 0.2s ease-in-out;
+}
+.btn-disabled:hover {
+  color: #aeaeae;
+  border-bottom: 1px solid #aeaeae;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: initial;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  min-width: 255px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown span:hover {
+  padding-bottom: 50px;
+}
+.dropdown-content__wrapper__link {
+  padding: 15px;
+}
+.dropdown-content__wrapper__link:not(:last-child) {
+  border-bottom: 1px solid #e7e7e7;
+}
+.dropdown-content__wrapper__link:hover {
+  background-color: #b18369;
+  color: #fff;
+  opacity: 1;
+}
+.hero {
+  font-family: "Josefin Slab", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.hero__wrapper {
+  max-width: 41.3%;
+  padding-bottom: 30px;
+}
+.hero__wrapper__name {
+  font-size: 60px;
+  text-align: center;
+  text-wrap: nowrap;
+}
+.hero__wrapper__location {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-wrap: nowrap;
+}
+.hero__wrapper__desc {
+  font-size: 16px;
+  line-height: 25px;
+}
+.hero__wrapper__link {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.hero__wrapper__link:hover {
+  border-bottom: 0 solid transparent;
+}
+.hero__wrapper__link__img {
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+}
+.hero__wrapper__link__text {
+  font-family: "Josefin Sans", sans-serif;
+  border-bottom: 1px solid #000;
+}
+.banner__title,
+.tooltip {
+  font-family: "Josefin Slab", serif;
+}
+.advice__card__bottom__link:hover,
+.osteo__all__link:hover {
+  border-color: transparent;
+}
+.hero__img {
+  max-width: 50%;
+  width: 100%;
+  height: 100%;
+  max-height: 633px;
+}
+.comfort,
+.osteo {
+  padding: 0 10px;
+}
+.osteo__intro {
+  margin-bottom: 85px;
+}
+.osteo__intro__title {
+  max-width: 650px;
+  text-align: center;
+  margin: 50px auto;
+}
+.osteo__intro__desc {
+  max-width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+.osteo__all {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.osteo__all__link--services {
+  background-color: #b18369;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
+.osteo__all__link--services__title {
+  color: #ffe3d0;
+}
+.osteo__all__link--services p {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.osteo__all__link:hover {
+  opacity: 1;
+}
+.osteo__all__figure {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  height: 350px;
+  border-radius: 8px;
+}
+.osteo__all__img {
+  height: 100%;
+  object-fit: cover;
+}
+.osteo__all__figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.osteo__all__figcaption:hover {
+  opacity: 1;
+}
+.osteo__all__figcaption__title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.osteo__all__figcaption__desc {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.osteo__all__figcaption__link {
+  color: #fff;
+  font-size: 14px;
+  border-color: #fff;
+}
+.comfort__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.comfort__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.comfort__wrapper__home {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.comfort__wrapper__home__article {
+  max-width: 530px;
+}
+.article__intro,
+.article__wrapper,
+.comfort_wrapper__home__article__text {
+  margin-bottom: 20px;
+}
+.comfort_wrapper__home__article__text p {
+  margin-bottom: 10px;
+}
+.photo {
+  width: 465px;
+  height: 470px;
+  object-fit: cover;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background: #00000093;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner__wrapper,
+.collab-club {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-intro {
+  margin-bottom: 50px;
+}
+.banner__img {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+}
+.banner__wrapper {
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.banner__title {
+  color: #fff;
+  font-size: 48px;
+  line-height: 55px;
+}
+.advice__card__avatar__desc,
+.tooltip {
+  font-size: 14px;
+}
+.banner-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-secondary__img {
+  width: 45%;
+}
+.banner-secondary__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.banner-secondary__article p {
+  text-align: center;
+}
+.advice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 8px;
+  padding: 0 10px;
+}
+.advice__title {
+  text-align: center;
+  margin-bottom: 50px;
+  flex-basis: 100%;
+}
+.advice__card {
+  background-color: #edeae6;
+  max-width: 612px;
+  border-radius: 8px;
+  padding: 20px 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.advice__card:hover {
+  background-color: #d9bdaa;
+}
+.advice__card:hover p {
+  color: #fff;
+}
+.advice__card:hover .advice__card__bottom__stars {
+  filter: brightness(0) invert(1);
+}
+.advice__card__avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+.advice__card__avatar__img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.advice__card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 20px;
+}
+.advice__card__bottom__stars {
+  object-fit: contain;
+  width: 105px;
+  height: 16px;
+}
+.advice__card__bottom__google {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.collab-club {
+  align-items: center;
+  gap: 3%;
+  margin-bottom: 70px;
+}
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-container img {
+  height: auto;
+  cursor: pointer;
+}
+.tooltip {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #b2846b;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  z-index: 10;
+}
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.footer {
+  background-color: #282828;
+}
+.footer__wrapper {
+  padding: 50px 135px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer__wrapper__me {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__wrapper__me__job,
+.footer__wrapper__me__title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: initial;
+}
+.footer__wrapper__me__job {
+  font-size: 16px;
+}
+.footer__wrapper__para {
+  max-width: 450px;
+  color: #aeaeae;
+  line-height: initial;
+}
+.content-consultation p,
+.content-consultation__day,
+.content-medical p {
+  font-size: 13px;
+  color: #fff;
+  font-family: "Josefin Slab", serif;
+}
+.footer__wrapper__consultation__btns {
+  margin-bottom: 10px;
+  display: flex;
+}
+.close,
+.hidden {
+  display: none !important;
+}
+.navbar__link__mobile {
+  display: none;
+}
+.content-consultation,
+.content-medical {
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Slab", serif;
+  gap: 5px;
+}
+.content-consultation__day {
+  border-bottom: 1px solid #fff;
+}
+.consultation__card__wrapper__km,
+.consultation__card__wrapper__price {
+  color: #4a5568;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+.menu-close {
+  display: none;
+}
+.article__container {
+  display: flex;
+  gap: 3%;
+  margin-bottom: 20px;
+}
+.article__container--res {
+  flex-direction: row-reverse;
+}
+.article {
+  padding: 0 10px;
+}
+.article__wrapper__title {
+  margin-bottom: 8px;
+}
+.article__wrapper__list {
+  padding: 0 25px;
+}
+.article__wrapper__list-b {
+  margin-bottom: 5px;
+}
+.article__wrapper__text {
+  padding-bottom: 5px;
+}
+.article__wrapper__img {
+  margin-top: 20px;
+  width: 45%;
+  height: 575px;
+  object-fit: cover;
+}
+.article__wrapper__imgb {
+  width: 40%;
+  height: initial;
+  object-fit: contain;
+}
+.carousel-container {
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  height: 400px;
+}
+
+.article-card__blog-glide {
+  margin-bottom: 20px;
+}
+
+.glide__arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between; /* Position gauche et droite */
+  pointer-events: none; /* Empêche les flèches de bloquer les interactions avec les slides */
+}
+
+.glide__arrow {
+  position: relative;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 24px; /* Taille des icônes flèches */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: color 0.3s ease, transform 0.2s ease;
+  pointer-events: all;
+}
+
+.glide__arrow:hover {
+  color: #b18369; /* Couleur d'accentuation au survol */
+  transform: scale(1.1); /* Légère mise en avant au survol */
+}
+
+.glide__arrow--left {
+  margin-left: -50px; /* Ajuste la position à gauche */
+}
+
+.glide__arrow--right {
+  margin-right: -50px; /* Ajuste la position à droite */
+}
+
+/* Assure un centrage parfait avec les slides */
+.glide__slides {
+  position: relative;
+}
+
+.glide {
+  position: relative;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.consultation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.consultation__card {
+  background: #f5f5f5;
+  padding: 20px 36px;
+  width: 38%;
+  border-radius: 10px;
+}
+.consultation__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+.consultation__card__wrapper__info {
+  display: flex;
+  justify-content: space-between;
+}
+.consultation__card__wrapper__price {
+  font-size: 22px;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.menu {
+  width: 35px;
+  height: 35px;
+  display: none;
+}
+.developBy {
+  color: #787878;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 50px;
+  font-size: 10px;
+}
+.developBy a {
+  color: #787878;
+}
+@media screen and (max-width: 1545px) {
+  .glide__slide {
+    /* max-height: 300px; */
+    list-style: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .osteo__all {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .osteo__all__figcaption {
+    position: initial;
+    opacity: 1;
+    align-items: flex-start;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    background: initial;
+  }
+  .osteo__all__figcaption__desc {
+    text-align: left;
+    padding: 0;
+    color: #000;
+  }
+  .osteo__all__figcaption__title {
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    color: #d9bdaa;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .osteo__all__figure {
+    overflow: initial;
+    height: initial;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .osteo__all__img {
+    height: 300px;
+  }
+  .osteo__all__figcaption__link {
+    color: #fff;
+    font-size: 14px;
+    border-color: #fff;
+    background-color: #b18369;
+    padding: 0 16px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hero__wrapper__location,
+  .hero__wrapper__name {
+    font-size: 48px;
+    display: block;
+  }
+  .hero__wrapper__location {
+    font-size: 36px;
+  }
+  .hero__wrapper__desc {
+    text-align: center;
+  }
+  .hero__wrapper__link {
+    justify-content: center;
+  }
+  .consultation {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .consultation__card {
+    width: initial;
+  }
+  .btn-xl {
+    width: 170px;
+    height: 60px;
+  }
+  .sect-mb {
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .hero__wrapper__link__text,
+  p {
+    font-size: 14px;
+  }
+  .osteo__all__figcaption__title {
+    text-align: left;
+  }
+  .comfort__title,
+  .osteo__intro {
+    margin-bottom: 20px;
+  }
+  .osteo__intro__title {
+    max-width: 645px;
+    margin: 30px auto;
+  }
+  .flex-column,
+  .hero {
+    flex-direction: column !important;
+  }
+  .hero__wrapper {
+    margin-top: 80px;
+    max-width: 95%;
+  }
+  .comfort__wrapper {
+    gap: 25px;
+    margin: 0 auto;
+  }
+  .comfort__wrapper__home {
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
+  .comfort__wrapper__home__article h3 {
+    text-align: center;
+    max-width: 555px;
+    margin: 0 auto;
+  }
+  .comfort__wrapper__home__article {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .banner__wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner__title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .banner__title--intro {
+    text-align: left;
+  }
+  .banner__wrapper--intro {
+    align-items: start;
+    text-align: left;
+  }
+  .photo {
+    width: 100%;
+  }
+  .advice {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+  }
+  .footer__wrapper {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .footer__wrapper__me {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-footer {
+    width: 50%;
+  }
+  .icon__wrapper {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .menu {
+    display: block;
+  }
+  .menu-close {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+  .dropdown,
+  .hidden,
+  .rect {
+    display: none;
+  }
+  .navbar__wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: -800px;
+    width: 100%;
+    background: #f4eadf;
+    overflow: auto;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    transition: 0.5s;
+    transition: max-height 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1;
+    height: calc(100vh - 100px);
+  }
+  .navbar__link {
+    color: #000;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+  }
+  .navbar__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .menu__img {
+    object-fit: contain;
+    width: 23px;
+    height: 23px;
+  }
+  .show-menu {
+    max-height: 100vh;
+    padding-bottom: 1rem;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    top: 90px;
+  }
+  .navbar__link__mobile {
+    display: block;
+  }
+  .glide {
+    padding: 0;
+  }
+  .glide__slide {
+    max-height: 400px;
+    list-style: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  h2,
+  h3 {
+    line-height: 27px;
+  }
+  .article__wrapper__img,
+  .banner {
+    height: 300px;
+    width: 100%;
+  }
+  li,
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    margin-bottom: 10px;
+  }
+  .article__container {
+    flex-direction: column;
+  }
+  .article__wrapper__img {
+    object-fit: cover;
+  }
+  .comfort__wrapper {
+    width: 100%;
+  }
+  .comfort__wrapper__home__article {
+    width: 100%;
+    max-width: 100%;
+  }
+  .article__wrapper__img--osteo {
+    object-position: 0px -85px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  li {
+    line-height: 22px;
+    padding: 3px 0;
+  }
+  .header {
+    height: 90px;
+  }
+  .header__name {
+    font-size: 14px;
+    display: block;
+  }
+  .show-menu {
+    top: 85px;
+  }
+  .osteo__all__figcaption {
+    padding: 0;
+  }
+  .navbar__container .btn {
+    width: 100px;
+    padding: 0;
+  }
+  .header__wrapper__job {
+    text-align: left;
+  }
+}
+
+/* Articles */
+.testphoto-xl {
+  width: 100%;
+  height: 500px;
+}
+.testphoto {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.article-card__title {
+  margin-bottom: 0;
+}
+.article-card__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.article-card__blog-xl {
+  flex: 1;
+}
+.article-card__blog {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.article-card__date {
+  color: #888888;
+  font-size: 12px;
+}
+.article-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 36%;
+  padding-top: 5px;
+}
+.article-card__container-m {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 43%;
+}
+.article-card__blog__last {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+.article-card__blog-last {
+  width: 33%;
+}
+.article-card__glide {
+  width: 100%;
+}
+.testphoto-last {
+  width: 100%;
+  height: 300px;
+}
+.article-card__intro {
+  margin-bottom: 85px;
+}
+.article-card__intro__title {
+  max-width: 750px;
+  text-align: center;
+  margin: 50px auto;
+}
+.article-card__intro__desc {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+.article-card__blog__figure {
+  position: relative;
+}
+.article-card__blog__figure__tag {
+  background: #b18369;
+  color: #ffffff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 8px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: "Josefin Slab", serif;
+}
+.article-card__blog__figure-m {
+  max-width: 300px;
+  width: 100%;
+}
