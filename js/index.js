@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
     breakpoints: {
+      1015: {
+        perView: 2, // À partir de 785px, afficher une seule image
+      },
       785: {
         perView: 1, // À partir de 785px, afficher une seule image
       },
@@ -48,6 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
     breakpoints: {
+      1015: {
+        perView: 2, // À partir de 785px, afficher une seule image
+      },
       785: {
         perView: 1, // À partir de 785px, afficher une seule image
       },
@@ -63,6 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
     breakpoints: {
+      1015: {
+        perView: 2, // À partir de 785px, afficher une seule image
+      },
       785: {
         perView: 1, // À partir de 785px, afficher une seule image
       },
