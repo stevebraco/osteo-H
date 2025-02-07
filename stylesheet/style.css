@@ -178,6 +178,7 @@ p {
 }
 li {
   list-style: inside;
+  padding: 3px 0px;
 }
 li::marker {
   color: #b18369;
