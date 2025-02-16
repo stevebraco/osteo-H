@@ -763,6 +763,23 @@ a .btn:hover {
 .article {
   padding: 0 10px;
 }
+.article__main {
+  padding: 100px 0;
+}
+.article__main__title {
+  font-family: "Josefin Slab", serif;
+  color: #b18369;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
+  padding: 20px 0;
+}
+.article__text__main {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+}
 .article__wrapper__title {
   margin-bottom: 8px;
 }
@@ -982,8 +999,16 @@ a .btn:hover {
   left: 15px;
   padding: 5px 8px;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Josefin Slab", serif;
+}
+.tag {
+  position: relative;
+  inset: 0;
+  font-size: 18px;
+}
+.date {
+  font-size: 14px;
 }
 .article-card__blog__figure-m {
   max-width: 300px;
@@ -992,6 +1017,13 @@ a .btn:hover {
 }
 .glide__slide {
   list-style: none;
+}
+
+.article-infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1545px) {
