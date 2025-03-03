@@ -158,7 +158,7 @@ h2 {
 }
 .header__name,
 .header__wrapper__job,
-h3 {
+h3, h4 {
   font-family: "Josefin Slab", serif;
   font-weight: 600;
 }
@@ -167,6 +167,10 @@ h3 {
   font-size: 24px;
   margin-bottom: 25px;
   line-height: 33px;
+}
+h4 {
+  font-size: 16px;
+  color: #000;
 }
 li,
 p {
@@ -917,12 +921,12 @@ a .btn:hover {
   color: #787878;
 }
 /* Articles */
-.testphoto-xl {
+.article_photo-xl {
   width: 100%;
   height: 500px;
   object-fit: cover;
 }
-.testphoto {
+.article_photo {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -971,17 +975,17 @@ a .btn:hover {
 .article-card__glide {
   width: 100%;
 }
-.testphoto-last {
+.article_photo-last {
   width: 100%;
   height: 300px;
 }
 .article-card__intro {
-  margin-bottom: 85px;
+  margin-bottom: 50px;
 }
 .article-card__intro__title {
   max-width: 750px;
   text-align: center;
-  margin: 50px auto;
+  margin: 20px auto 50px;
 }
 .article-card__intro__desc {
   max-width: 850px;
@@ -991,6 +995,11 @@ a .btn:hover {
 }
 .article-card__blog__figure {
   position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .article-card__blog__figure__tag {
   background: #b18369;
@@ -1002,6 +1011,9 @@ a .btn:hover {
   border-radius: 30px;
   font-size: 16px;
   font-family: "Josefin Slab", serif;
+}
+.article_cards_container {
+  padding-bottom: 50px;
 }
 .tag {
   position: relative;
@@ -1331,7 +1343,7 @@ a .btn:hover {
   .article-card__blog__figure-m {
     max-width: 100%;
   }
-  .testphoto {
+  .article_photo {
     height: 300px;
   }
 }
