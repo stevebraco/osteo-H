@@ -764,7 +764,7 @@ a .btn:hover {
   padding: 0 10px;
 }
 .article__main {
-  padding: 100px 0;
+  padding: 100px 10px 0 10px;
 }
 .article__main__title {
   font-family: "Josefin Slab", serif;
@@ -920,6 +920,7 @@ a .btn:hover {
 .testphoto-xl {
   width: 100%;
   height: 500px;
+  object-fit: cover;
 }
 .testphoto {
   width: 100%;
@@ -1137,6 +1138,7 @@ a .btn:hover {
   .osteo__intro {
     margin-bottom: 20px;
   }
+  .article-card__wrapper__title,
   .osteo__intro__title {
     max-width: 645px;
     margin: 30px auto;
@@ -1206,8 +1208,11 @@ a .btn:hover {
     bottom: 10px;
     right: 10px;
   }
+  .article-card__intro {
+    margin-bottom: 30px;
+  }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 870px) {
   .menu {
     display: block;
   }
@@ -1313,6 +1318,22 @@ a .btn:hover {
     object-position: 0px -85px;
     height: 400px;
   }
+  .article-card__blog {
+    flex-direction: column;
+    gap: 0;
+  }
+  .article-card__content {
+    gap: 5px;
+  }
+  .article-card__container-m {
+    gap: 25px;
+  }
+  .article-card__blog__figure-m {
+    max-width: 100%;
+  }
+  .testphoto {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 500px) {
   h2 {
@@ -1344,5 +1365,9 @@ a .btn:hover {
   }
   .header__wrapper__job {
     text-align: left;
+  }
+  .tag,
+  .date {
+    font-size: 13px;
   }
 }
