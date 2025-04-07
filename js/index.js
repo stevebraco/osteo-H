@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   new Glide(".glide-1", {
     type: "carousel", // Type de carrousel
     startAt: 0, // L'index du premier slide
-    perView: 3, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
+    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
     peek: {
       before: 10,
       after: 50
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
   new Glide(".glide-2", {
     type: "carousel", // Type de carrousel
     startAt: 0, // L'index du premier slide
-    perView: 3, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
+    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
     peek: {
       before: 10,
       after: 50
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
   new Glide(".glide-3", {
     type: "carousel", // Type de carrousel
     startAt: 0, // L'index du premier slide
-    perView: 3, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
+    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
     peek: {
       before: 10,
       after: 50
