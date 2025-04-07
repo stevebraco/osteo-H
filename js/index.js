@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       before: 10,
       after: 50
     },
-    gap: 10, // Espace entre les slides
+    gap: 20, // Espace entre les slides
     // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       before: 10,
       after: 50
     },
-    gap: 10, // Espace entre les slides
+    gap: 20, // Espace entre les slides
     // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       before: 10,
       after: 50
     },
-    gap: 10, // Espace entre les slides
+    gap: 20, // Espace entre les slides
     // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
     hoverpause: false, // Arrêter l'autoplay au survol
     loop: true, // Faire tourner les slides en boucle
