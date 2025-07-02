@@ -158,7 +158,8 @@ h2 {
 }
 .header__name,
 .header__wrapper__job,
-h3, h4 {
+h3,
+h4 {
   font-family: "Josefin Slab", serif;
   font-weight: 600;
 }
@@ -1224,7 +1225,7 @@ a .btn:hover {
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 990px) {
   .menu {
     display: block;
   }
