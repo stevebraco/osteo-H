@@ -161,6 +161,10 @@ h2 {
   font-weight: 500;
   line-height: 55px;
 }
+.header__name {
+  display: block;
+  text-align: center;
+}
 .header__name,
 .header__wrapper__job,
 h3,
@@ -1022,6 +1026,11 @@ a .btn:hover {
   max-width: 750px;
   text-align: center;
   margin: 20px auto 50px;
+  color: #b18369;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 55px;
+  font-family: "Josefin Slab", serif;
 }
 .article-card__intro__desc {
   max-width: 850px;
