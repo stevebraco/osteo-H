@@ -27,36 +27,117 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Physician",
-        "name": "Henrique Nunes - Ostéopathe",
-        "description": "Henrique Nunes, ostéopathe à Bruges, propose des consultations personnalisées pour traiter douleurs et tensions. Disponible pour enfants, adultes, sportifs et femmes enceintes.",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Allée de la Salamandre",
-          "addressLocality": "Bruges",
-          "postalCode": "33520",
-          "addressCountry": "FR"
-        },
-        "telephone": "0650636977",
+        "@type": "Person",
+        "@id": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes#person",
+        "name": "Henrique Nunes",
+        "jobTitle": "Ostéopathe et préparateur physique",
+        "description": "Henrique Nunes, ostéopathe à Bruges (33520), propose des consultations à domicile dans Bordeaux Métropole ainsi que des consultations au Medical Stadium à Mérignac et au lemontwist.club.",
         "url": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes",
+        "telephone": "+33650636977",
         "image": "https://media.doctolib.com/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/h6imafab3aqd2orokn12.webp",
-        "areaServed": "Bruges et environs",
-        "priceRange": "$$",
-        "openingHoursSpecification": [
+        "areaServed": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "09:00",
-            "closes": "19:00"
+            "@type": "City",
+            "name": "Bruges"
+          },
+          {
+            "@type": "City",
+            "name": "Bordeaux"
+          },
+          {
+            "@type": "City",
+            "name": "Eysines"
+          },
+          {
+            "@type": "City",
+            "name": "Le Bouscat"
+          },
+          {
+            "@type": "City",
+            "name": "Blanquefort"
+          },
+          {
+            "@type": "City",
+            "name": "Mérignac"
           }
         ],
-        "medicalSpecialty": "Osteopathic"
+        "knowsAbout": [
+          "Ostéopathie",
+          "Préparation physique",
+          "Ostéopathie du sport",
+          "Troubles musculo-squelettiques",
+          "Posture",
+          "Mobilité"
+        ],
+        "workLocation": [
+          {
+            "@type": "Place",
+            "@id": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes#domicile",
+            "name": "Consultations à domicile – Bruges et Bordeaux Métropole",
+            "description": "Consultations d'ostéopathie à domicile à Bruges et dans Bordeaux Métropole.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Bruges",
+              "postalCode": "33520",
+              "addressCountry": "FR"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Tuesday",
+                "opens": "09:30",
+                "closes": "15:30"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Friday",
+                "opens": "09:30",
+                "closes": "19:30"
+              }
+            ]
+          },
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes#medical-stadium",
+            "name": "Medical Stadium",
+            "description": "Consultations d'ostéopathie au Medical Stadium à Mérignac.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "8 Rue Georges Nègrevergne",
+              "addressLocality": "Mérignac",
+              "postalCode": "33700",
+              "addressCountry": "FR"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Thursday",
+                "opens": "09:30",
+                "closes": "14:30"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Thursday",
+                "opens": "16:00",
+                "closes": "20:00"
+              }
+            ]
+          },
+          {
+            "@type": "Place",
+            "@id": "https://www.doctolib.fr/osteopathe/bruges/henrique-nunes#lemontwist",
+            "name": "lemontwist.club",
+            "description": "Consultations d'ostéopathie au .lemontwist.club.",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "14:00",
+                "closes": "20:00"
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -376,34 +457,44 @@
 
       <section class="comfort mw-container sect-mb">
         <h2 class="comfort__title">
-          Votre Bien-être : Chez Vous ou au Cabinet
+          Vos consultations d’ostéopathie à domicile et dans différents lieux
         </h2>
+
         <div class="comfort__wrapper">
+          <!-- CONSULTATIONS À DOMICILE -->
           <div data-aos="fade-up" class="comfort__wrapper__home">
             <img
               class="photo"
               src="assets/images/photo-henrique-domicile.webp"
               loading="lazy"
-              alt="Photo de l'ostéopathe Henrique lors d'une consultation à domicile"
+              alt="Photo de l'ostéopathe Henrique Nunes lors d'une consultation à domicile"
             />
+
             <article class="comfort__wrapper__home__article">
-              <h3>
-                Les Bienfaits d’une Séance d’Ostéopathie à Domicile sur Bordeaux
-                et ses Alentours
-              </h3>
+              <h3>Ostéopathe à domicile sur Bordeaux Métropole</h3>
+
               <div class="comfort_wrapper__home__article__text">
                 <p>
-                  En choisissant un ostéopathe à domicile sur Bordeaux Métropole
-                  (Bruges, Le Bouscat, Blanquefort, Eysines, Caudéran), vous
-                  profitez d’un confort optimal pour votre séance d’ostéopathie.
-                  Idéal en cas de douleurs aiguës, fatigue ou mobilité réduite.
+                  Je propose des consultations d’ostéopathie à domicile à
+                  Bruges, au Bouscat, à Blanquefort, à Eysines et à Bordeaux.
+                  Cette solution vous permet de bénéficier d’une prise en charge
+                  personnalisée directement dans votre environnement.
                 </p>
+
                 <p>
-                  Je me déplace avec tout le matériel nécessaire pour vous
-                  offrir une séance d’ostéopathie complète et sécurisée, adaptée
-                  à votre situation, dans le calme de votre environnement.
+                  Je me déplace avec le matériel nécessaire pour réaliser une
+                  séance d’ostéopathie complète, notamment lorsque les
+                  déplacements sont difficiles en raison de douleurs, d’une
+                  mobilité réduite ou d’une fatigue importante.
+                </p>
+
+                <p>
+                  <strong>Consultations à domicile :</strong><br />
+                  Mardi : 9h30 – 15h30<br />
+                  Vendredi : 9h30 – 19h30
                 </p>
               </div>
+
               <button
                 class="btn btn-light"
                 onclick="window.location.href='consultation-osteopathie-bruges.html'"
@@ -413,22 +504,40 @@
             </article>
           </div>
 
+          <!-- MEDICAL STADIUM -->
           <div data-aos="fade-up" class="comfort__wrapper__home flex-column">
             <article class="comfort__wrapper__home__article">
-              <h3>Un Accueil Serein dans Notre Clinique à Mérignac</h3>
+              <h3>Ostéopathe au Medical Stadium à Mérignac</h3>
+
               <div class="comfort_wrapper__home__article__text">
                 <p>
-                  En optant pour une consultation au
-                  <a class="link-ext" href="https://www.medical-stadium.com/"
-                    >Medical Stadium</a
+                  Je vous reçois également au
+                  <a
+                    class="link-ext"
+                    href="https://www.medical-stadium.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                  de Mérignac, vous profitez d’un espace moderne, calme et
-                  parfaitement équipé pour des soins d’ostéopathie de haute
-                  qualité. Idéal pour les sportifs, les personnes en rééducation
-                  ou toute personne souffrant de douleurs articulaires,
-                  musculaires ou posturales.
+                    Medical Stadium
+                  </a>
+                  à Mérignac, dans un environnement moderne et adapté à la prise
+                  en charge des douleurs, troubles musculo-squelettiques,
+                  problématiques posturales et besoins liés à la pratique
+                  sportive.
+                </p>
+
+                <p>
+                  Ce lieu est particulièrement adapté aux sportifs, aux
+                  personnes en rééducation et à toute personne recherchant un
+                  espace professionnel pour sa consultation d’ostéopathie.
+                </p>
+
+                <p>
+                  <strong>Consultations au Medical Stadium :</strong><br />
+                  Jeudi : 9h30 – 14h30 et 16h00 – 20h00
                 </p>
               </div>
+
               <button
                 class="btn btn-light"
                 onclick="window.location.href='consultation-osteopathie-bruges.html'"
@@ -436,12 +545,62 @@
                 En savoir plus
               </button>
             </article>
+
             <img
               class="photo"
               src="assets/images/clinique-medical-stadium.webp"
               loading="lazy"
-              alt="Photo de la clinique de Mérignac"
+              alt="Medical Stadium à Mérignac où consulte l'ostéopathe Henrique Nunes"
             />
+          </div>
+
+          <!-- LEMON TWIST SOCIAL CLUB -->
+          <div data-aos="fade-up" class="comfort__wrapper__home">
+            <img
+              class="photo obj-ctn"
+              src="https://www.lemontwist.club/wp-content/uploads/go-x/u/8a70ed1d-4d5f-4bd4-a40c-81b0d8b4dec0/image-640x438.png"
+              loading="lazy"
+              alt="Lemon Twist Social Club, lieu de consultation de l'ostéopathe Henrique Nunes"
+            />
+
+            <article class="comfort__wrapper__home__article">
+              <h3>Ostéopathe au Lemon Twist Social Club</h3>
+
+              <div class="comfort_wrapper__home__article__text">
+                <p>
+                  Je consulte également au
+                  <a
+                    class="link-ext"
+                    href="https://www.lemontwist.club/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Lemon Twist Social Club </a
+                  >, un club sport & bien-être proposant un environnement
+                  ludique et décomplexé autour du bien-être mental et physique.
+                </p>
+
+                <p>
+                  Ce lieu me permet de proposer des consultations d’ostéopathie
+                  dans un environnement adapté aux personnes pratiquant une
+                  activité physique ou souhaitant prendre soin de leur mobilité
+                  et de leur bien-être.
+                </p>
+
+                <p>
+                  <strong>Consultations au Lemon Twist Social Club :</strong
+                  ><br />
+                  Lundi : 14h00 – 20h00
+                </p>
+              </div>
+
+              <button
+                class="btn btn-light"
+                onclick="window.location.href='consultation-osteopathie-bruges.html'"
+              >
+                En savoir plus
+              </button>
+            </article>
           </div>
         </div>
       </section>
@@ -595,22 +754,28 @@
             <button class="btn btn-footer" id="consultation">
               Consultations à domicile
             </button>
+
             <button class="btn btn-footer btn-disabled" id="medical">
-              Médical Stadium
+              Medical Stadium
+            </button>
+
+            <button class="btn btn-footer btn-disabled" id="lemontwist">
+              Lemon Twist Social Club
             </button>
           </div>
 
+          <!-- HORAIRES À DOMICILE -->
           <div class="content-consultation">
-            <p><span class="content-consultation__day">Horaires :</span></p>
+            <p>
+              <span class="content-consultation__day">Horaires :</span>
+            </p>
+
             <div>
-              <p>
-                <span class="content-consultation__day">Lundi</span>
-                <span>14h00 - 20h00</span>
-              </p>
               <p>
                 <span class="content-consultation__day">Mardi</span>
                 <span>9h30 - 15h30</span>
               </p>
+
               <p>
                 <span class="content-consultation__day">Vendredi</span>
                 <span>9h30 - 19h30</span>
@@ -618,20 +783,40 @@
             </div>
           </div>
 
+          <!-- MEDICAL STADIUM -->
           <div class="content-medical close">
             <p>
-              <span class="content-consultation__day">Adresse :</span>
-              <span>8 Rue Georges Nègrevergne, 33700 Mérignac </span>
+              <span class="content-consultation__day">Lieu :</span>
+              <span>8 Rue Georges Nègrevergne, 33700 Mérignac</span>
             </p>
-            <p><span class="content-consultation__day">Horaires :</span></p>
+
+            <p>
+              <span class="content-consultation__day">Horaires :</span>
+            </p>
+
             <div>
-              <p>
-                <span class="content-consultation__day">Lundi</span>
-                <span>9h30 - 13h00</span>
-              </p>
               <p>
                 <span class="content-consultation__day">Jeudi</span>
                 <span>9h30 - 14h30, 16h00 - 20h00</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- LEMON TWIST SOCIAL CLUB -->
+          <div class="content-lemontwist close">
+            <p>
+              <span class="content-consultation__day">Lieu :</span>
+              <span>92 Rue Ducau, 33300 Bordeaux </span>
+            </p>
+
+            <p>
+              <span class="content-consultation__day">Horaires :</span>
+            </p>
+
+            <div>
+              <p>
+                <span class="content-consultation__day">Lundi</span>
+                <span>14h00 - 20h00</span>
               </p>
             </div>
           </div>

@@ -1,46 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+
+  <!-- ========================= -->
+  <!-- PAGES PRINCIPALES -->
+  <!-- ========================= -->
+
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/</loc> <!-- Page d'accueil -->
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://henrique-nunes-osteopathe.fr/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
+
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/osteopathie.html</loc> <!-- Page Ostéopathie -->
-    <lastmod>2024-12-18</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://henrique-nunes-osteopathe.fr/osteopathie.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/consultation-osteopathie-bruges.html</loc> <!-- Page Consultation -->
-    <lastmod>2024-12-18</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://henrique-nunes-osteopathe.fr/consultation-osteopathie-bruges.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/quand-consulter-un-osteopathe-bruges.html</loc> <!-- Page Quand consulter ? -->
-    <lastmod>2024-12-17</lastmod>
+    <loc>https://henrique-nunes-osteopathe.fr/quand-consulter-un-osteopathe-bruges.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/osteopathe-bruges.html</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/osteopathe-bruges.html</loc> <!-- Page Votre Ostéopathe -->
-    <lastmod>2024-12-16</lastmod>
+    <loc>https://henrique-nunes-osteopathe.fr/tarifs.html</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-  
+
   <url>
-    <loc>https://henrique-nunes-osteopathe.fr/tarifs.html</loc> <!-- Page Tarifs -->
-    <lastmod>2024-12-16</lastmod>
+    <loc>https://henrique-nunes-osteopathe.fr/preparation-sportif.html</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- ========================= -->
+  <!-- PAGE ARTICLES -->
+  <!-- ========================= -->
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!-- GROSSESSE & MATERNITÉ -->
+  <!-- ========================= -->
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/grossesse/osteopathie-grossesse.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!-- SÉDENTARITÉ -->
+  <!-- ========================= -->
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/sedentarite/activite-physique-surpoids.html</loc>
+    <lastmod>2025-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/sedentarite/améliorer-posture-bien-être-sédentarité.html</loc>
+    <lastmod>2025-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/sedentarite/bouger-librement-se-sentir-mieux.html</loc>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!-- PRÉVENTION -->
+  <!-- ========================= -->
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/pause-active-et-swiss-ball.html</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/la-souris-et-le-clavier.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/chaise-bureau.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/gerer-espace-travail.html</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/hydratation-osteopathie.html</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/bruit-sante-travail-osteopathie.html</loc>
+    <lastmod>2025-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/arthrose.html</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/prevention/souris-ergonomique-osteopathie-bruges.html</loc>
+    <lastmod>2025-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ========================= -->
+  <!-- TROUBLES MUSCULOSQUELETTIQUES -->
+  <!-- ========================= -->
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/troubles-musculosquelettiques/correction-visuelle-osteopathie.html</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/troubles-musculosquelettiques/soulager-hernie-discale-osteopathe.html</loc>
+    <lastmod>2025-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/troubles-musculosquelettiques/lumbago.html</loc>
+    <lastmod>2025-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/troubles-musculosquelettiques/alimentation.html</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://henrique-nunes-osteopathe.fr/articles/troubles-musculosquelettiques/teletravail.html</loc>
+    <lastmod>2025-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
