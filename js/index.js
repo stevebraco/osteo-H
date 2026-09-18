@@ -37,92 +37,38 @@ document.addEventListener("DOMContentLoaded", aos);
 
 document.addEventListener("scroll", scrollTop);
 
-document.addEventListener("DOMContentLoaded", function () {
-  new Glide(".glide-1", {
-    type: "carousel", // Type de carrousel
-    startAt: 0, // L'index du premier slide
-    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
-    peek: {
-      before: 10,
-      after: 50,
-    },
-    gap: 20, // Espace entre les slides
-    // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
-    hoverpause: false, // Arrêter l'autoplay au survol
-    loop: true, // Faire tourner les slides en boucle
-    breakpoints: {
-      1015: {
-        perView: 2, // À partir de 785px, afficher une seule image
-      },
-      785: {
-        perView: 1, // À partir de 785px, afficher une seule image
-      },
-    },
-  }).mount();
+document.addEventListener("DOMContentLoaded", () => {
+  const glideSelectors = [
+    ".glide-1",
+    ".glide-2",
+    ".glide-3",
+    ".glide-grossesse",
+  ];
 
-  new Glide(".glide-2", {
-    type: "carousel", // Type de carrousel
-    startAt: 0, // L'index du premier slide
-    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
-    peek: {
-      before: 10,
-      after: 50,
-    },
-    gap: 20, // Espace entre les slides
-    // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
-    hoverpause: false, // Arrêter l'autoplay au survol
-    loop: true, // Faire tourner les slides en boucle
-    breakpoints: {
-      1015: {
-        perView: 2, // À partir de 785px, afficher une seule image
-      },
-      785: {
-        perView: 1, // À partir de 785px, afficher une seule image
-      },
-    },
-  }).mount();
+  glideSelectors.forEach((selector) => {
+    const element = document.querySelector(selector);
 
-  new Glide(".glide-3", {
-    type: "carousel", // Type de carrousel
-    startAt: 0, // L'index du premier slide
-    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
-    peek: {
-      before: 10,
-      after: 50,
-    },
-    gap: 20, // Espace entre les slides
-    // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
-    hoverpause: false, // Arrêter l'autoplay au survol
-    loop: true, // Faire tourner les slides en boucle
-    breakpoints: {
-      1015: {
-        perView: 2, // À partir de 785px, afficher une seule image
-      },
-      785: {
-        perView: 1, // À partir de 785px, afficher une seule image
-      },
-    },
-  }).mount();
+    if (!element) return;
 
-  new Glide(".glide-grossesse", {
-    type: "carousel", // Type de carrousel
-    startAt: 0, // L'index du premier slide
-    perView: 2, // Nombre de slides visibles à la fois (par défaut pour les écrans plus larges)
-    peek: {
-      before: 10,
-      after: 50,
-    },
-    gap: 20, // Espace entre les slides
-    // autoplay: 2000, // Défilement automatique toutes les 3 secondes (3000 ms)
-    hoverpause: false, // Arrêter l'autoplay au survol
-    loop: true, // Faire tourner les slides en boucle
-    breakpoints: {
-      1015: {
-        perView: 2, // À partir de 785px, afficher une seule image
+    new Glide(element, {
+      type: "carousel",
+      startAt: 0,
+      perView: 2,
+      peek: {
+        before: 10,
+        after: 50,
       },
-      785: {
-        perView: 1, // À partir de 785px, afficher une seule image
+      gap: 20,
+      hoverpause: false,
+      loop: true,
+      breakpoints: {
+        1015: {
+          perView: 2,
+        },
+        785: {
+          perView: 1,
+        },
       },
-    },
-  }).mount();
+    }).mount();
+  });
 });
